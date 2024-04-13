@@ -30,7 +30,7 @@ public class Testcase_Register_Page extends BaseTest {
         closedBrowser();
     }
 
-    @Test()
+    @Test
     public void Testcase_01_Register_with_empty_data() {
         logger.info("Testcase 01 --- Register with empty data ---");
 

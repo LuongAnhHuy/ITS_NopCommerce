@@ -3,6 +3,7 @@ package object;
 import common.AbstractPage;
 import org.openqa.selenium.WebDriver;
 import org.testng.Assert;
+import ui.HomePageUI;
 import ui.RegisterPageUI;
 
 public class RegisterPageObject extends AbstractPage {
@@ -10,10 +11,6 @@ public class RegisterPageObject extends AbstractPage {
 
     public RegisterPageObject(WebDriver driver) {
         this.driver = driver;
-    }
-    public void clickToRegisterLink() {
-        waitToElementClickable(driver, RegisterPageUI.REGISTER_HYPERLINK);
-        clickToElement(driver, RegisterPageUI.REGISTER_HYPERLINK);
     }
 
     public void clickToRegisterButton() {
@@ -111,5 +108,27 @@ public class RegisterPageObject extends AbstractPage {
         waitToElementVisible(driver, RegisterPageUI.SUCCESS_MESSAGE);
         String actual = getTextElement(driver, RegisterPageUI.SUCCESS_MESSAGE);
         Assert.assertEquals(actual, expected);
+    }
+
+    public void clickToContinueButton() {
+        waitToElementClickable(driver, RegisterPageUI.CONTINUE_BUTTON);
+        clickToElement(driver, RegisterPageUI.CONTINUE_BUTTON);
+    }
+
+    public void verifyDuplicateErrorMessage() {
+        waitToElementVisible(driver, RegisterPageUI.DUPLICATE_MESSAGE);
+        boolean duplicateEmailMessage = isControlDisplayed(driver, RegisterPageUI.DUPLICATE_MESSAGE);
+        Assert.assertTrue(duplicateEmailMessage);
+    }
+
+    public void verifyMessageLessThanDisplay() {
+        waitToElementVisible(driver, RegisterPageUI.PASSWORD_LESS_THAN_MESSAGE);
+        isControlDisplayed(driver, RegisterPageUI.PASSWORD_LESS_THAN_MESSAGE);
+    }
+
+
+    public void verifyMessageNotMatch() {
+        waitToElementVisible(driver, RegisterPageUI.PASSWORD_NOT_MATCH_MESSAGE);
+        isControlDisplayed(driver, RegisterPageUI.PASSWORD_NOT_MATCH_MESSAGE);
     }
 }

@@ -27,7 +27,7 @@ public abstract class AbstractPage {
     private Actions action;
 
     // - Define biến long timeout
-    private long longTimeOut = 60;
+    private long longTimeOut = 15;
 
     // - Khai báo biến global cho element (của hàm Javascript Execut
     private WebElement element;

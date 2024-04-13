@@ -1,7 +1,6 @@
 package ui;
 
 public class RegisterPageUI {
-    public static final String REGISTER_HYPERLINK = "//a[@class='ico-register']";
     public static final String REGISTER_BUTTON = "//button[@name='register-button']";
     public static final String FIRSTNAME_MESSAGE = "//span[@id='FirstName-error']";
     public static final String LASTNAME_MESSAGE = "//span[@id='LastName-error']";
@@ -17,5 +16,9 @@ public class RegisterPageUI {
     public static final String WRONG_EMAIL_MESSAGE = "//span[@id='Email-error']";
 
     public static final String SUCCESS_MESSAGE = "//div[@class='result']";
+    public static final String CONTINUE_BUTTON = "//a[@class='button-1 register-continue-button']";
     public static final String DUPLICATE_MESSAGE = "//div[@class='message-error validation-summary-errors']//li";
+
+    public static final String PASSWORD_LESS_THAN_MESSAGE = "//span[@id='Password-error']";
+    public static final String PASSWORD_NOT_MATCH_MESSAGE = "//span[@id='ConfirmPassword-error']";
 }

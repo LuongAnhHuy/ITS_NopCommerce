@@ -13,4 +13,9 @@ public class HomePageObject extends AbstractPage {
         waitToElementClickable(driver, HomePageUI.REGISTER_HYPERLINK);
         clickToElement(driver, HomePageUI.REGISTER_HYPERLINK);
     }
+
+    public void clickToLoginButton() {
+        waitToElementClickable(driver, HomePageUI.LOGIN_LINK);
+        clickToElement(driver, HomePageUI.LOGIN_LINK);
+    }
 }

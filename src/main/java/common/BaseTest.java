@@ -35,12 +35,12 @@ public class BaseTest extends AbstractPage {
     }
 
 
-    protected WebDriver closedBrowser() {
+    protected WebDriver quitBrowser() {
         closeBrowsers(driver);
         return driver;
     }
 
-    protected int randomNumber() {
+    protected static int randomNumber() {
         Random rand = new Random();
         return rand.nextInt(999);
     }

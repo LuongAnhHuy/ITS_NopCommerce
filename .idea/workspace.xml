@@ -5,7 +5,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2cc7d2c5-d061-4aa3-b592-6d46b50f28d1" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/test/java/object/LoginPageObject.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/testcase/Testcase_Login_Page.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/testdata/DataTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/ui/LoginPageUI.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/app-properties.txt" beforeDir="false" afterPath="$PROJECT_DIR$/logs/app-properties.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/common/BaseTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/common/BaseTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/object/HomePageObject.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/object/HomePageObject.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/testcase/Testcase_Register_Page.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/testcase/Testcase_Register_Page.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/ui/HomePageUI.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ui/HomePageUI.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/RunTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/RunTest.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -31,26 +41,28 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;TestNG.E:/Project/Automation/Demo_NopCommerce/src/test/resources/RunTest.xml.executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.Testcase_01_Register.Testcase_01_Register_with_empty_data.executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.Testcase_01_Register.executor&quot;: &quot;Run&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;E:/Project/Automation/Demo_NopCommerce/src/test&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;onboarding.tips.debug.path&quot;: &quot;E:/Project/Automation/Demo_NopCommerce/src/main/java/Framework/Main.java&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "TestNG.E:/Project/Automation/Demo_NopCommerce/src/test/resources/RunTest.xml.executor": "Debug",
+    "TestNG.Testcase_01_Register.Testcase_01_Register_with_empty_data.executor": "Run",
+    "TestNG.Testcase_01_Register.executor": "Run",
+    "TestNG.Testcase_Login_Page.Testcase_03_Login_with_email_not_register.executor": "Debug",
+    "TestNG.Testcase_Login_Page.executor": "Run",
+    "git-widget-placeholder": "master",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "E:/Project/Automation/Demo_NopCommerce/src/test",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "onboarding.tips.debug.path": "E:/Project/Automation/Demo_NopCommerce/src/main/java/Framework/Main.java",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="E:\Project\Automation\Demo_NopCommerce\src\test" />
@@ -62,6 +74,23 @@
       <module name="Demo_NopCommerce" />
       <option name="SUITE_NAME" value="$PROJECT_DIR$/src/test/resources/RunTest.xml" />
       <option name="TEST_OBJECT" value="SUITE" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Testcase_Login_Page" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Demo_NopCommerce" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="testcase.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="testcase" />
+      <option name="MAIN_CLASS_NAME" value="testcase.Testcase_Login_Page" />
+      <option name="TEST_OBJECT" value="CLASS" />
       <properties />
       <listeners />
       <method v="2">
@@ -106,6 +135,7 @@
     <recent_temporary>
       <list>
         <item itemvalue="TestNG.E:/Project/Automation/Demo_NopCommerce/src/test/resources/RunTest.xml" />
+        <item itemvalue="TestNG.Testcase_Login_Page" />
         <item itemvalue="TestNG.Testcase_Register_Page" />
         <item itemvalue="TestNG.Testcase_Register_Page.Testcase_01_Register_with_empty_data" />
       </list>

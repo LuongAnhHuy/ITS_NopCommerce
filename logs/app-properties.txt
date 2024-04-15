@@ -42,3 +42,529 @@
 [INFO ] 13-04-2024 22:25:29 [main] Testcase_Register_Page - Testcase 06 - Step 02: Input to Confirm Password not match Password textbox
 [INFO ] 13-04-2024 22:25:29 [main] Testcase_Register_Page - Testcase 06 - Step 03: Click to Register button
 [INFO ] 13-04-2024 22:25:29 [main] Testcase_Register_Page - Testcase 06 - Step 04: Verify Message Confirm Password not match Password is displayed
+[INFO ] 15-04-2024 14:21:36 [main] Testcase_Login_Page -  ----- Preconditons: Open Home Page ----- 
+[INFO ] 15-04-2024 14:21:37 [main] Testcase_Login_Page -  ----- Preconditions: Navigate to Login page ----- 
+[INFO ] 15-04-2024 14:22:15 [main] Testcase_Login_Page -  ----- Preconditons: Open Home Page ----- 
+[INFO ] 15-04-2024 14:22:15 [main] Testcase_Login_Page -  ----- Preconditions: Navigate to Login page ----- 
+[INFO ] 15-04-2024 14:24:13 [main] Testcase_Login_Page -  ----- Preconditons: Open Home Page ----- 
+[INFO ] 15-04-2024 14:24:14 [main] Testcase_Login_Page -  ----- Preconditions: Navigate to Login page ----- 
+[INFO ] 15-04-2024 14:29:26 [main] Testcase_Login_Page -  ----- Preconditons: Open Home Page ----- 
+[INFO ] 15-04-2024 14:29:27 [main] Testcase_Login_Page -  ----- Preconditions: Navigate to Login page ----- 
+[INFO ] 15-04-2024 14:30:25 [main] Testcase_Login_Page -  ----- Preconditons: Open Home Page ----- 
+[INFO ] 15-04-2024 14:30:26 [main] Testcase_Login_Page -  ----- Preconditions: Navigate to Login page ----- 
+[INFO ] 15-04-2024 14:53:46 [main] Testcase_Login_Page -  ----- Preconditons: Open Home Page ----- 
+[INFO ] 15-04-2024 14:53:46 [main] Testcase_Login_Page -  ----- Preconditions: Navigate to Login page ----- 
+[INFO ] 15-04-2024 14:53:47 [main] Testcase_Login_Page - Testcase 01 --- Login with empty data ---
+[INFO ] 15-04-2024 14:53:47 [main] Testcase_Login_Page - Testcase 01 - Step 01: Click to Login button 
+[INFO ] 15-04-2024 14:53:47 [main] Testcase_Login_Page - Testcase 01 - Step 02: Verify Email error message is displayed
+[INFO ] 15-04-2024 14:54:05 [main] Testcase_Register_Page - Testcase 01 --- Register with empty data ---
+[INFO ] 15-04-2024 14:54:05 [main] Testcase_Register_Page - Testcase 01 - Step 01: Open Nopcommerce Page
+[INFO ] 15-04-2024 14:54:06 [main] Testcase_Register_Page - Testcase 01 - Step 02: Click to Register Link
+[INFO ] 15-04-2024 14:54:07 [main] Testcase_Register_Page - Testcase 01 - Step 03: Click to Register Button
+[INFO ] 15-04-2024 14:54:07 [main] Testcase_Register_Page - Testcase 01 - Step 04: Verify displays First Name error message
+[INFO ] 15-04-2024 14:54:07 [main] Testcase_Register_Page - Testcase 01 - Step 05: Verify displays Last Name error message
+[INFO ] 15-04-2024 14:54:07 [main] Testcase_Register_Page - Testcase 01 - Step 06: Verify displays Email error message
+[INFO ] 15-04-2024 14:54:07 [main] Testcase_Register_Page - Testcase 01 - Step 07: Verify displays Password error message
+[INFO ] 15-04-2024 14:54:07 [main] Testcase_Register_Page - Testcase 01 - Step 08: Verify displays Confirm Password error message
+[INFO ] 15-04-2024 14:54:07 [main] Testcase_Register_Page - Testcase 02 --- Register with invalid email ---
+[INFO ] 15-04-2024 14:54:07 [main] Testcase_Register_Page - Testcase 02 - Step 01: Input to First Name textbox
+[INFO ] 15-04-2024 14:54:08 [main] Testcase_Register_Page - Testcase 02 - Step 02: Input to Last Name textbox
+[INFO ] 15-04-2024 14:54:08 [main] Testcase_Register_Page - Testcase 02 - Step 03: Input to Email textbox
+[INFO ] 15-04-2024 14:54:08 [main] Testcase_Register_Page - Testcase 02 - Step 04: Input to Password textbox
+[INFO ] 15-04-2024 14:54:08 [main] Testcase_Register_Page - Testcase 02 - Step 05: Input to Confirm Password textbox
+[INFO ] 15-04-2024 14:54:08 [main] Testcase_Register_Page - Testcase 02 - Step 06: Verify displays Wrong Email message
+[INFO ] 15-04-2024 14:54:08 [main] Testcase_Register_Page - Testcase 03 --- Register successfully ---
+[INFO ] 15-04-2024 14:54:08 [main] Testcase_Register_Page - Testcase 03 - Step 01: Input valid First Name to textbox
+[INFO ] 15-04-2024 14:54:09 [main] Testcase_Register_Page - Testcase 03 - Step 02: Input valid Last Name to textbox
+[INFO ] 15-04-2024 14:54:09 [main] Testcase_Register_Page - Testcase 03 - Step 03: Input valid Email to textbox
+[INFO ] 15-04-2024 14:54:09 [main] Testcase_Register_Page - Testcase 03 - Step 04: Input valid Password to textbox
+[INFO ] 15-04-2024 14:54:09 [main] Testcase_Register_Page - Testcase 03 - Step 05: Input valid Confirm Password to textbox
+[INFO ] 15-04-2024 14:54:09 [main] Testcase_Register_Page - Testcase 03 - Step 06: Click to Register button
+[INFO ] 15-04-2024 14:54:10 [main] Testcase_Register_Page - Testcase 03 - Step 07: Verify success message is displayed
+[INFO ] 15-04-2024 14:54:10 [main] Testcase_Register_Page - Testcase 03 - Step 08: Click to Continue button
+[INFO ] 15-04-2024 14:54:10 [main] Testcase_Register_Page - Testcase 04 --- Register with duplicate email ---
+[INFO ] 15-04-2024 14:54:10 [main] Testcase_Register_Page - Testcase 04 - Step 01: Re-click to Register link
+[INFO ] 15-04-2024 14:54:10 [main] Testcase_Register_Page - Testcase 04 - Step 02: Re-input to First Name textbox
+[INFO ] 15-04-2024 14:54:10 [main] Testcase_Register_Page - Testcase 04 - Step 03: Re-input to Last Name textbox
+[INFO ] 15-04-2024 14:54:11 [main] Testcase_Register_Page - Testcase 04 - Step 04: Re-input to Email textbox
+[INFO ] 15-04-2024 14:54:11 [main] Testcase_Register_Page - Testcase 04 - Step 05: Re-input to Password textbox
+[INFO ] 15-04-2024 14:54:11 [main] Testcase_Register_Page - Testcase 04 - Step 06: Re-input to Confirm Password textbox
+[INFO ] 15-04-2024 14:54:11 [main] Testcase_Register_Page - Testcase 04 - Step 07: Click to Register button
+[INFO ] 15-04-2024 14:54:11 [main] Testcase_Register_Page - Testcase 04 - Step 08: Verify displays Duplicate Email message
+[INFO ] 15-04-2024 14:54:11 [main] Testcase_Register_Page - Testcase 05 --- Register with password less than 6 characters ---
+[INFO ] 15-04-2024 14:54:11 [main] Testcase_Register_Page - Testcase 05 - Step 01: Re-click to Register link
+[INFO ] 15-04-2024 14:54:12 [main] Testcase_Register_Page - Testcase 05 - Step 02: Input Password less than 6 characters
+[INFO ] 15-04-2024 14:54:12 [main] Testcase_Register_Page - Testcase 05 - Step 03: Click to Register button
+[INFO ] 15-04-2024 14:54:12 [main] Testcase_Register_Page - Testcase 05 - Step 04: Verify displays error message input Password less than 6 characters
+[INFO ] 15-04-2024 14:54:12 [main] Testcase_Register_Page - Testcase 06 --- Register with confirm password not match password ---
+[INFO ] 15-04-2024 14:54:12 [main] Testcase_Register_Page - Testcase 06 - Step 01: Input to Password textbox
+[INFO ] 15-04-2024 14:54:12 [main] Testcase_Register_Page - Testcase 06 - Step 02: Input to Confirm Password not match Password textbox
+[INFO ] 15-04-2024 14:54:12 [main] Testcase_Register_Page - Testcase 06 - Step 03: Click to Register button
+[INFO ] 15-04-2024 14:54:12 [main] Testcase_Register_Page - Testcase 06 - Step 04: Verify Message Confirm Password not match Password is displayed
+[INFO ] 15-04-2024 16:49:08 [main] Testcase_Login_Page -  ----- Preconditons: Open Home Page ----- 
+[INFO ] 15-04-2024 16:49:08 [main] Testcase_Login_Page -  ----- Preconditions: Navigate to Login page ----- 
+[INFO ] 15-04-2024 16:49:09 [main] Testcase_Login_Page - Testcase 01 --- Login with empty data ---
+[INFO ] 15-04-2024 16:49:09 [main] Testcase_Login_Page - Testcase 01 - Step 01: Click to Login button
+[INFO ] 15-04-2024 16:49:09 [main] Testcase_Login_Page - Testcase 01 - Step 02: Verify Email error message is displayed
+[INFO ] 15-04-2024 16:49:09 [main] Testcase_Login_Page - Testcase 02 --- Login with empty email ---
+[INFO ] 15-04-2024 16:49:09 [main] Testcase_Login_Page - Testcase 02 - Step 01: Input invalid data to mail textbox
+[INFO ] 15-04-2024 16:49:56 [main] Testcase_Login_Page -  ----- Preconditons: Open Home Page ----- 
+[INFO ] 15-04-2024 16:49:57 [main] Testcase_Login_Page -  ----- Preconditions: Navigate to Login page ----- 
+[INFO ] 15-04-2024 16:49:57 [main] Testcase_Login_Page - Testcase 01 --- Login with empty data ---
+[INFO ] 15-04-2024 16:49:57 [main] Testcase_Login_Page - Testcase 01 - Step 01: Click to Login button
+[INFO ] 15-04-2024 16:49:57 [main] Testcase_Login_Page - Testcase 01 - Step 02: Verify Email error message is displayed
+[INFO ] 15-04-2024 16:49:57 [main] Testcase_Login_Page - Testcase 02 --- Login with empty email ---
+[INFO ] 15-04-2024 16:49:58 [main] Testcase_Login_Page - Testcase 02 - Step 01: Input invalid data to mail textbox
+[INFO ] 15-04-2024 16:50:39 [main] Testcase_Login_Page -  ----- Preconditons: Open Home Page ----- 
+[INFO ] 15-04-2024 16:50:43 [main] Testcase_Login_Page -  ----- Preconditions: Navigate to Login page ----- 
+[INFO ] 15-04-2024 16:50:43 [main] Testcase_Login_Page - Testcase 01 --- Login with empty data ---
+[INFO ] 15-04-2024 16:50:43 [main] Testcase_Login_Page - Testcase 01 - Step 01: Click to Login button
+[INFO ] 15-04-2024 16:50:43 [main] Testcase_Login_Page - Testcase 01 - Step 02: Verify Email error message is displayed
+[INFO ] 15-04-2024 16:50:43 [main] Testcase_Login_Page - Testcase 02 --- Login with empty email ---
+[INFO ] 15-04-2024 16:50:43 [main] Testcase_Login_Page - Testcase 02 - Step 01: Input invalid data to mail textbox
+[INFO ] 15-04-2024 16:57:46 [main] Testcase_Login_Page -  ----- Preconditons: Open Home Page ----- 
+[INFO ] 15-04-2024 16:57:47 [main] Testcase_Login_Page -  ----- Preconditions: Navigate to Login page ----- 
+[INFO ] 15-04-2024 16:57:48 [main] Testcase_Login_Page - Testcase 01 --- Login with empty data ---
+[INFO ] 15-04-2024 16:57:48 [main] Testcase_Login_Page - Testcase 01 - Step 01: Click to Login button
+[INFO ] 15-04-2024 16:57:49 [main] Testcase_Login_Page - Testcase 01 - Step 02: Verify Email error message is displayed
+[INFO ] 15-04-2024 16:58:16 [main] Testcase_Login_Page -  ----- Preconditons: Open Home Page ----- 
+[INFO ] 15-04-2024 16:58:18 [main] Testcase_Login_Page -  ----- Preconditions: Navigate to Login page ----- 
+[INFO ] 15-04-2024 16:58:18 [main] Testcase_Login_Page - Testcase 01 --- Login with empty data ---
+[INFO ] 15-04-2024 16:58:18 [main] Testcase_Login_Page - Testcase 01 - Step 01: Click to Login button
+[INFO ] 15-04-2024 16:58:18 [main] Testcase_Login_Page - Testcase 01 - Step 02: Verify Email error message is displayed
+[INFO ] 15-04-2024 16:58:18 [main] Testcase_Login_Page - Testcase 02 --- Login with empty email ---
+[INFO ] 15-04-2024 16:58:19 [main] Testcase_Login_Page - Testcase 02 - Step 01: Input invalid data to mail textbox
+[INFO ] 15-04-2024 16:58:48 [main] Testcase_Login_Page -  ----- Preconditons: Open Home Page ----- 
+[INFO ] 15-04-2024 16:58:49 [main] Testcase_Login_Page -  ----- Preconditions: Navigate to Login page ----- 
+[INFO ] 15-04-2024 16:58:49 [main] Testcase_Login_Page - Testcase 01 --- Login with empty data ---
+[INFO ] 15-04-2024 16:58:49 [main] Testcase_Login_Page - Testcase 01 - Step 01: Click to Login button
+[INFO ] 15-04-2024 16:58:49 [main] Testcase_Login_Page - Testcase 01 - Step 02: Verify Email error message is displayed
+[INFO ] 15-04-2024 16:58:49 [main] Testcase_Login_Page - Testcase 02 --- Login with empty email ---
+[INFO ] 15-04-2024 16:58:50 [main] Testcase_Login_Page - Testcase 02 - Step 01: Input invalid data to mail textbox
+[INFO ] 15-04-2024 16:58:50 [main] Testcase_Login_Page - Testcase 02 - Step 02: Click to Login button
+[INFO ] 15-04-2024 16:58:50 [main] Testcase_Login_Page - Testcase 02 - Step 03: Verify Wrong Email message is displayed
+[INFO ] 15-04-2024 17:04:59 [main] Testcase_Login_Page -  ----- Preconditons: Open Home Page ----- 
+[INFO ] 15-04-2024 17:05:00 [main] Testcase_Login_Page -  ----- Preconditions: Navigate to Login page ----- 
+[INFO ] 15-04-2024 17:05:01 [main] Testcase_Login_Page - Testcase 01 --- Login with empty data ---
+[INFO ] 15-04-2024 17:05:01 [main] Testcase_Login_Page - Testcase 01 - Step 01: Click to Login button
+[INFO ] 15-04-2024 17:05:01 [main] Testcase_Login_Page - Testcase 01 - Step 02: Verify Email error message is displayed
+[INFO ] 15-04-2024 17:05:01 [main] Testcase_Login_Page - Testcase 02 --- Login with empty email ---
+[INFO ] 15-04-2024 17:05:02 [main] Testcase_Login_Page - Testcase 02 - Step 01: Input invalid data to mail textbox
+[INFO ] 15-04-2024 17:05:02 [main] Testcase_Login_Page - Testcase 02 - Step 02: Click to Login button
+[INFO ] 15-04-2024 17:05:02 [main] Testcase_Login_Page - Testcase 02 - Step 03: Verify Wrong Email message is displayed
+[INFO ] 15-04-2024 17:43:05 [main] Testcase_Login_Page -  ----- Preconditons: Open Home Page ----- 
+[INFO ] 15-04-2024 17:43:06 [main] Testcase_Login_Page -  ----- Preconditions: Navigate to Login page ----- 
+[INFO ] 15-04-2024 17:43:07 [main] Testcase_Login_Page - Testcase 01 --- Login with empty data ---
+[INFO ] 15-04-2024 17:43:07 [main] Testcase_Login_Page - Testcase 01 - Step 01: Click to Login button
+[INFO ] 15-04-2024 17:43:07 [main] Testcase_Login_Page - Testcase 01 - Step 02: Verify Email error message is displayed
+[INFO ] 15-04-2024 17:43:07 [main] Testcase_Login_Page - Testcase 02 --- Login with empty email ---
+[INFO ] 15-04-2024 17:43:07 [main] Testcase_Login_Page - Testcase 02 - Step 01: Input invalid data to mail textbox
+[INFO ] 15-04-2024 17:43:08 [main] Testcase_Login_Page - Testcase 02 - Step 02: Click to Login button
+[INFO ] 15-04-2024 17:43:08 [main] Testcase_Login_Page - Testcase 02 - Step 03: Verify Wrong Email message is displayed
+[INFO ] 15-04-2024 17:54:32 [main] Testcase_Register_Page - Testcase 01 --- Register with empty data ---
+[INFO ] 15-04-2024 17:54:32 [main] Testcase_Register_Page - Testcase 01 - Step 01: Open Nopcommerce Page
+[INFO ] 15-04-2024 17:54:33 [main] Testcase_Register_Page - Testcase 01 - Step 02: Click to Register Link
+[INFO ] 15-04-2024 17:54:34 [main] Testcase_Register_Page - Testcase 01 - Step 03: Click to Register Button
+[INFO ] 15-04-2024 17:54:34 [main] Testcase_Register_Page - Testcase 01 - Step 04: Verify displays First Name error message
+[INFO ] 15-04-2024 17:54:34 [main] Testcase_Register_Page - Testcase 01 - Step 05: Verify displays Last Name error message
+[INFO ] 15-04-2024 17:54:34 [main] Testcase_Register_Page - Testcase 01 - Step 06: Verify displays Email error message
+[INFO ] 15-04-2024 17:54:34 [main] Testcase_Register_Page - Testcase 01 - Step 07: Verify displays Password error message
+[INFO ] 15-04-2024 17:54:34 [main] Testcase_Register_Page - Testcase 01 - Step 08: Verify displays Confirm Password error message
+[INFO ] 15-04-2024 17:54:34 [main] Testcase_Register_Page - Testcase 02 --- Register with invalid email ---
+[INFO ] 15-04-2024 17:54:34 [main] Testcase_Register_Page - Testcase 02 - Step 01: Input to First Name textbox
+[INFO ] 15-04-2024 17:54:34 [main] Testcase_Register_Page - Testcase 02 - Step 02: Input to Last Name textbox
+[INFO ] 15-04-2024 17:54:34 [main] Testcase_Register_Page - Testcase 02 - Step 03: Input to Email textbox
+[INFO ] 15-04-2024 17:54:35 [main] Testcase_Register_Page - Testcase 02 - Step 04: Input to Password textbox
+[INFO ] 15-04-2024 17:54:35 [main] Testcase_Register_Page - Testcase 02 - Step 05: Input to Confirm Password textbox
+[INFO ] 15-04-2024 17:54:35 [main] Testcase_Register_Page - Testcase 02 - Step 06: Verify displays Wrong Email message
+[INFO ] 15-04-2024 17:54:35 [main] Testcase_Register_Page - Testcase 03 --- Register successfully ---
+[INFO ] 15-04-2024 17:54:35 [main] Testcase_Register_Page - Testcase 03 - Step 01: Input valid First Name to textbox
+[INFO ] 15-04-2024 17:54:35 [main] Testcase_Register_Page - Testcase 03 - Step 02: Input valid Last Name to textbox
+[INFO ] 15-04-2024 17:54:35 [main] Testcase_Register_Page - Testcase 03 - Step 03: Input valid Email to textbox
+[INFO ] 15-04-2024 17:54:36 [main] Testcase_Register_Page - Testcase 03 - Step 04: Input valid Password to textbox
+[INFO ] 15-04-2024 17:54:36 [main] Testcase_Register_Page - Testcase 03 - Step 05: Input valid Confirm Password to textbox
+[INFO ] 15-04-2024 17:54:36 [main] Testcase_Register_Page - Testcase 03 - Step 06: Click to Register button
+[INFO ] 15-04-2024 17:54:36 [main] Testcase_Register_Page - Testcase 03 - Step 07: Verify success message is displayed
+[INFO ] 15-04-2024 17:54:36 [main] Testcase_Register_Page - Testcase 03 - Step 08: Click to Continue button
+[INFO ] 15-04-2024 17:54:37 [main] Testcase_Register_Page - Testcase 04 --- Register with duplicate email ---
+[INFO ] 15-04-2024 17:54:37 [main] Testcase_Register_Page - Testcase 04 - Step 01: Re-click to Register link
+[INFO ] 15-04-2024 17:54:37 [main] Testcase_Register_Page - Testcase 04 - Step 02: Re-input to First Name textbox
+[INFO ] 15-04-2024 17:54:37 [main] Testcase_Register_Page - Testcase 04 - Step 03: Re-input to Last Name textbox
+[INFO ] 15-04-2024 17:54:37 [main] Testcase_Register_Page - Testcase 04 - Step 04: Re-input to Email textbox
+[INFO ] 15-04-2024 17:54:38 [main] Testcase_Register_Page - Testcase 04 - Step 05: Re-input to Password textbox
+[INFO ] 15-04-2024 17:54:38 [main] Testcase_Register_Page - Testcase 04 - Step 06: Re-input to Confirm Password textbox
+[INFO ] 15-04-2024 17:54:38 [main] Testcase_Register_Page - Testcase 04 - Step 07: Click to Register button
+[INFO ] 15-04-2024 17:54:38 [main] Testcase_Register_Page - Testcase 04 - Step 08: Verify displays Duplicate Email message
+[INFO ] 15-04-2024 17:54:38 [main] Testcase_Register_Page - Testcase 05 --- Register with password less than 6 characters ---
+[INFO ] 15-04-2024 17:54:38 [main] Testcase_Register_Page - Testcase 05 - Step 01: Re-click to Register link
+[INFO ] 15-04-2024 17:54:39 [main] Testcase_Register_Page - Testcase 05 - Step 02: Input Password less than 6 characters
+[INFO ] 15-04-2024 17:54:39 [main] Testcase_Register_Page - Testcase 05 - Step 03: Click to Register button
+[INFO ] 15-04-2024 17:54:39 [main] Testcase_Register_Page - Testcase 05 - Step 04: Verify displays error message input Password less than 6 characters
+[INFO ] 15-04-2024 17:54:39 [main] Testcase_Register_Page - Testcase 06 --- Register with confirm password not match password ---
+[INFO ] 15-04-2024 17:54:39 [main] Testcase_Register_Page - Testcase 06 - Step 01: Input to Password textbox
+[INFO ] 15-04-2024 17:54:39 [main] Testcase_Register_Page - Testcase 06 - Step 02: Input to Confirm Password not match Password textbox
+[INFO ] 15-04-2024 17:54:39 [main] Testcase_Register_Page - Testcase 06 - Step 03: Click to Register button
+[INFO ] 15-04-2024 17:54:39 [main] Testcase_Register_Page - Testcase 06 - Step 04: Verify Message Confirm Password not match Password is displayed
+[INFO ] 15-04-2024 17:54:40 [main] Testcase_Login_Page -  ----- Preconditons: Open Home Page ----- 
+[INFO ] 15-04-2024 17:54:41 [main] Testcase_Login_Page -  ----- Preconditions: Navigate to Login page ----- 
+[INFO ] 15-04-2024 17:54:42 [main] Testcase_Login_Page - Testcase 01 --- Login with empty data ---
+[INFO ] 15-04-2024 17:54:42 [main] Testcase_Login_Page - Testcase 01 - Step 01: Click to Login button
+[INFO ] 15-04-2024 17:54:42 [main] Testcase_Login_Page - Testcase 01 - Step 02: Verify Email error message is displayed
+[INFO ] 15-04-2024 17:54:42 [main] Testcase_Login_Page - Testcase 02 --- Login with empty email ---
+[INFO ] 15-04-2024 17:54:42 [main] Testcase_Login_Page - Testcase 02 - Step 01: Input invalid data to mail textbox
+[INFO ] 15-04-2024 17:54:42 [main] Testcase_Login_Page - Testcase 02 - Step 02: Click to Login button
+[INFO ] 15-04-2024 17:54:42 [main] Testcase_Login_Page - Testcase 02 - Step 03: Verify Wrong Email message is displayed
+[INFO ] 15-04-2024 18:24:07 [main] Testcase_Register_Page - Testcase 01 --- Register with empty data ---
+[INFO ] 15-04-2024 18:24:07 [main] Testcase_Register_Page - Testcase 01 - Step 01: Open Nopcommerce Page
+[INFO ] 15-04-2024 18:24:08 [main] Testcase_Register_Page - Testcase 01 - Step 02: Click to Register Link
+[INFO ] 15-04-2024 18:24:09 [main] Testcase_Register_Page - Testcase 01 - Step 03: Click to Register Button
+[INFO ] 15-04-2024 18:24:09 [main] Testcase_Register_Page - Testcase 01 - Step 04: Verify displays First Name error message
+[INFO ] 15-04-2024 18:24:09 [main] Testcase_Register_Page - Testcase 01 - Step 05: Verify displays Last Name error message
+[INFO ] 15-04-2024 18:24:09 [main] Testcase_Register_Page - Testcase 01 - Step 06: Verify displays Email error message
+[INFO ] 15-04-2024 18:24:09 [main] Testcase_Register_Page - Testcase 01 - Step 07: Verify displays Password error message
+[INFO ] 15-04-2024 18:24:09 [main] Testcase_Register_Page - Testcase 01 - Step 08: Verify displays Confirm Password error message
+[INFO ] 15-04-2024 18:24:09 [main] Testcase_Register_Page - Testcase 02 --- Register with invalid email ---
+[INFO ] 15-04-2024 18:24:09 [main] Testcase_Register_Page - Testcase 02 - Step 01: Input to First Name textbox
+[INFO ] 15-04-2024 18:24:10 [main] Testcase_Register_Page - Testcase 02 - Step 02: Input to Last Name textbox
+[INFO ] 15-04-2024 18:24:10 [main] Testcase_Register_Page - Testcase 02 - Step 03: Input to Email textbox
+[INFO ] 15-04-2024 18:24:10 [main] Testcase_Register_Page - Testcase 02 - Step 04: Input to Password textbox
+[INFO ] 15-04-2024 18:24:10 [main] Testcase_Register_Page - Testcase 02 - Step 05: Input to Confirm Password textbox
+[INFO ] 15-04-2024 18:24:10 [main] Testcase_Register_Page - Testcase 02 - Step 06: Verify displays Wrong Email message
+[INFO ] 15-04-2024 18:24:10 [main] Testcase_Register_Page - Testcase 03 --- Register successfully ---
+[INFO ] 15-04-2024 18:24:10 [main] Testcase_Register_Page - Testcase 03 - Step 01: Input valid First Name to textbox
+[INFO ] 15-04-2024 18:24:10 [main] Testcase_Register_Page - Testcase 03 - Step 02: Input valid Last Name to textbox
+[INFO ] 15-04-2024 18:24:11 [main] Testcase_Register_Page - Testcase 03 - Step 03: Input valid Email to textbox
+[INFO ] 15-04-2024 18:24:11 [main] Testcase_Register_Page - Testcase 03 - Step 04: Input valid Password to textbox
+[INFO ] 15-04-2024 18:24:11 [main] Testcase_Register_Page - Testcase 03 - Step 05: Input valid Confirm Password to textbox
+[INFO ] 15-04-2024 18:24:11 [main] Testcase_Register_Page - Testcase 03 - Step 06: Click to Register button
+[INFO ] 15-04-2024 18:24:12 [main] Testcase_Register_Page - Testcase 03 - Step 07: Verify success message is displayed
+[INFO ] 15-04-2024 18:24:12 [main] Testcase_Register_Page - Testcase 03 - Step 08: Click to Continue button
+[INFO ] 15-04-2024 18:24:12 [main] Testcase_Register_Page - Testcase 04 --- Register with duplicate email ---
+[INFO ] 15-04-2024 18:24:12 [main] Testcase_Register_Page - Testcase 04 - Step 01: Re-click to Register link
+[INFO ] 15-04-2024 18:24:12 [main] Testcase_Register_Page - Testcase 04 - Step 02: Re-input to First Name textbox
+[INFO ] 15-04-2024 18:24:12 [main] Testcase_Register_Page - Testcase 04 - Step 03: Re-input to Last Name textbox
+[INFO ] 15-04-2024 18:24:13 [main] Testcase_Register_Page - Testcase 04 - Step 04: Re-input to Email textbox
+[INFO ] 15-04-2024 18:24:13 [main] Testcase_Register_Page - Testcase 04 - Step 05: Re-input to Password textbox
+[INFO ] 15-04-2024 18:24:13 [main] Testcase_Register_Page - Testcase 04 - Step 06: Re-input to Confirm Password textbox
+[INFO ] 15-04-2024 18:24:13 [main] Testcase_Register_Page - Testcase 04 - Step 07: Click to Register button
+[INFO ] 15-04-2024 18:24:13 [main] Testcase_Register_Page - Testcase 04 - Step 08: Verify displays Duplicate Email message
+[INFO ] 15-04-2024 18:24:13 [main] Testcase_Register_Page - Testcase 05 --- Register with password less than 6 characters ---
+[INFO ] 15-04-2024 18:24:13 [main] Testcase_Register_Page - Testcase 05 - Step 01: Re-click to Register link
+[INFO ] 15-04-2024 18:24:14 [main] Testcase_Register_Page - Testcase 05 - Step 02: Input Password less than 6 characters
+[INFO ] 15-04-2024 18:24:14 [main] Testcase_Register_Page - Testcase 05 - Step 03: Click to Register button
+[INFO ] 15-04-2024 18:24:14 [main] Testcase_Register_Page - Testcase 05 - Step 04: Verify displays error message input Password less than 6 characters
+[INFO ] 15-04-2024 18:24:14 [main] Testcase_Register_Page - Testcase 06 --- Register with confirm password not match password ---
+[INFO ] 15-04-2024 18:24:14 [main] Testcase_Register_Page - Testcase 06 - Step 01: Input to Password textbox
+[INFO ] 15-04-2024 18:24:14 [main] Testcase_Register_Page - Testcase 06 - Step 02: Input to Confirm Password not match Password textbox
+[INFO ] 15-04-2024 18:24:14 [main] Testcase_Register_Page - Testcase 06 - Step 03: Click to Register button
+[INFO ] 15-04-2024 18:24:14 [main] Testcase_Register_Page - Testcase 06 - Step 04: Verify Message Confirm Password not match Password is displayed
+[INFO ] 15-04-2024 18:24:15 [main] Testcase_Login_Page -  ----- Preconditons: Open Home Page ----- 
+[INFO ] 15-04-2024 18:24:16 [main] Testcase_Login_Page -  ----- Preconditions: Navigate to Login page ----- 
+[INFO ] 15-04-2024 18:24:17 [main] Testcase_Login_Page - Testcase 01 --- Login with empty data ---
+[INFO ] 15-04-2024 18:24:17 [main] Testcase_Login_Page - Testcase 01 - Step 01: Click to Login button
+[INFO ] 15-04-2024 18:24:17 [main] Testcase_Login_Page - Testcase 01 - Step 02: Verify Email error message is displayed
+[INFO ] 15-04-2024 18:24:17 [main] Testcase_Login_Page - Testcase 02 --- Login with empty email ---
+[INFO ] 15-04-2024 18:24:17 [main] Testcase_Login_Page - Testcase 02 - Step 01: Input invalid data to mail textbox
+[INFO ] 15-04-2024 18:24:17 [main] Testcase_Login_Page - Testcase 02 - Step 02: Click to Login button
+[INFO ] 15-04-2024 18:24:17 [main] Testcase_Login_Page - Testcase 02 - Step 03: Verify Wrong Email message is displayed
+[INFO ] 15-04-2024 18:24:17 [main] Testcase_Login_Page - Testcase 03 --- Login with email not register ---
+[INFO ] 15-04-2024 18:26:01 [main] Testcase_Login_Page -  ----- Preconditons: Open Home Page ----- 
+[INFO ] 15-04-2024 18:26:02 [main] Testcase_Login_Page -  ----- Preconditions: Navigate to Login page ----- 
+[INFO ] 15-04-2024 18:26:02 [main] Testcase_Login_Page - Testcase 01 --- Login with empty data ---
+[INFO ] 15-04-2024 18:26:02 [main] Testcase_Login_Page - Testcase 01 - Step 01: Click to Login button
+[INFO ] 15-04-2024 18:26:02 [main] Testcase_Login_Page - Testcase 01 - Step 02: Verify Email error message is displayed
+[INFO ] 15-04-2024 18:26:02 [main] Testcase_Login_Page - Testcase 02 --- Login with empty email ---
+[INFO ] 15-04-2024 18:26:02 [main] Testcase_Login_Page - Testcase 02 - Step 01: Input invalid data to mail textbox
+[INFO ] 15-04-2024 18:26:03 [main] Testcase_Login_Page - Testcase 02 - Step 02: Click to Login button
+[INFO ] 15-04-2024 18:26:03 [main] Testcase_Login_Page - Testcase 02 - Step 03: Verify Wrong Email message is displayed
+[INFO ] 15-04-2024 18:26:03 [main] Testcase_Login_Page - Testcase 03 --- Login with email not register ---
+[INFO ] 15-04-2024 18:26:26 [main] Testcase_Register_Page - Testcase 01 --- Register with empty data ---
+[INFO ] 15-04-2024 18:26:26 [main] Testcase_Register_Page - Testcase 01 - Step 01: Open Nopcommerce Page
+[INFO ] 15-04-2024 18:26:27 [main] Testcase_Register_Page - Testcase 01 - Step 02: Click to Register Link
+[INFO ] 15-04-2024 18:26:28 [main] Testcase_Register_Page - Testcase 01 - Step 03: Click to Register Button
+[INFO ] 15-04-2024 18:26:28 [main] Testcase_Register_Page - Testcase 01 - Step 04: Verify displays First Name error message
+[INFO ] 15-04-2024 18:26:28 [main] Testcase_Register_Page - Testcase 01 - Step 05: Verify displays Last Name error message
+[INFO ] 15-04-2024 18:26:28 [main] Testcase_Register_Page - Testcase 01 - Step 06: Verify displays Email error message
+[INFO ] 15-04-2024 18:26:28 [main] Testcase_Register_Page - Testcase 01 - Step 07: Verify displays Password error message
+[INFO ] 15-04-2024 18:26:28 [main] Testcase_Register_Page - Testcase 01 - Step 08: Verify displays Confirm Password error message
+[INFO ] 15-04-2024 18:26:28 [main] Testcase_Register_Page - Testcase 02 --- Register with invalid email ---
+[INFO ] 15-04-2024 18:26:28 [main] Testcase_Register_Page - Testcase 02 - Step 01: Input to First Name textbox
+[INFO ] 15-04-2024 18:26:29 [main] Testcase_Register_Page - Testcase 02 - Step 02: Input to Last Name textbox
+[INFO ] 15-04-2024 18:26:29 [main] Testcase_Register_Page - Testcase 02 - Step 03: Input to Email textbox
+[INFO ] 15-04-2024 18:26:29 [main] Testcase_Register_Page - Testcase 02 - Step 04: Input to Password textbox
+[INFO ] 15-04-2024 18:26:29 [main] Testcase_Register_Page - Testcase 02 - Step 05: Input to Confirm Password textbox
+[INFO ] 15-04-2024 18:26:29 [main] Testcase_Register_Page - Testcase 02 - Step 06: Verify displays Wrong Email message
+[INFO ] 15-04-2024 18:26:29 [main] Testcase_Register_Page - Testcase 03 --- Register successfully ---
+[INFO ] 15-04-2024 18:26:29 [main] Testcase_Register_Page - Testcase 03 - Step 01: Input valid First Name to textbox
+[INFO ] 15-04-2024 18:26:29 [main] Testcase_Register_Page - Testcase 03 - Step 02: Input valid Last Name to textbox
+[INFO ] 15-04-2024 18:26:30 [main] Testcase_Register_Page - Testcase 03 - Step 03: Input valid Email to textbox
+[INFO ] 15-04-2024 18:26:30 [main] Testcase_Register_Page - Testcase 03 - Step 04: Input valid Password to textbox
+[INFO ] 15-04-2024 18:26:30 [main] Testcase_Register_Page - Testcase 03 - Step 05: Input valid Confirm Password to textbox
+[INFO ] 15-04-2024 18:26:30 [main] Testcase_Register_Page - Testcase 03 - Step 06: Click to Register button
+[INFO ] 15-04-2024 18:26:31 [main] Testcase_Register_Page - Testcase 03 - Step 07: Verify success message is displayed
+[INFO ] 15-04-2024 18:26:31 [main] Testcase_Register_Page - Testcase 03 - Step 08: Click to Continue button
+[INFO ] 15-04-2024 18:26:31 [main] Testcase_Register_Page - Testcase 04 --- Register with duplicate email ---
+[INFO ] 15-04-2024 18:26:31 [main] Testcase_Register_Page - Testcase 04 - Step 01: Re-click to Register link
+[INFO ] 15-04-2024 18:26:31 [main] Testcase_Register_Page - Testcase 04 - Step 02: Re-input to First Name textbox
+[INFO ] 15-04-2024 18:26:31 [main] Testcase_Register_Page - Testcase 04 - Step 03: Re-input to Last Name textbox
+[INFO ] 15-04-2024 18:26:32 [main] Testcase_Register_Page - Testcase 04 - Step 04: Re-input to Email textbox
+[INFO ] 15-04-2024 18:26:32 [main] Testcase_Register_Page - Testcase 04 - Step 05: Re-input to Password textbox
+[INFO ] 15-04-2024 18:26:32 [main] Testcase_Register_Page - Testcase 04 - Step 06: Re-input to Confirm Password textbox
+[INFO ] 15-04-2024 18:26:32 [main] Testcase_Register_Page - Testcase 04 - Step 07: Click to Register button
+[INFO ] 15-04-2024 18:26:32 [main] Testcase_Register_Page - Testcase 04 - Step 08: Verify displays Duplicate Email message
+[INFO ] 15-04-2024 18:26:32 [main] Testcase_Register_Page - Testcase 05 --- Register with password less than 6 characters ---
+[INFO ] 15-04-2024 18:26:32 [main] Testcase_Register_Page - Testcase 05 - Step 01: Re-click to Register link
+[INFO ] 15-04-2024 18:26:33 [main] Testcase_Register_Page - Testcase 05 - Step 02: Input Password less than 6 characters
+[INFO ] 15-04-2024 18:26:33 [main] Testcase_Register_Page - Testcase 05 - Step 03: Click to Register button
+[INFO ] 15-04-2024 18:26:33 [main] Testcase_Register_Page - Testcase 05 - Step 04: Verify displays error message input Password less than 6 characters
+[INFO ] 15-04-2024 18:26:33 [main] Testcase_Register_Page - Testcase 06 --- Register with confirm password not match password ---
+[INFO ] 15-04-2024 18:26:33 [main] Testcase_Register_Page - Testcase 06 - Step 01: Input to Password textbox
+[INFO ] 15-04-2024 18:26:33 [main] Testcase_Register_Page - Testcase 06 - Step 02: Input to Confirm Password not match Password textbox
+[INFO ] 15-04-2024 18:26:33 [main] Testcase_Register_Page - Testcase 06 - Step 03: Click to Register button
+[INFO ] 15-04-2024 18:26:34 [main] Testcase_Register_Page - Testcase 06 - Step 04: Verify Message Confirm Password not match Password is displayed
+[INFO ] 15-04-2024 18:26:34 [main] Testcase_Login_Page -  ----- Preconditons: Open Home Page ----- 
+[INFO ] 15-04-2024 18:26:35 [main] Testcase_Login_Page -  ----- Preconditions: Navigate to Login page ----- 
+[INFO ] 15-04-2024 18:26:36 [main] Testcase_Login_Page - Testcase 01 --- Login with empty data ---
+[INFO ] 15-04-2024 18:26:36 [main] Testcase_Login_Page - Testcase 01 - Step 01: Click to Login button
+[INFO ] 15-04-2024 18:26:36 [main] Testcase_Login_Page - Testcase 01 - Step 02: Verify Email error message is displayed
+[INFO ] 15-04-2024 18:26:36 [main] Testcase_Login_Page - Testcase 02 --- Login with empty email ---
+[INFO ] 15-04-2024 18:26:36 [main] Testcase_Login_Page - Testcase 02 - Step 01: Input invalid data to mail textbox
+[INFO ] 15-04-2024 18:26:36 [main] Testcase_Login_Page - Testcase 02 - Step 02: Click to Login button
+[INFO ] 15-04-2024 18:26:36 [main] Testcase_Login_Page - Testcase 02 - Step 03: Verify Wrong Email message is displayed
+[INFO ] 15-04-2024 18:26:37 [main] Testcase_Login_Page - Testcase 03 --- Login with email not register ---
+[INFO ] 15-04-2024 18:28:14 [main] Testcase_Register_Page - Testcase 01 --- Register with empty data ---
+[INFO ] 15-04-2024 18:28:14 [main] Testcase_Register_Page - Testcase 01 - Step 01: Open Nopcommerce Page
+[INFO ] 15-04-2024 18:28:15 [main] Testcase_Register_Page - Testcase 01 - Step 02: Click to Register Link
+[INFO ] 15-04-2024 18:28:15 [main] Testcase_Register_Page - Testcase 01 - Step 03: Click to Register Button
+[INFO ] 15-04-2024 18:28:15 [main] Testcase_Register_Page - Testcase 01 - Step 04: Verify displays First Name error message
+[INFO ] 15-04-2024 18:28:15 [main] Testcase_Register_Page - Testcase 01 - Step 05: Verify displays Last Name error message
+[INFO ] 15-04-2024 18:28:15 [main] Testcase_Register_Page - Testcase 01 - Step 06: Verify displays Email error message
+[INFO ] 15-04-2024 18:28:15 [main] Testcase_Register_Page - Testcase 01 - Step 07: Verify displays Password error message
+[INFO ] 15-04-2024 18:28:15 [main] Testcase_Register_Page - Testcase 01 - Step 08: Verify displays Confirm Password error message
+[INFO ] 15-04-2024 18:28:15 [main] Testcase_Register_Page - Testcase 02 --- Register with invalid email ---
+[INFO ] 15-04-2024 18:28:16 [main] Testcase_Register_Page - Testcase 02 - Step 01: Input to First Name textbox
+[INFO ] 15-04-2024 18:28:16 [main] Testcase_Register_Page - Testcase 02 - Step 02: Input to Last Name textbox
+[INFO ] 15-04-2024 18:28:16 [main] Testcase_Register_Page - Testcase 02 - Step 03: Input to Email textbox
+[INFO ] 15-04-2024 18:28:16 [main] Testcase_Register_Page - Testcase 02 - Step 04: Input to Password textbox
+[INFO ] 15-04-2024 18:28:16 [main] Testcase_Register_Page - Testcase 02 - Step 05: Input to Confirm Password textbox
+[INFO ] 15-04-2024 18:28:16 [main] Testcase_Register_Page - Testcase 02 - Step 06: Verify displays Wrong Email message
+[INFO ] 15-04-2024 18:28:16 [main] Testcase_Register_Page - Testcase 03 --- Register successfully ---
+[INFO ] 15-04-2024 18:28:17 [main] Testcase_Register_Page - Testcase 03 - Step 01: Input valid First Name to textbox
+[INFO ] 15-04-2024 18:28:17 [main] Testcase_Register_Page - Testcase 03 - Step 02: Input valid Last Name to textbox
+[INFO ] 15-04-2024 18:28:17 [main] Testcase_Register_Page - Testcase 03 - Step 03: Input valid Email to textbox
+[INFO ] 15-04-2024 18:28:17 [main] Testcase_Register_Page - Testcase 03 - Step 04: Input valid Password to textbox
+[INFO ] 15-04-2024 18:28:17 [main] Testcase_Register_Page - Testcase 03 - Step 05: Input valid Confirm Password to textbox
+[INFO ] 15-04-2024 18:28:17 [main] Testcase_Register_Page - Testcase 03 - Step 06: Click to Register button
+[INFO ] 15-04-2024 18:28:18 [main] Testcase_Register_Page - Testcase 03 - Step 07: Verify success message is displayed
+[INFO ] 15-04-2024 18:28:18 [main] Testcase_Register_Page - Testcase 03 - Step 08: Click to Continue button
+[INFO ] 15-04-2024 18:28:18 [main] Testcase_Register_Page - Testcase 04 --- Register with duplicate email ---
+[INFO ] 15-04-2024 18:28:18 [main] Testcase_Register_Page - Testcase 04 - Step 01: Re-click to Register link
+[INFO ] 15-04-2024 18:28:19 [main] Testcase_Register_Page - Testcase 04 - Step 02: Re-input to First Name textbox
+[INFO ] 15-04-2024 18:28:19 [main] Testcase_Register_Page - Testcase 04 - Step 03: Re-input to Last Name textbox
+[INFO ] 15-04-2024 18:28:19 [main] Testcase_Register_Page - Testcase 04 - Step 04: Re-input to Email textbox
+[INFO ] 15-04-2024 18:28:19 [main] Testcase_Register_Page - Testcase 04 - Step 05: Re-input to Password textbox
+[INFO ] 15-04-2024 18:28:19 [main] Testcase_Register_Page - Testcase 04 - Step 06: Re-input to Confirm Password textbox
+[INFO ] 15-04-2024 18:28:19 [main] Testcase_Register_Page - Testcase 04 - Step 07: Click to Register button
+[INFO ] 15-04-2024 18:28:19 [main] Testcase_Register_Page - Testcase 04 - Step 08: Verify displays Duplicate Email message
+[INFO ] 15-04-2024 18:28:20 [main] Testcase_Register_Page - Testcase 05 --- Register with password less than 6 characters ---
+[INFO ] 15-04-2024 18:28:20 [main] Testcase_Register_Page - Testcase 05 - Step 01: Re-click to Register link
+[INFO ] 15-04-2024 18:28:20 [main] Testcase_Register_Page - Testcase 05 - Step 02: Input Password less than 6 characters
+[INFO ] 15-04-2024 18:28:20 [main] Testcase_Register_Page - Testcase 05 - Step 03: Click to Register button
+[INFO ] 15-04-2024 18:28:20 [main] Testcase_Register_Page - Testcase 05 - Step 04: Verify displays error message input Password less than 6 characters
+[INFO ] 15-04-2024 18:28:20 [main] Testcase_Register_Page - Testcase 06 --- Register with confirm password not match password ---
+[INFO ] 15-04-2024 18:28:20 [main] Testcase_Register_Page - Testcase 06 - Step 01: Input to Password textbox
+[INFO ] 15-04-2024 18:28:21 [main] Testcase_Register_Page - Testcase 06 - Step 02: Input to Confirm Password not match Password textbox
+[INFO ] 15-04-2024 18:28:21 [main] Testcase_Register_Page - Testcase 06 - Step 03: Click to Register button
+[INFO ] 15-04-2024 18:28:21 [main] Testcase_Register_Page - Testcase 06 - Step 04: Verify Message Confirm Password not match Password is displayed
+[INFO ] 15-04-2024 18:28:22 [main] Testcase_Login_Page -  ----- Preconditons: Open Home Page ----- 
+[INFO ] 15-04-2024 18:28:22 [main] Testcase_Login_Page -  ----- Preconditions: Navigate to Login page ----- 
+[INFO ] 15-04-2024 18:28:23 [main] Testcase_Login_Page - Testcase 01 --- Login with empty data ---
+[INFO ] 15-04-2024 18:28:23 [main] Testcase_Login_Page - Testcase 01 - Step 01: Click to Login button
+[INFO ] 15-04-2024 18:28:23 [main] Testcase_Login_Page - Testcase 01 - Step 02: Verify Email error message is displayed
+[INFO ] 15-04-2024 18:28:23 [main] Testcase_Login_Page - Testcase 02 --- Login with empty email ---
+[INFO ] 15-04-2024 18:28:23 [main] Testcase_Login_Page - Testcase 02 - Step 01: Input invalid data to mail textbox
+[INFO ] 15-04-2024 18:28:24 [main] Testcase_Login_Page - Testcase 02 - Step 02: Click to Login button
+[INFO ] 15-04-2024 18:28:24 [main] Testcase_Login_Page - Testcase 02 - Step 03: Verify Wrong Email message is displayed
+[INFO ] 15-04-2024 18:28:24 [main] Testcase_Login_Page - Testcase 03 --- Login with email not register ---
+[INFO ] 15-04-2024 18:28:52 [main] Testcase_Register_Page - Testcase 01 --- Register with empty data ---
+[INFO ] 15-04-2024 18:28:52 [main] Testcase_Register_Page - Testcase 01 - Step 01: Open Nopcommerce Page
+[INFO ] 15-04-2024 18:28:53 [main] Testcase_Register_Page - Testcase 01 - Step 02: Click to Register Link
+[INFO ] 15-04-2024 18:28:53 [main] Testcase_Register_Page - Testcase 01 - Step 03: Click to Register Button
+[INFO ] 15-04-2024 18:28:53 [main] Testcase_Register_Page - Testcase 01 - Step 04: Verify displays First Name error message
+[INFO ] 15-04-2024 18:28:53 [main] Testcase_Register_Page - Testcase 01 - Step 05: Verify displays Last Name error message
+[INFO ] 15-04-2024 18:28:53 [main] Testcase_Register_Page - Testcase 01 - Step 06: Verify displays Email error message
+[INFO ] 15-04-2024 18:28:53 [main] Testcase_Register_Page - Testcase 01 - Step 07: Verify displays Password error message
+[INFO ] 15-04-2024 18:28:53 [main] Testcase_Register_Page - Testcase 01 - Step 08: Verify displays Confirm Password error message
+[INFO ] 15-04-2024 18:28:53 [main] Testcase_Register_Page - Testcase 02 --- Register with invalid email ---
+[INFO ] 15-04-2024 18:28:54 [main] Testcase_Register_Page - Testcase 02 - Step 01: Input to First Name textbox
+[INFO ] 15-04-2024 18:28:54 [main] Testcase_Register_Page - Testcase 02 - Step 02: Input to Last Name textbox
+[INFO ] 15-04-2024 18:28:54 [main] Testcase_Register_Page - Testcase 02 - Step 03: Input to Email textbox
+[INFO ] 15-04-2024 18:28:54 [main] Testcase_Register_Page - Testcase 02 - Step 04: Input to Password textbox
+[INFO ] 15-04-2024 18:28:54 [main] Testcase_Register_Page - Testcase 02 - Step 05: Input to Confirm Password textbox
+[INFO ] 15-04-2024 18:28:54 [main] Testcase_Register_Page - Testcase 02 - Step 06: Verify displays Wrong Email message
+[INFO ] 15-04-2024 18:28:54 [main] Testcase_Register_Page - Testcase 03 --- Register successfully ---
+[INFO ] 15-04-2024 18:28:55 [main] Testcase_Register_Page - Testcase 03 - Step 01: Input valid First Name to textbox
+[INFO ] 15-04-2024 18:28:55 [main] Testcase_Register_Page - Testcase 03 - Step 02: Input valid Last Name to textbox
+[INFO ] 15-04-2024 18:28:55 [main] Testcase_Register_Page - Testcase 03 - Step 03: Input valid Email to textbox
+[INFO ] 15-04-2024 18:28:55 [main] Testcase_Register_Page - Testcase 03 - Step 04: Input valid Password to textbox
+[INFO ] 15-04-2024 18:28:55 [main] Testcase_Register_Page - Testcase 03 - Step 05: Input valid Confirm Password to textbox
+[INFO ] 15-04-2024 18:28:55 [main] Testcase_Register_Page - Testcase 03 - Step 06: Click to Register button
+[INFO ] 15-04-2024 18:28:56 [main] Testcase_Register_Page - Testcase 03 - Step 07: Verify success message is displayed
+[INFO ] 15-04-2024 18:28:56 [main] Testcase_Register_Page - Testcase 03 - Step 08: Click to Continue button
+[INFO ] 15-04-2024 18:28:56 [main] Testcase_Register_Page - Testcase 04 --- Register with duplicate email ---
+[INFO ] 15-04-2024 18:28:56 [main] Testcase_Register_Page - Testcase 04 - Step 01: Re-click to Register link
+[INFO ] 15-04-2024 18:28:57 [main] Testcase_Register_Page - Testcase 04 - Step 02: Re-input to First Name textbox
+[INFO ] 15-04-2024 18:28:57 [main] Testcase_Register_Page - Testcase 04 - Step 03: Re-input to Last Name textbox
+[INFO ] 15-04-2024 18:28:57 [main] Testcase_Register_Page - Testcase 04 - Step 04: Re-input to Email textbox
+[INFO ] 15-04-2024 18:28:58 [main] Testcase_Register_Page - Testcase 04 - Step 05: Re-input to Password textbox
+[INFO ] 15-04-2024 18:28:58 [main] Testcase_Register_Page - Testcase 04 - Step 06: Re-input to Confirm Password textbox
+[INFO ] 15-04-2024 18:28:58 [main] Testcase_Register_Page - Testcase 04 - Step 07: Click to Register button
+[INFO ] 15-04-2024 18:28:59 [main] Testcase_Register_Page - Testcase 04 - Step 08: Verify displays Duplicate Email message
+[INFO ] 15-04-2024 18:28:59 [main] Testcase_Register_Page - Testcase 05 --- Register with password less than 6 characters ---
+[INFO ] 15-04-2024 18:28:59 [main] Testcase_Register_Page - Testcase 05 - Step 01: Re-click to Register link
+[INFO ] 15-04-2024 18:28:59 [main] Testcase_Register_Page - Testcase 05 - Step 02: Input Password less than 6 characters
+[INFO ] 15-04-2024 18:28:59 [main] Testcase_Register_Page - Testcase 05 - Step 03: Click to Register button
+[INFO ] 15-04-2024 18:28:59 [main] Testcase_Register_Page - Testcase 05 - Step 04: Verify displays error message input Password less than 6 characters
+[INFO ] 15-04-2024 18:28:59 [main] Testcase_Register_Page - Testcase 06 --- Register with confirm password not match password ---
+[INFO ] 15-04-2024 18:28:59 [main] Testcase_Register_Page - Testcase 06 - Step 01: Input to Password textbox
+[INFO ] 15-04-2024 18:29:00 [main] Testcase_Register_Page - Testcase 06 - Step 02: Input to Confirm Password not match Password textbox
+[INFO ] 15-04-2024 18:29:00 [main] Testcase_Register_Page - Testcase 06 - Step 03: Click to Register button
+[INFO ] 15-04-2024 18:29:00 [main] Testcase_Register_Page - Testcase 06 - Step 04: Verify Message Confirm Password not match Password is displayed
+[INFO ] 15-04-2024 18:29:01 [main] Testcase_Login_Page -  ----- Preconditons: Open Home Page ----- 
+[INFO ] 15-04-2024 18:29:02 [main] Testcase_Login_Page -  ----- Preconditions: Navigate to Login page ----- 
+[INFO ] 15-04-2024 18:29:02 [main] Testcase_Login_Page - Testcase 01 --- Login with empty data ---
+[INFO ] 15-04-2024 18:29:02 [main] Testcase_Login_Page - Testcase 01 - Step 01: Click to Login button
+[INFO ] 15-04-2024 18:29:02 [main] Testcase_Login_Page - Testcase 01 - Step 02: Verify Email error message is displayed
+[INFO ] 15-04-2024 18:29:02 [main] Testcase_Login_Page - Testcase 02 --- Login with empty email ---
+[INFO ] 15-04-2024 18:29:02 [main] Testcase_Login_Page - Testcase 02 - Step 01: Input invalid data to mail textbox
+[INFO ] 15-04-2024 18:29:03 [main] Testcase_Login_Page - Testcase 02 - Step 02: Click to Login button
+[INFO ] 15-04-2024 18:29:03 [main] Testcase_Login_Page - Testcase 02 - Step 03: Verify Wrong Email message is displayed
+[INFO ] 15-04-2024 18:29:03 [main] Testcase_Login_Page - Testcase 03 --- Login with email not register ---
+[INFO ] 15-04-2024 18:29:27 [main] Testcase_Login_Page -  ----- Preconditons: Open Home Page ----- 
+[INFO ] 15-04-2024 18:29:28 [main] Testcase_Login_Page -  ----- Preconditions: Navigate to Login page ----- 
+[INFO ] 15-04-2024 18:29:29 [main] Testcase_Login_Page - Testcase 01 --- Login with empty data ---
+[INFO ] 15-04-2024 18:29:29 [main] Testcase_Login_Page - Testcase 01 - Step 01: Click to Login button
+[INFO ] 15-04-2024 18:29:29 [main] Testcase_Login_Page - Testcase 01 - Step 02: Verify Email error message is displayed
+[INFO ] 15-04-2024 18:29:29 [main] Testcase_Login_Page - Testcase 02 --- Login with empty email ---
+[INFO ] 15-04-2024 18:29:29 [main] Testcase_Login_Page - Testcase 02 - Step 01: Input invalid data to mail textbox
+[INFO ] 15-04-2024 18:29:29 [main] Testcase_Login_Page - Testcase 02 - Step 02: Click to Login button
+[INFO ] 15-04-2024 18:29:29 [main] Testcase_Login_Page - Testcase 02 - Step 03: Verify Wrong Email message is displayed
+[INFO ] 15-04-2024 18:29:29 [main] Testcase_Login_Page - Testcase 03 --- Login with email not register ---
+[INFO ] 15-04-2024 18:30:04 [main] Testcase_Register_Page - Testcase 01 --- Register with empty data ---
+[INFO ] 15-04-2024 18:30:04 [main] Testcase_Register_Page - Testcase 01 - Step 01: Open Nopcommerce Page
+[INFO ] 15-04-2024 18:30:05 [main] Testcase_Register_Page - Testcase 01 - Step 02: Click to Register Link
+[INFO ] 15-04-2024 18:30:06 [main] Testcase_Register_Page - Testcase 01 - Step 03: Click to Register Button
+[INFO ] 15-04-2024 18:30:06 [main] Testcase_Register_Page - Testcase 01 - Step 04: Verify displays First Name error message
+[INFO ] 15-04-2024 18:30:06 [main] Testcase_Register_Page - Testcase 01 - Step 05: Verify displays Last Name error message
+[INFO ] 15-04-2024 18:30:06 [main] Testcase_Register_Page - Testcase 01 - Step 06: Verify displays Email error message
+[INFO ] 15-04-2024 18:30:06 [main] Testcase_Register_Page - Testcase 01 - Step 07: Verify displays Password error message
+[INFO ] 15-04-2024 18:30:06 [main] Testcase_Register_Page - Testcase 01 - Step 08: Verify displays Confirm Password error message
+[INFO ] 15-04-2024 18:30:06 [main] Testcase_Register_Page - Testcase 02 --- Register with invalid email ---
+[INFO ] 15-04-2024 18:30:06 [main] Testcase_Register_Page - Testcase 02 - Step 01: Input to First Name textbox
+[INFO ] 15-04-2024 18:30:07 [main] Testcase_Register_Page - Testcase 02 - Step 02: Input to Last Name textbox
+[INFO ] 15-04-2024 18:30:07 [main] Testcase_Register_Page - Testcase 02 - Step 03: Input to Email textbox
+[INFO ] 15-04-2024 18:30:07 [main] Testcase_Register_Page - Testcase 02 - Step 04: Input to Password textbox
+[INFO ] 15-04-2024 18:30:07 [main] Testcase_Register_Page - Testcase 02 - Step 05: Input to Confirm Password textbox
+[INFO ] 15-04-2024 18:30:07 [main] Testcase_Register_Page - Testcase 02 - Step 06: Verify displays Wrong Email message
+[INFO ] 15-04-2024 18:30:07 [main] Testcase_Register_Page - Testcase 03 --- Register successfully ---
+[INFO ] 15-04-2024 18:30:07 [main] Testcase_Register_Page - Testcase 03 - Step 01: Input valid First Name to textbox
+[INFO ] 15-04-2024 18:30:07 [main] Testcase_Register_Page - Testcase 03 - Step 02: Input valid Last Name to textbox
+[INFO ] 15-04-2024 18:30:08 [main] Testcase_Register_Page - Testcase 03 - Step 03: Input valid Email to textbox
+[INFO ] 15-04-2024 18:30:08 [main] Testcase_Register_Page - Testcase 03 - Step 04: Input valid Password to textbox
+[INFO ] 15-04-2024 18:30:08 [main] Testcase_Register_Page - Testcase 03 - Step 05: Input valid Confirm Password to textbox
+[INFO ] 15-04-2024 18:30:08 [main] Testcase_Register_Page - Testcase 03 - Step 06: Click to Register button
+[INFO ] 15-04-2024 18:30:09 [main] Testcase_Register_Page - Testcase 03 - Step 07: Verify success message is displayed
+[INFO ] 15-04-2024 18:30:09 [main] Testcase_Register_Page - Testcase 03 - Step 08: Click to Continue button
+[INFO ] 15-04-2024 18:30:09 [main] Testcase_Register_Page - Testcase 04 --- Register with duplicate email ---
+[INFO ] 15-04-2024 18:30:09 [main] Testcase_Register_Page - Testcase 04 - Step 01: Re-click to Register link
+[INFO ] 15-04-2024 18:30:09 [main] Testcase_Register_Page - Testcase 04 - Step 02: Re-input to First Name textbox
+[INFO ] 15-04-2024 18:30:09 [main] Testcase_Register_Page - Testcase 04 - Step 03: Re-input to Last Name textbox
+[INFO ] 15-04-2024 18:30:09 [main] Testcase_Register_Page - Testcase 04 - Step 04: Re-input to Email textbox
+[INFO ] 15-04-2024 18:30:10 [main] Testcase_Register_Page - Testcase 04 - Step 05: Re-input to Password textbox
+[INFO ] 15-04-2024 18:30:10 [main] Testcase_Register_Page - Testcase 04 - Step 06: Re-input to Confirm Password textbox
+[INFO ] 15-04-2024 18:30:10 [main] Testcase_Register_Page - Testcase 04 - Step 07: Click to Register button
+[INFO ] 15-04-2024 18:30:10 [main] Testcase_Register_Page - Testcase 04 - Step 08: Verify displays Duplicate Email message
+[INFO ] 15-04-2024 18:30:10 [main] Testcase_Register_Page - Testcase 05 --- Register with password less than 6 characters ---
+[INFO ] 15-04-2024 18:30:10 [main] Testcase_Register_Page - Testcase 05 - Step 01: Re-click to Register link
+[INFO ] 15-04-2024 18:30:11 [main] Testcase_Register_Page - Testcase 05 - Step 02: Input Password less than 6 characters
+[INFO ] 15-04-2024 18:30:11 [main] Testcase_Register_Page - Testcase 05 - Step 03: Click to Register button
+[INFO ] 15-04-2024 18:30:11 [main] Testcase_Register_Page - Testcase 05 - Step 04: Verify displays error message input Password less than 6 characters
+[INFO ] 15-04-2024 18:30:11 [main] Testcase_Register_Page - Testcase 06 --- Register with confirm password not match password ---
+[INFO ] 15-04-2024 18:30:11 [main] Testcase_Register_Page - Testcase 06 - Step 01: Input to Password textbox
+[INFO ] 15-04-2024 18:30:11 [main] Testcase_Register_Page - Testcase 06 - Step 02: Input to Confirm Password not match Password textbox
+[INFO ] 15-04-2024 18:30:11 [main] Testcase_Register_Page - Testcase 06 - Step 03: Click to Register button
+[INFO ] 15-04-2024 18:30:11 [main] Testcase_Register_Page - Testcase 06 - Step 04: Verify Message Confirm Password not match Password is displayed
+[INFO ] 15-04-2024 18:30:12 [main] Testcase_Login_Page -  ----- Preconditons: Open Home Page ----- 
+[INFO ] 15-04-2024 18:30:13 [main] Testcase_Login_Page -  ----- Preconditions: Navigate to Login page ----- 
+[INFO ] 15-04-2024 18:30:14 [main] Testcase_Login_Page - Testcase 01 --- Login with empty data ---
+[INFO ] 15-04-2024 18:30:14 [main] Testcase_Login_Page - Testcase 01 - Step 01: Click to Login button
+[INFO ] 15-04-2024 18:30:14 [main] Testcase_Login_Page - Testcase 01 - Step 02: Verify Email error message is displayed
+[INFO ] 15-04-2024 18:30:14 [main] Testcase_Login_Page - Testcase 02 --- Login with empty email ---
+[INFO ] 15-04-2024 18:30:14 [main] Testcase_Login_Page - Testcase 02 - Step 01: Input invalid data to mail textbox
+[INFO ] 15-04-2024 18:30:14 [main] Testcase_Login_Page - Testcase 02 - Step 02: Click to Login button
+[INFO ] 15-04-2024 18:30:14 [main] Testcase_Login_Page - Testcase 02 - Step 03: Verify Wrong Email message is displayed
+[INFO ] 15-04-2024 18:30:14 [main] Testcase_Login_Page - Testcase 03 --- Login with email not register ---
+[INFO ] 15-04-2024 18:32:12 [main] Testcase_Register_Page - Testcase 01 --- Register with empty data ---
+[INFO ] 15-04-2024 18:32:12 [main] Testcase_Register_Page - Testcase 01 - Step 01: Open Nopcommerce Page
+[INFO ] 15-04-2024 18:32:13 [main] Testcase_Register_Page - Testcase 01 - Step 02: Click to Register Link
+[INFO ] 15-04-2024 18:32:13 [main] Testcase_Register_Page - Testcase 01 - Step 03: Click to Register Button
+[INFO ] 15-04-2024 18:32:13 [main] Testcase_Register_Page - Testcase 01 - Step 04: Verify displays First Name error message
+[INFO ] 15-04-2024 18:32:40 [main] Testcase_Register_Page - Testcase 01 --- Register with empty data ---
+[INFO ] 15-04-2024 18:32:40 [main] Testcase_Register_Page - Testcase 01 - Step 01: Open Nopcommerce Page
+[INFO ] 15-04-2024 18:32:41 [main] Testcase_Register_Page - Testcase 01 - Step 02: Click to Register Link
+[INFO ] 15-04-2024 18:32:42 [main] Testcase_Register_Page - Testcase 01 - Step 03: Click to Register Button
+[INFO ] 15-04-2024 18:32:42 [main] Testcase_Register_Page - Testcase 01 - Step 04: Verify displays First Name error message
+[INFO ] 15-04-2024 18:33:40 [main] Testcase_Register_Page - Testcase 01 --- Register with empty data ---
+[INFO ] 15-04-2024 18:33:40 [main] Testcase_Register_Page - Testcase 01 - Step 01: Open Nopcommerce Page
+[INFO ] 15-04-2024 18:33:41 [main] Testcase_Register_Page - Testcase 01 - Step 02: Click to Register Link
+[INFO ] 15-04-2024 18:33:41 [main] Testcase_Register_Page - Testcase 01 - Step 03: Click to Register Button
+[INFO ] 15-04-2024 18:33:41 [main] Testcase_Register_Page - Testcase 01 - Step 04: Verify displays First Name error message
+[INFO ] 15-04-2024 18:33:41 [main] Testcase_Register_Page - Testcase 01 - Step 05: Verify displays Last Name error message
+[INFO ] 15-04-2024 18:33:41 [main] Testcase_Register_Page - Testcase 01 - Step 06: Verify displays Email error message
+[INFO ] 15-04-2024 18:33:42 [main] Testcase_Register_Page - Testcase 01 - Step 07: Verify displays Password error message
+[INFO ] 15-04-2024 18:33:42 [main] Testcase_Register_Page - Testcase 01 - Step 08: Verify displays Confirm Password error message
+[INFO ] 15-04-2024 18:33:42 [main] Testcase_Register_Page - Testcase 02 --- Register with invalid email ---
+[INFO ] 15-04-2024 18:33:42 [main] Testcase_Register_Page - Testcase 02 - Step 01: Input to First Name textbox
+[INFO ] 15-04-2024 18:33:42 [main] Testcase_Register_Page - Testcase 02 - Step 02: Input to Last Name textbox
+[INFO ] 15-04-2024 18:33:42 [main] Testcase_Register_Page - Testcase 02 - Step 03: Input to Email textbox
+[INFO ] 15-04-2024 18:33:42 [main] Testcase_Register_Page - Testcase 02 - Step 04: Input to Password textbox
+[INFO ] 15-04-2024 18:33:42 [main] Testcase_Register_Page - Testcase 02 - Step 05: Input to Confirm Password textbox
+[INFO ] 15-04-2024 18:33:42 [main] Testcase_Register_Page - Testcase 02 - Step 06: Verify displays Wrong Email message
+[INFO ] 15-04-2024 18:33:43 [main] Testcase_Register_Page - Testcase 03 --- Register successfully ---
+[INFO ] 15-04-2024 18:33:43 [main] Testcase_Register_Page - Testcase 03 - Step 01: Input valid First Name to textbox
+[INFO ] 15-04-2024 18:33:43 [main] Testcase_Register_Page - Testcase 03 - Step 02: Input valid Last Name to textbox
+[INFO ] 15-04-2024 18:33:43 [main] Testcase_Register_Page - Testcase 03 - Step 03: Input valid Email to textbox
+[INFO ] 15-04-2024 18:33:43 [main] Testcase_Register_Page - Testcase 03 - Step 04: Input valid Password to textbox
+[INFO ] 15-04-2024 18:33:43 [main] Testcase_Register_Page - Testcase 03 - Step 05: Input valid Confirm Password to textbox
+[INFO ] 15-04-2024 18:33:43 [main] Testcase_Register_Page - Testcase 03 - Step 06: Click to Register button
+[INFO ] 15-04-2024 18:33:44 [main] Testcase_Register_Page - Testcase 03 - Step 07: Verify success message is displayed
+[INFO ] 15-04-2024 18:33:44 [main] Testcase_Register_Page - Testcase 03 - Step 08: Click to Continue button
+[INFO ] 15-04-2024 18:33:44 [main] Testcase_Register_Page - Testcase 04 --- Register with duplicate email ---
+[INFO ] 15-04-2024 18:33:44 [main] Testcase_Register_Page - Testcase 04 - Step 01: Re-click to Register link
+[INFO ] 15-04-2024 18:33:46 [main] Testcase_Register_Page - Testcase 04 - Step 02: Re-input to First Name textbox
+[INFO ] 15-04-2024 18:33:46 [main] Testcase_Register_Page - Testcase 04 - Step 03: Re-input to Last Name textbox
+[INFO ] 15-04-2024 18:33:46 [main] Testcase_Register_Page - Testcase 04 - Step 04: Re-input to Email textbox
+[INFO ] 15-04-2024 18:33:46 [main] Testcase_Register_Page - Testcase 04 - Step 05: Re-input to Password textbox
+[INFO ] 15-04-2024 18:33:46 [main] Testcase_Register_Page - Testcase 04 - Step 06: Re-input to Confirm Password textbox
+[INFO ] 15-04-2024 18:33:46 [main] Testcase_Register_Page - Testcase 04 - Step 07: Click to Register button
+[INFO ] 15-04-2024 18:33:47 [main] Testcase_Register_Page - Testcase 04 - Step 08: Verify displays Duplicate Email message
+[INFO ] 15-04-2024 18:33:47 [main] Testcase_Register_Page - Testcase 05 --- Register with password less than 6 characters ---
+[INFO ] 15-04-2024 18:33:47 [main] Testcase_Register_Page - Testcase 05 - Step 01: Re-click to Register link
+[INFO ] 15-04-2024 18:33:47 [main] Testcase_Register_Page - Testcase 05 - Step 02: Input Password less than 6 characters
+[INFO ] 15-04-2024 18:33:47 [main] Testcase_Register_Page - Testcase 05 - Step 03: Click to Register button
+[INFO ] 15-04-2024 18:33:47 [main] Testcase_Register_Page - Testcase 05 - Step 04: Verify displays error message input Password less than 6 characters
+[INFO ] 15-04-2024 18:33:47 [main] Testcase_Register_Page - Testcase 06 --- Register with confirm password not match password ---
+[INFO ] 15-04-2024 18:33:48 [main] Testcase_Register_Page - Testcase 06 - Step 01: Input to Password textbox
+[INFO ] 15-04-2024 18:33:48 [main] Testcase_Register_Page - Testcase 06 - Step 02: Input to Confirm Password not match Password textbox
+[INFO ] 15-04-2024 18:33:48 [main] Testcase_Register_Page - Testcase 06 - Step 03: Click to Register button
+[INFO ] 15-04-2024 18:33:48 [main] Testcase_Register_Page - Testcase 06 - Step 04: Verify Message Confirm Password not match Password is displayed
+[INFO ] 15-04-2024 18:33:49 [main] Testcase_Login_Page -  ----- Preconditons: Open Home Page ----- 
+[INFO ] 15-04-2024 18:33:50 [main] Testcase_Login_Page -  ----- Preconditions: Navigate to Login page ----- 
+[INFO ] 15-04-2024 18:33:51 [main] Testcase_Login_Page - Testcase 01 --- Login with empty data ---
+[INFO ] 15-04-2024 18:33:51 [main] Testcase_Login_Page - Testcase 01 - Step 01: Click to Login button
+[INFO ] 15-04-2024 18:33:51 [main] Testcase_Login_Page - Testcase 01 - Step 02: Verify Email error message is displayed
+[INFO ] 15-04-2024 18:33:51 [main] Testcase_Login_Page - Testcase 02 --- Login with empty email ---
+[INFO ] 15-04-2024 18:33:51 [main] Testcase_Login_Page - Testcase 02 - Step 01: Input invalid data to mail textbox
+[INFO ] 15-04-2024 18:33:51 [main] Testcase_Login_Page - Testcase 02 - Step 02: Click to Login button
+[INFO ] 15-04-2024 18:33:51 [main] Testcase_Login_Page - Testcase 02 - Step 03: Verify Wrong Email message is displayed
+[INFO ] 15-04-2024 18:33:52 [main] Testcase_Login_Page - Testcase 03 --- Login with email not register ---

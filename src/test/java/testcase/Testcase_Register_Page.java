@@ -3,15 +3,14 @@ package testcase;
 import common.BaseTest;
 import object.HomePageObject;
 import object.RegisterPageObject;
-import org.apache.hc.core5.reactor.Command;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
-import org.apache.logging.log4j.core.net.Priority;
 import org.openqa.selenium.WebDriver;
 import org.testng.annotations.AfterClass;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Parameters;
 import org.testng.annotations.Test;
+import testdata.DataTests;
 
 public class Testcase_Register_Page extends BaseTest {
     private static final Logger logger = LogManager.getLogger();
@@ -27,7 +26,7 @@ public class Testcase_Register_Page extends BaseTest {
     }
     @AfterClass
     public void afterClass() {
-        closedBrowser();
+        quitBrowser();
     }
 
     @Test
@@ -66,30 +65,24 @@ public class Testcase_Register_Page extends BaseTest {
 
     @Test
     public void Testcase_02_Register_with_invalid_email() {
-        firstName = "Van A";
-        lastName = "Nguyen";
-        errorMail = "automationFC";
-        email = "automationFC" + randomNumber() + "@gmail.com";
-        password = "huy123456";
-        cfPassword = password;
 
         logger.info("Testcase 02 --- Register with invalid email ---");
         refreshToPage(driver);
 
         logger.info("Testcase 02 - Step 01: Input to First Name textbox");
-        registerPageObject.inputToFirstNameTextbox(firstName);
+        registerPageObject.inputToFirstNameTextbox(DataTests.firstName);
 
         logger.info("Testcase 02 - Step 02: Input to Last Name textbox");
-        registerPageObject.inputToLastNameTextbox(lastName);
+        registerPageObject.inputToLastNameTextbox(DataTests.lastName);
 
         logger.info("Testcase 02 - Step 03: Input to Email textbox");
-        registerPageObject.inputToEmailNameTextbox(errorMail);
+        registerPageObject.inputToEmailNameTextbox(DataTests.errorMail);
 
         logger.info("Testcase 02 - Step 04: Input to Password textbox");
-        registerPageObject.inputToPasswordTextbox(password);
+        registerPageObject.inputToPasswordTextbox(DataTests.password);
 
         logger.info("Testcase 02 - Step 05: Input to Confirm Password textbox");
-        registerPageObject.inputToConfirmPasswordTextbox(cfPassword);
+        registerPageObject.inputToConfirmPasswordTextbox(DataTests.cfPassword);
 
         logger.info("Testcase 02 - Step 06: Verify displays Wrong Email message");
         registerPageObject.VerifyWrongEmailMessage("Wrong email");
@@ -101,19 +94,19 @@ public class Testcase_Register_Page extends BaseTest {
         refreshToPage(driver);
 
         logger.info("Testcase 03 - Step 01: Input valid First Name to textbox");
-        registerPageObject.inputValidFirstNameTextbox(firstName);
+        registerPageObject.inputValidFirstNameTextbox(DataTests.firstName);
 
         logger.info("Testcase 03 - Step 02: Input valid Last Name to textbox");
-        registerPageObject.inputValidLastNameTextbox(lastName);
+        registerPageObject.inputValidLastNameTextbox(DataTests.lastName);
 
         logger.info("Testcase 03 - Step 03: Input valid Email to textbox");
-        registerPageObject.inputValidEmailTextbox(email);
+        registerPageObject.inputValidEmailTextbox(DataTests.email);
 
         logger.info("Testcase 03 - Step 04: Input valid Password to textbox");
-        registerPageObject.inputValidPasswordTextbox(password);
+        registerPageObject.inputValidPasswordTextbox(DataTests.password);
 
         logger.info("Testcase 03 - Step 05: Input valid Confirm Password to textbox");
-        registerPageObject.inputValidConfirmPasswordTextbox(cfPassword);
+        registerPageObject.inputValidConfirmPasswordTextbox(DataTests.cfPassword);
 
         logger.info("Testcase 03 - Step 06: Click to Register button");
         registerPageObject.clickToRegisterButton();
@@ -127,7 +120,6 @@ public class Testcase_Register_Page extends BaseTest {
 
     @Test
     public void Testcase_04_Register_duplicate_email(){
-        dupEmail = email;
         logger.info("Testcase 04 --- Register with duplicate email ---");
 
         homePageObject = new HomePageObject(driver);
@@ -138,19 +130,19 @@ public class Testcase_Register_Page extends BaseTest {
         registerPageObject = new RegisterPageObject(driver);
 
         logger.info("Testcase 04 - Step 02: Re-input to First Name textbox");
-        registerPageObject.inputToFirstNameTextbox(firstName);
+        registerPageObject.inputToFirstNameTextbox(DataTests.firstName);
 
         logger.info("Testcase 04 - Step 03: Re-input to Last Name textbox");
-        registerPageObject.inputToLastNameTextbox(lastName);
+        registerPageObject.inputToLastNameTextbox(DataTests.lastName);
 
         logger.info("Testcase 04 - Step 04: Re-input to Email textbox");
-        registerPageObject.inputToEmailNameTextbox(dupEmail);
+        registerPageObject.inputToEmailNameTextbox(DataTests.dupEmail);
 
         logger.info("Testcase 04 - Step 05: Re-input to Password textbox");
-        registerPageObject.inputToPasswordTextbox(password);
+        registerPageObject.inputToPasswordTextbox(DataTests.password);
 
         logger.info("Testcase 04 - Step 06: Re-input to Confirm Password textbox");
-        registerPageObject.inputToConfirmPasswordTextbox(cfPassword);
+        registerPageObject.inputToConfirmPasswordTextbox(DataTests.cfPassword);
 
         logger.info("Testcase 04 - Step 07: Click to Register button");
         registerPageObject.clickToRegisterButton();
@@ -161,7 +153,6 @@ public class Testcase_Register_Page extends BaseTest {
 
     @Test
     public void Testcase_05_Register_with_password_less_than_6_characters(){
-        errorPassword = "12345";
 
         logger.info("Testcase 05 --- Register with password less than 6 characters ---");
         homePageObject = new HomePageObject(driver);
@@ -172,7 +163,7 @@ public class Testcase_Register_Page extends BaseTest {
         registerPageObject = new RegisterPageObject(driver);
 
         logger.info("Testcase 05 - Step 02: Input Password less than 6 characters");
-        registerPageObject.inputToPasswordTextbox(errorPassword);
+        registerPageObject.inputToPasswordTextbox(DataTests.errorPassword);
 
         logger.info("Testcase 05 - Step 03: Click to Register button");
         registerPageObject.clickToRegisterButton();
@@ -187,10 +178,10 @@ public class Testcase_Register_Page extends BaseTest {
         refreshToPage(driver);
 
         logger.info("Testcase 06 - Step 01: Input to Password textbox");
-        registerPageObject.inputToPasswordTextbox(password);
+        registerPageObject.inputToPasswordTextbox(DataTests.password);
 
         logger.info("Testcase 06 - Step 02: Input to Confirm Password not match Password textbox");
-        registerPageObject.inputToConfirmPasswordTextbox(errorPassword);
+        registerPageObject.inputToConfirmPasswordTextbox(DataTests.errorPassword);
 
         logger.info("Testcase 06 - Step 03: Click to Register button");
         registerPageObject.clickToRegisterButton();

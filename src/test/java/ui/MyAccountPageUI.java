@@ -10,5 +10,7 @@ public class MyAccountPageUI {
     public static final String EMAIL_TEXTBOX = "//input[@name='Email']";
     public static final String COMPANY_TEXTBOX = "//input[@name='Company']";
     public static final String SAVE_BUTTON = "//button[@name='save-info-button']";
-
+    public static final String DAY_SELECTED = "//select[@name='DateOfBirthDay']//option[@selected]";
+    public static final String MONTH_SELECTED = "//select[@name='DateOfBirthMonth']//option[@selected]";
+    public static final String YEAR_SELECTED = "//select[@name='DateOfBirthYear']//option[@selected]";
 }

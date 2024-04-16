@@ -74,6 +74,25 @@ public class Testcase_MyAccount_Page extends BaseTest {
 
         logger.info("Testcase 01 - Step 08: Click save button");
         myAccountPageObject.clickToSaveButton();
+
+        logger.info("Testcase 01 --- Verify information user ---");
+
+        myAccountPageObject.verifyGender();
+
+        myAccountPageObject.verifyValueFirstName(DataTests.valueAttribute, DataTests.firstName_MA);
+
+        myAccountPageObject.verifyValueLastName(DataTests.valueAttribute, DataTests.lastName_MA);
+
+        myAccountPageObject.verifyValueDateOfBirth(DataTests.day_MA, DataTests.month_MA, DataTests.year_MA);
+
+        myAccountPageObject.verifyValueEmail(DataTests.valueAttribute, DataTests.email_MA);
+
+        myAccountPageObject.verifyValueCompanyName(DataTests.valueAttribute, DataTests.companyName_MA);
+
     }
 
+
+    public void Testcase_02_Add_address(){
+
+    }
 }

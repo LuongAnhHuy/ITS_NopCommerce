@@ -29,4 +29,8 @@ public class DataTests extends BaseTest {
     public static final String year_MA = "1999";
     public static final String email_MA = "automationfc.vn" + randomNumber() + "@gmail.com";
     public static final String companyName_MA = "Automation FC";
+
+    // Data: Attribute
+    public static final String valueAttribute = "value";
+    public static final String valueAttributeDOB = "selected";
 }

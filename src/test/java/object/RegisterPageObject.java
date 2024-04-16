@@ -3,7 +3,6 @@ package object;
 import common.AbstractPage;
 import org.openqa.selenium.WebDriver;
 import org.testng.Assert;
-import ui.HomePageUI;
 import ui.RegisterPageUI;
 
 public class RegisterPageObject extends AbstractPage {

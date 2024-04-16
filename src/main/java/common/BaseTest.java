@@ -44,7 +44,6 @@ public class BaseTest extends AbstractPage {
         Random rand = new Random();
         return rand.nextInt(999);
     }
-    public Logger logger = LogManager.getLogger();
 
 
 }

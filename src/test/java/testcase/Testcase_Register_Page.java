@@ -1,23 +1,20 @@
 package testcase;
 
 import common.BaseTest;
-import object.HomePageObject;
+import object.HeaderPageObject;
 import object.RegisterPageObject;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 import org.openqa.selenium.WebDriver;
-import org.testng.annotations.AfterClass;
-import org.testng.annotations.BeforeClass;
-import org.testng.annotations.Parameters;
-import org.testng.annotations.Test;
+import org.testng.annotations.*;
 import testdata.DataTests;
 
 public class Testcase_Register_Page extends BaseTest {
     private static final Logger logger = LogManager.getLogger();
     WebDriver driver;
     RegisterPageObject registerPageObject;
-    HomePageObject homePageObject;
-    String currentURL, firstName, lastName, email, dupEmail, errorMail, password, errorPassword,  cfPassword;
+    HeaderPageObject headerPageObject;
+    String currentURL;
 
     @Parameters("browser")
     @BeforeClass
@@ -37,10 +34,10 @@ public class Testcase_Register_Page extends BaseTest {
         openUrl(driver, "https://demo.nopcommerce.com/");
         currentURL = getCurrentUrl(driver);
 
-        homePageObject = new HomePageObject(driver);
+        headerPageObject = new HeaderPageObject(driver);
 
         logger.info("Testcase 01 - Step 02: Click to Register Link");
-        homePageObject.clickToRegisterLink();
+        headerPageObject.clickToRegisterLink();
 
         registerPageObject = new RegisterPageObject(driver);
 
@@ -122,10 +119,10 @@ public class Testcase_Register_Page extends BaseTest {
     public void Testcase_04_Register_duplicate_email(){
         logger.info("Testcase 04 --- Register with duplicate email ---");
 
-        homePageObject = new HomePageObject(driver);
+        headerPageObject = new HeaderPageObject(driver);
 
         logger.info("Testcase 04 - Step 01: Re-click to Register link");
-        homePageObject.clickToRegisterLink();
+        headerPageObject.clickToRegisterLink();
 
         registerPageObject = new RegisterPageObject(driver);
 
@@ -136,7 +133,7 @@ public class Testcase_Register_Page extends BaseTest {
         registerPageObject.inputToLastNameTextbox(DataTests.lastName);
 
         logger.info("Testcase 04 - Step 04: Re-input to Email textbox");
-        registerPageObject.inputToEmailNameTextbox(DataTests.dupEmail);
+        registerPageObject.inputToEmailNameTextbox(DataTests.emailRegistered);
 
         logger.info("Testcase 04 - Step 05: Re-input to Password textbox");
         registerPageObject.inputToPasswordTextbox(DataTests.password);
@@ -155,10 +152,10 @@ public class Testcase_Register_Page extends BaseTest {
     public void Testcase_05_Register_with_password_less_than_6_characters(){
 
         logger.info("Testcase 05 --- Register with password less than 6 characters ---");
-        homePageObject = new HomePageObject(driver);
+        headerPageObject = new HeaderPageObject(driver);
 
         logger.info("Testcase 05 - Step 01: Re-click to Register link");
-        homePageObject.clickToRegisterLink();
+        headerPageObject.clickToRegisterLink();
 
         registerPageObject = new RegisterPageObject(driver);
 

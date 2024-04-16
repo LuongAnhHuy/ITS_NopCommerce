@@ -3,6 +3,7 @@ package object;
 import common.AbstractPage;
 import org.openqa.selenium.WebDriver;
 import org.testng.Assert;
+import ui.HeaderPageUI;
 import ui.LoginPageUI;
 
 public class LoginPageObject extends AbstractPage {
@@ -31,7 +32,7 @@ public class LoginPageObject extends AbstractPage {
         isControlDisplayed(driver, LoginPageUI.EMAIL_WRONG_MESSAGE);
     }
 
-    public void inputNotExistEmail(String email) {
+    public void inputToEmailTextbox(String email) {
         waitToElementVisible(driver, LoginPageUI.EMAIL_TEXTBOX);
         sendkeyToElement(driver, LoginPageUI.EMAIL_TEXTBOX, email);
     }
@@ -41,8 +42,22 @@ public class LoginPageObject extends AbstractPage {
         sendkeyToElement(driver, LoginPageUI.PASSWORD_TEXTBOX, password);
     }
 
-    public void verifyNotExistEmail() {
+    public void verifyNotExistEmail(String expected) {
         //waitToElementVisible(driver, LoginPageUI.EMAIL_NOT_EXIST_MESSAGE);
-        isControlDisplayed(driver, LoginPageUI.EMAIL_NOT_EXIST_MESSAGE);
+        isControlDisplayed(driver, LoginPageUI.ERROR_MESSAGE);
+        String actual = getTextElement(driver, LoginPageUI.ERROR_MESSAGE);
+        Assert.assertEquals(actual, expected);
+
+    }
+
+    public void verifyErrorMessage(String expected) {
+        isControlDisplayed(driver, LoginPageUI.ERROR_MESSAGE);
+        String actual = getTextElement(driver, LoginPageUI.ERROR_MESSAGE);
+        Assert.assertEquals(actual, expected);
+    }
+
+    public void verifyLoginSuccessfully() {
+        boolean myAccount = isControlDisplayed(driver, HeaderPageUI.MYACCOUNT_LINK);
+        Assert.assertTrue(myAccount);
     }
 }

@@ -5,16 +5,20 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2cc7d2c5-d061-4aa3-b592-6d46b50f28d1" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/object/LoginPageObject.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/testcase/Testcase_Login_Page.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/testdata/DataTests.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/ui/LoginPageUI.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/object/MyAccountPageObject.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/testcase/Testcase_MyAccount_Page.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/ui/MyAccountPageUI.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/logs/app-properties.txt" beforeDir="false" afterPath="$PROJECT_DIR$/logs/app-properties.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/common/BaseTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/common/BaseTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/object/HomePageObject.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/object/HomePageObject.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/object/HomePageObject.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/object/HeaderPageObject.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/object/LoginPageObject.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/object/LoginPageObject.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/object/RegisterPageObject.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/object/RegisterPageObject.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/testcase/Testcase_Login_Page.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/testcase/Testcase_Login_Page.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/testcase/Testcase_Register_Page.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/testcase/Testcase_Register_Page.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/ui/HomePageUI.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ui/HomePageUI.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/testdata/DataTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/testdata/DataTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/ui/HomePageUI.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ui/HeaderPageUI.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/ui/LoginPageUI.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ui/LoginPageUI.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/resources/RunTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/RunTest.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -46,20 +50,21 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "TestNG.E:/Project/Automation/Demo_NopCommerce/src/test/resources/RunTest.xml.executor": "Debug",
+    "TestNG.E:/Project/Automation/Demo_NopCommerce/src/test/resources/RunTest.xml.executor": "Run",
     "TestNG.Testcase_01_Register.Testcase_01_Register_with_empty_data.executor": "Run",
     "TestNG.Testcase_01_Register.executor": "Run",
     "TestNG.Testcase_Login_Page.Testcase_03_Login_with_email_not_register.executor": "Debug",
     "TestNG.Testcase_Login_Page.executor": "Run",
     "git-widget-placeholder": "master",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "E:/Project/Automation/Demo_NopCommerce/src/test",
+    "last_opened_file_path": "E:/Project/Automation/ITS_HamCoBan",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
     "onboarding.tips.debug.path": "E:/Project/Automation/Demo_NopCommerce/src/main/java/Framework/Main.java",
+    "settings.editor.selected.configurable": "preferences.keymap",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
@@ -167,5 +172,9 @@
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
 </project>

@@ -79,20 +79,25 @@ public class Testcase_MyAccount_Page extends BaseTest {
 
         myAccountPageObject.verifyGender();
 
+        logger.info("Testcase 01 - Step 09: Verify Female is selected");
         myAccountPageObject.verifyValueFirstName(DataTests.valueAttribute, DataTests.firstName_MA);
 
+        logger.info("Testcase 01 - Step 10: Verify value of first name is updated is Automation");
         myAccountPageObject.verifyValueLastName(DataTests.valueAttribute, DataTests.lastName_MA);
 
+        logger.info("Testcase 01 - Step 11: Verify value of last name is updated is FC");
         myAccountPageObject.verifyValueDateOfBirth(DataTests.day_MA, DataTests.month_MA, DataTests.year_MA);
 
+        logger.info("Testcase 01 - Step 12: Verify value of email is updated is automationfc.vn@gmail.com");
         myAccountPageObject.verifyValueEmail(DataTests.valueAttribute, DataTests.email_MA);
 
+        logger.info("Testcase 01 - Step 13: Verify value of Company Name is updated is Automation FC");
         myAccountPageObject.verifyValueCompanyName(DataTests.valueAttribute, DataTests.companyName_MA);
 
     }
 
-
-    public void Testcase_02_Add_address(){
+    @Test
+    public void Testcase_02_Add_address() {
 
     }
 }

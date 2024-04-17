@@ -1,12 +1,14 @@
 package testdata;
 
+import common.AbstractPage;
 import common.BaseTest;
 
-public class DataTests extends BaseTest {
+public class DataTests extends AbstractPage {
     // Data: Register Page
     public static final String firstName = "Van A";
     public static final String lastName = "Nguyen";
     public static final String email = "automationfc" + randomNumber() + "@gmail.com";
+
     public static final String emailRegistered = email;
     public static final String errorMail = "automationfc";
     public static final String password = "huy123456";

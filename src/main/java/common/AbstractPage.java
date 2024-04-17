@@ -7,6 +7,7 @@ import org.openqa.selenium.support.ui.Select;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
 import java.util.List;
+import java.util.Random;
 import java.util.concurrent.TimeUnit;
 
 public abstract class AbstractPage {
@@ -68,6 +69,11 @@ public abstract class AbstractPage {
 
     public void implicitWaitBrowser(WebDriver driver) {
         driver.manage().timeouts().implicitlyWait(15, TimeUnit.SECONDS);
+    }
+
+    protected static int randomNumber() {
+        Random rand = new Random();
+        return rand.nextInt(999);
     }
 
     public void waitToAlertPresence (WebDriver driver) {

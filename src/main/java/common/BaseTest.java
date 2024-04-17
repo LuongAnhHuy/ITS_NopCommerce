@@ -40,11 +40,5 @@ public class BaseTest extends AbstractPage {
         return driver;
     }
 
-    protected static int randomNumber() {
-        Random rand = new Random();
-        return rand.nextInt(999);
-    }
-
-
 }
 

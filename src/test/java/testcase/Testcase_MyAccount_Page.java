@@ -94,10 +94,85 @@ public class Testcase_MyAccount_Page extends BaseTest {
         logger.info("Testcase 01 - Step 13: Verify value of Company Name is updated is Automation FC");
         myAccountPageObject.verifyValueCompanyName(DataTests.valueAttribute, DataTests.companyName_MA);
 
+        refreshToPage(driver);
+
     }
 
     @Test
     public void Testcase_02_Add_address() {
+        logger.info("Testcase 02 --- My account - Add new address ---");
 
+        myAccountPageObject = new MyAccountPageObject(driver);
+
+        logger.info("Testcase 02 - Step 01: Click to Address Link");
+        myAccountPageObject.clickToAddressLink();
+
+        logger.info("Testcase 02 - Step 02: Click to Add New button");
+        myAccountPageObject.clickToAddNewButton();
+
+        logger.info("Testcase 02 - Step 03: Input to first name textbox");
+        myAccountPageObject.inputToFirstNameAddress(DataTests.firstName_ADD);
+
+        logger.info("Testcase 02 - Step 04: Input to last name textbox");
+        myAccountPageObject.inputToLastNameAddress(DataTests.lastName_ADD);
+
+        logger.info("Testcase 02 - Step 05: Input to email textbox");
+        myAccountPageObject.inputToEmailTextboxAddress(DataTests.email_ADD);
+
+        logger.info("Testcase 02 - Step 06: Input to company textbox");
+        myAccountPageObject.inputCompanyTextboxAddress(DataTests.company_ADD);
+
+        logger.info("Testcase 02 - Step 07: Select value in country dropdown list");
+        myAccountPageObject.selectCountryDropdown(DataTests.country_ADD);
+
+        logger.info("Testcase 02 - Step 08: Input to city textbox");
+        myAccountPageObject.inputToCityTextboxAddress(DataTests.city_ADD);
+
+        logger.info("Testcase 02 - Step 09: Input to Address 1 textbox");
+        myAccountPageObject.inputToAddress1Textbox(DataTests.address1_ADD);
+
+        logger.info("Testcase 02 - Step 10: Input to Address 2 textbox");
+        myAccountPageObject.inputToAddress2Textbox(DataTests.address2_ADD);
+
+        logger.info("Testcase 02 - Step 11: Input to zip code textbox");
+        myAccountPageObject.inputToZipCodeTextboxAddress(DataTests.zipCode_ADD);
+
+        logger.info("Testcase 02 - Step 12: Input to phone number textbox");
+        myAccountPageObject.inputToPhoneTextboxAddress(DataTests.phoneNumber_ADD);
+
+        logger.info("Testcase 02 - Step 13: Input to fax number textbox");
+        myAccountPageObject.inputToFaxTextboxAddress(DataTests.faxNumber_ADD);
+
+        logger.info("Testcase 02 - Step 14: Click to Save button");
+        myAccountPageObject.clickToSaveButtonAddress();
+
+        logger.info("Testcase 02 --- Verify Add Address Successfully ---");
+
+        logger.info("Testcase 02 - Step 15: Verify name (first + last name) is displayed");
+        myAccountPageObject.verifyNameAddress(DataTests.name_verify);
+
+        logger.info("Testcase 02 - Step 16: Verify email is displayed");
+        myAccountPageObject.verifyEmailAddress(DataTests.email_verify);
+
+        logger.info("Testcase 02 - Step 17: Verify phone number is displayed");
+        myAccountPageObject.verifyPhoneNumberAddress(DataTests.phoneNumber_verify);
+
+        logger.info("Testcase 02 - Step 18: Verify fax number is displayed");
+        myAccountPageObject.verifyFaxNumberAddress(DataTests.faxNumber_verify);
+
+        logger.info("Testcase 02 - Step 19: Verify company is displayed");
+        myAccountPageObject.verifyCompanyAddress(DataTests.company_verify);
+
+        logger.info("Testcase 02 - Step 20: Verify address 1 is displayed");
+        myAccountPageObject.verifyAddress1(DataTests.address1_verify);
+
+        logger.info("Testcase 02 - Step 21: Verify address 2 is displayed");
+        myAccountPageObject.verifyAddress2(DataTests.address2_verify);
+
+        logger.info("Testcase 02 - Step 22: Verify city + state + zip is displayed");
+        myAccountPageObject.verifyCityStateZip(DataTests.city_state_zip_verify);
+
+        logger.info("Testcase 02 - Step 23: Verify country is displayed");
+        myAccountPageObject.verifyCountry(DataTests.country_verify);
     }
 }

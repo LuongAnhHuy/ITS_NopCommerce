@@ -35,4 +35,28 @@ public class DataTests extends AbstractPage {
     // Data: Attribute
     public static final String valueAttribute = "value";
     public static final String valueAttributeDOB = "selected";
+
+    // Data: Add Address
+    public static final String firstName_ADD = "Automation";
+    public static final String lastName_ADD = "FC";
+    public static final String email_ADD = "automationfc.vn@gmail.com";
+    public static final String company_ADD = "Automation FC";
+    public static final String country_ADD = "Viet Nam";
+    public static final String city_ADD = "Da Nang";
+    public static final String address1_ADD = "123/04 Le Lai";
+    public static final String address2_ADD = "234/05 Hai Phong";
+    public static final String zipCode_ADD = "550000";
+    public static final String phoneNumber_ADD = "0123456789";
+    public static final String faxNumber_ADD = "0987654321";
+
+    // Data: Verify Add Address
+    public static final String name_verify = firstName_ADD + " " +lastName_ADD;
+    public static final String email_verify = "Email: " + email_ADD;
+    public static final String phoneNumber_verify = "Phone number: " + phoneNumber_ADD;
+    public static final String faxNumber_verify = "Fax number: " + faxNumber_ADD;
+    public static final String company_verify = company_ADD;
+    public static final String address1_verify = address1_ADD;
+    public static final String address2_verify = address2_ADD;
+    public static final String city_state_zip_verify = city_ADD + ", " + zipCode_ADD;
+    public static final String country_verify = country_ADD;
 }

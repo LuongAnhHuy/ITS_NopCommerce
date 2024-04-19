@@ -1,7 +1,6 @@
 package object;
 
 import common.AbstractPage;
-import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.testng.Assert;
 import ui.MyAccountPageUI;
@@ -77,5 +76,106 @@ public class MyAccountPageObject extends AbstractPage {
     public void verifyValueCompanyName(String value, String expected) {
         String actualCompany = getElementAttribute(driver, MyAccountPageUI.COMPANY_TEXTBOX, value);
         Assert.assertEquals(actualCompany, expected);
+    }
+
+    public void clickToAddressLink() {
+        clickToElement(driver, MyAccountPageUI.ADDRESSES_LINK);
+    }
+
+    public void clickToAddNewButton() {
+        clickToElement(driver, MyAccountPageUI.ADD_NEW_BUTTON);
+    }
+
+    public void inputToFirstNameAddress(String firstName) {
+        sendkeyToElement(driver, MyAccountPageUI.FIRSTNAME_TEXTBOX_ADD, firstName);
+    }
+
+    public void inputToLastNameAddress(String lastName) {
+        sendkeyToElement(driver, MyAccountPageUI.LASTNAME_TEXTBOX_ADD, lastName);
+    }
+
+    public void inputToEmailTextboxAddress(String email) {
+        sendkeyToElement(driver, MyAccountPageUI.EMAIL_TEXTBOX_ADD, email);
+    }
+
+    public void inputCompanyTextboxAddress(String company) {
+        sendkeyToElement(driver, MyAccountPageUI.COMPANY_TEXTBOX_ADD, company);
+    }
+
+    public void selectCountryDropdown(String valueCountry) {
+        selectItemInDropdow(driver, MyAccountPageUI.COUNTRY_DROPDOWN, valueCountry);
+    }
+
+    public void inputToCityTextboxAddress(String city) {
+        sendkeyToElement(driver, MyAccountPageUI.CITY_TEXTBOX, city);
+    }
+
+    public void inputToAddress1Textbox(String address1) {
+        sendkeyToElement(driver, MyAccountPageUI.ADDRESS1_TEXTBOX, address1);
+    }
+
+    public void inputToAddress2Textbox(String address2) {
+        sendkeyToElement(driver, MyAccountPageUI.ADDRESS2_TEXTBOX, address2);
+    }
+
+    public void inputToZipCodeTextboxAddress(String zipCode) {
+        sendkeyToElement(driver, MyAccountPageUI.ZIPCODE_TEXTBOX, zipCode);
+    }
+
+    public void inputToPhoneTextboxAddress(String phone) {
+        sendkeyToElement(driver, MyAccountPageUI.PHONE_TEXTBOX, phone);
+    }
+
+    public void inputToFaxTextboxAddress(String fax) {
+        sendkeyToElement(driver, MyAccountPageUI.FAX_TEXTBOX, fax);
+    }
+
+    public void clickToSaveButtonAddress() {
+        clickToElement(driver, MyAccountPageUI.SAVE_BUTTON_ADD);
+    }
+
+    public void verifyNameAddress(String expected) {
+        String actual = getTextElement(driver, MyAccountPageUI.NAME);
+        Assert.assertEquals(actual, expected);
+    }
+
+    public void verifyEmailAddress(String expected) {
+        String actual = getTextElement(driver, MyAccountPageUI.EMAIL);
+        Assert.assertEquals(actual, expected);
+    }
+
+    public void verifyPhoneNumberAddress(String expected) {
+        String actual = getTextElement(driver, MyAccountPageUI.PHONE);
+        Assert.assertEquals(actual, expected);
+    }
+
+    public void verifyFaxNumberAddress(String expected) {
+        String actual = getTextElement(driver, MyAccountPageUI.FAX);
+        Assert.assertEquals(actual, expected);
+    }
+
+    public void verifyCompanyAddress(String expected) {
+        String actual = getTextElement(driver, MyAccountPageUI.COMPANY);
+        Assert.assertEquals(actual, expected);
+    }
+
+    public void verifyAddress1(String expected) {
+        String actual = getTextElement(driver, MyAccountPageUI.ADDRESS1);
+        Assert.assertEquals(actual, expected);
+    }
+
+    public void verifyAddress2(String expected) {
+        String actual = getTextElement(driver, MyAccountPageUI.ADDRESS2);
+        Assert.assertEquals(actual, expected);
+    }
+
+    public void verifyCityStateZip(String expected) {
+        String actual = getTextElement(driver, MyAccountPageUI.CITY_STATE_ZIP);
+        Assert.assertEquals(actual, expected);
+    }
+
+    public void verifyCountry(String expected) {
+        String actual = getTextElement(driver, MyAccountPageUI.COUNTRY);
+        Assert.assertEquals(actual, expected);
     }
 }

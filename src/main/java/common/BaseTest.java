@@ -16,12 +16,14 @@ public class BaseTest extends AbstractPage {
     protected WebDriver getBrowserDriver(String browserName) {
         switch (browserName) {
             case "chrome":
+                //WebDriverManager.chromedriver().clearDriverCache().setup();
                 WebDriverManager.chromedriver().setup();
                 ChromeOptions chromeOptions = new ChromeOptions();
                 driver = new ChromeDriver(chromeOptions);
                 break;
             case "firefox":
-                WebDriverManager.firefoxdriver().setup();
+                //WebDriverManager.chromedriver().clearDriverCache().setup();
+                WebDriverManager.chromedriver().setup();
                 FirefoxOptions firefoxOptions = new FirefoxOptions();
                 driver = new FirefoxDriver(firefoxOptions);
                 break;

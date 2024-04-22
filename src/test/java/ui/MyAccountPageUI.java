@@ -39,6 +39,14 @@ public class MyAccountPageUI {
     public static final String CITY_STATE_ZIP = "//li[@class='city-state-zip']";
     public static final String COUNTRY = "//li[@class='country']";
 
+    public static final String CHANGE_PASSWORD_LINK = "//li[@class='change-password inactive']//a[text()='Change password']";
+    public static final String OLD_PASSWORD_TEXTBOX = "//input[@id='OldPassword']";
+    public static final String NEW_PASSWORD_TEXTBOX = "//input[@id='NewPassword']";
+    public static final String CONFIRM_PASSWORD_TEXTBOX = "//input[@id='ConfirmNewPassword']";
+    public static final String CHANGE_PASSWORD_BUTTON = "//button[@type='submit' and text()='Change password']";
+    public static final String NOTICE_SUCCESSFULLY = "//p[@class='content']";
+    public static final String CLOSE_BUTTON = "//span[@class='close']";
 
+    public static final String PRODUCT_REVIEW_LINK = "//li[@class='customer-reviews inactive']//a";
 
 }

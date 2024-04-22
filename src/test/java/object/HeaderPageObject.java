@@ -24,4 +24,13 @@ public class HeaderPageObject extends AbstractPage {
         waitToElementClickable(driver, HeaderPageUI.MYACCOUNT_LINK);
         clickToElement(driver, HeaderPageUI.MYACCOUNT_LINK);
     }
+
+    public void clickToLogoutLink() {
+        waitToElementClickable(driver, HeaderPageUI.LOGOUT_LINK);
+        clickToElement(driver, HeaderPageUI.LOGOUT_LINK);
+    }
+
+    public void clickToNopCommerceHeader(){
+        clickToElement(driver, HeaderPageUI.NOPCOMMERCE_HEADER);
+    }
 }

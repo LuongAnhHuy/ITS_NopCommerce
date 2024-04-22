@@ -4,6 +4,7 @@ import common.BaseTest;
 import object.HeaderPageObject;
 import object.LoginPageObject;
 import object.MyAccountPageObject;
+import object.SearchObject;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 import org.openqa.selenium.WebDriver;
@@ -16,6 +17,7 @@ public class Testcase_MyAccount_Page extends BaseTest {
     HeaderPageObject headerPageObject;
     LoginPageObject loginPageObject;
     MyAccountPageObject myAccountPageObject;
+    SearchObject searchObject;
 
     @Parameters("browser")
     @BeforeClass
@@ -174,5 +176,66 @@ public class Testcase_MyAccount_Page extends BaseTest {
 
         logger.info("Testcase 02 - Step 23: Verify country is displayed");
         myAccountPageObject.verifyCountry(DataTests.country_verify);
+        refreshToPage(driver);
+    }
+
+    @Test
+    public void Testcase_03_Change_password(){
+        logger.info("Testcase 03 --- My account - Change password ---");
+        myAccountPageObject = new MyAccountPageObject(driver);
+
+        myAccountPageObject.clickToChangePasswordLink();
+
+        myAccountPageObject.inputToOldPasswordTextbox(DataTests.old_password);
+
+        myAccountPageObject.inputToNewPasswordTextbox(DataTests.new_password);
+
+        myAccountPageObject.inputToConfirmPasswordTextbox(DataTests.cf_password);
+
+        myAccountPageObject.clickToChangePasswordButton();
+
+        myAccountPageObject.verifyChangePasswordSuccessfully();
+
+        refreshToPage(driver);
+
+        loginPageObject = new LoginPageObject(driver);
+
+        loginPageObject.inputToEmailTextbox(DataTests.new_email);
+
+        loginPageObject.inputToPassword(DataTests.old_password);
+
+        loginPageObject.clickToLoginButton();
+
+        loginPageObject.verifyNotExistEmail(DataTests.incorrectEmail);
+
+        headerPageObject = new HeaderPageObject(driver);
+
+        headerPageObject.clickToLoginLink();
+
+        loginPageObject = new LoginPageObject(driver);
+
+        loginPageObject.inputToEmailTextbox(DataTests.new_email);
+
+        loginPageObject.inputToPassword(DataTests.new_password);
+
+        loginPageObject.clickToLoginButton();
+
+        loginPageObject.verifyLoginSuccessfully();
+        refreshToPage(driver);
+    }
+
+    @Test
+    public void Testcase_04_My_Product_Review(){
+        logger.info("Testcase 04 --- My account - My product reviews ---");
+
+        headerPageObject = new HeaderPageObject(driver);
+
+        headerPageObject.clickToNopCommerceHeader();
+
+        searchObject = new SearchObject(driver);
+
+        searchObject.inputToSearchBox(DataTests.mac);
+
+        searchObject.selectToItemInSearchBox();
     }
 }

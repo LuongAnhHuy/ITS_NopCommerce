@@ -3,6 +3,7 @@ package object;
 import common.AbstractPage;
 import org.openqa.selenium.WebDriver;
 import org.testng.Assert;
+import testdata.DataTests;
 import ui.MyAccountPageUI;
 
 public class MyAccountPageObject extends AbstractPage {
@@ -177,5 +178,34 @@ public class MyAccountPageObject extends AbstractPage {
     public void verifyCountry(String expected) {
         String actual = getTextElement(driver, MyAccountPageUI.COUNTRY);
         Assert.assertEquals(actual, expected);
+    }
+
+    public void clickToChangePasswordLink() {
+        clickToElement(driver, MyAccountPageUI.CHANGE_PASSWORD_LINK);
+    }
+
+    public void inputToOldPasswordTextbox(String oldPassword) {
+        sendkeyToElement(driver, MyAccountPageUI.OLD_PASSWORD_TEXTBOX, oldPassword);
+    }
+
+    public void inputToNewPasswordTextbox(String newPassword) {
+        sendkeyToElement(driver, MyAccountPageUI.NEW_PASSWORD_TEXTBOX, newPassword);
+    }
+
+    public void inputToConfirmPasswordTextbox(String cfPassword) {
+        sendkeyToElement(driver, MyAccountPageUI.CONFIRM_PASSWORD_TEXTBOX, cfPassword);
+    }
+
+    public void clickToChangePasswordButton() {
+        clickToElement(driver, MyAccountPageUI.CHANGE_PASSWORD_BUTTON);
+    }
+
+    public void verifyChangePasswordSuccessfully() {
+        boolean notice = isControlDisplayed(driver, MyAccountPageUI.NOTICE_SUCCESSFULLY);
+        Assert.assertTrue(notice);
+    }
+
+    public void clickToCloseButton() {
+        clickToElement(driver, MyAccountPageUI.CLOSE_BUTTON);
     }
 }

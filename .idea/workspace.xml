@@ -5,15 +5,18 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2cc7d2c5-d061-4aa3-b592-6d46b50f28d1" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_4_15_2024_8_58_PM__Changes_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_4_15_2024_8_58_PM__Changes_.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/object/SearchObject.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/ui/SearchUI.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Java_BE/Employee.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Java_BE/Main.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Java_BE/Manager.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Java_Buoi_3/KhachSan/QuanLy.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Java_Buoi_3/KhachSan/main.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Java_Buoi_3/Main.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Java_Buoi_3/User.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/app-properties.txt" beforeDir="false" afterPath="$PROJECT_DIR$/logs/app-properties.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/object/HeaderPageObject.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/object/HeaderPageObject.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/object/LoginPageObject.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/object/LoginPageObject.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/object/MyAccountPageObject.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/object/MyAccountPageObject.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/testcase/Testcase_MyAccount_Page.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/testcase/Testcase_MyAccount_Page.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/testdata/DataTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/testdata/DataTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/ui/HeaderPageUI.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ui/HeaderPageUI.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/ui/MyAccountPageUI.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ui/MyAccountPageUI.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,29 +42,29 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;TestNG.E:/Project/Automation/Demo_NopCommerce/src/test/resources/RunTest.xml.executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.Testcase_01_Register.Testcase_01_Register_with_empty_data.executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.Testcase_01_Register.executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.Testcase_Login_Page.Testcase_03_Login_with_email_not_register.executor&quot;: &quot;Debug&quot;,
-    &quot;TestNG.Testcase_Login_Page.executor&quot;: &quot;Run&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;E:/Project/Automation/ITS_HamCoBan&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;onboarding.tips.debug.path&quot;: &quot;E:/Project/Automation/Demo_NopCommerce/src/main/java/Framework/Main.java&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.keymap&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "TestNG.E:/Project/Automation/Demo_NopCommerce/src/test/resources/RunTest.xml.executor": "Debug",
+    "TestNG.Testcase_01_Register.Testcase_01_Register_with_empty_data.executor": "Run",
+    "TestNG.Testcase_01_Register.executor": "Run",
+    "TestNG.Testcase_Login_Page.Testcase_03_Login_with_email_not_register.executor": "Debug",
+    "TestNG.Testcase_Login_Page.executor": "Run",
+    "git-widget-placeholder": "master",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "E:/Project/Automation/ITS_HamCoBan",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "onboarding.tips.debug.path": "E:/Project/Automation/Demo_NopCommerce/src/main/java/Framework/Main.java",
+    "settings.editor.selected.configurable": "preferences.keymap",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="E:\Project\Automation\Demo_NopCommerce\src\test" />
@@ -150,7 +153,7 @@
       <updated>1712896184006</updated>
       <workItem from="1712896185066" duration="11409000" />
       <workItem from="1713017145500" duration="5102000" />
-      <workItem from="1713752167442" duration="1465000" />
+      <workItem from="1713752167442" duration="12359000" />
     </task>
     <servers />
   </component>

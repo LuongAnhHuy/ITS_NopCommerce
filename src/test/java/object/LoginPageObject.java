@@ -43,7 +43,6 @@ public class LoginPageObject extends AbstractPage {
     }
 
     public void verifyNotExistEmail(String expected) {
-        //waitToElementVisible(driver, LoginPageUI.EMAIL_NOT_EXIST_MESSAGE);
         isControlDisplayed(driver, LoginPageUI.ERROR_MESSAGE);
         String actual = getTextElement(driver, LoginPageUI.ERROR_MESSAGE);
         Assert.assertEquals(actual, expected);

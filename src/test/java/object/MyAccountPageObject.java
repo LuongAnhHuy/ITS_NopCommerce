@@ -2,9 +2,11 @@ package object;
 
 import common.AbstractPage;
 import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
 import org.testng.Assert;
-import testdata.DataTests;
 import ui.MyAccountPageUI;
+
+import java.util.List;
 
 public class MyAccountPageObject extends AbstractPage {
     WebDriver driver;
@@ -205,7 +207,29 @@ public class MyAccountPageObject extends AbstractPage {
         Assert.assertTrue(notice);
     }
 
-    public void clickToCloseButton() {
-        clickToElement(driver, MyAccountPageUI.CLOSE_BUTTON);
+    public void clickToMyProductReviewsLink() {
+        clickToElement(driver, MyAccountPageUI.PRODUCT_REVIEW_LINK);
+    }
+
+    public void verifyTitleIsDisplayed(String equal, String expected) {
+        List<WebElement> allItems = finds(driver, MyAccountPageUI.REVIEW_TITLE);
+        for (WebElement item : allItems){
+            if (item.getText().equals(equal)) {
+                String actual = item.getText();
+                Assert.assertEquals(actual, expected);
+            }
+        }
+    }
+
+    public void verifyContentReviewTextIsDisplayed(String equal, String expected) {
+        List<WebElement> allItems = finds(driver, MyAccountPageUI.REVIEW_CONTENT);
+        for (WebElement item : allItems){
+            if (item.getText().equals(equal)){
+                String actual = item.getText();
+                Assert.assertEquals(actual, expected);
+            }
+        }
     }
 }
+
+

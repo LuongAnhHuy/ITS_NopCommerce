@@ -1,7 +1,6 @@
 package testdata;
 
 import common.AbstractPage;
-import common.BaseTest;
 
 public class DataTests extends AbstractPage {
     // Data: Register Page
@@ -34,7 +33,6 @@ public class DataTests extends AbstractPage {
 
     // Data: Attribute
     public static final String valueAttribute = "value";
-    public static final String valueAttributeDOB = "selected";
 
     // Data: Add Address
     public static final String firstName_ADD = "Automation";
@@ -67,5 +65,10 @@ public class DataTests extends AbstractPage {
     public static final String cf_password = new_password;
 
     // Data Search
-    public static final String mac = "mac";
+    public static final String search_mac = "Apple MacBook Pro 13-inch";
+
+    // Data: Product Review
+    public static final String review_title = "automation";
+    public static final String review_text = "test";
+
 }

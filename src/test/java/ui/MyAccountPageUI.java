@@ -48,5 +48,7 @@ public class MyAccountPageUI {
     public static final String CLOSE_BUTTON = "//span[@class='close']";
 
     public static final String PRODUCT_REVIEW_LINK = "//li[@class='customer-reviews inactive']//a";
+    public static final String REVIEW_TITLE = "//div[@class='page-body']//div//div//div//strong";
+    public static final String REVIEW_CONTENT = "//div[@class='page-body']//div//div[@class='review-content']//div[@class='review-text']";
 
 }

@@ -1,10 +1,7 @@
 package testcase;
 
 import common.BaseTest;
-import object.HeaderPageObject;
-import object.LoginPageObject;
-import object.MyAccountPageObject;
-import object.SearchObject;
+import object.*;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 import org.openqa.selenium.WebDriver;
@@ -18,6 +15,7 @@ public class Testcase_MyAccount_Page extends BaseTest {
     LoginPageObject loginPageObject;
     MyAccountPageObject myAccountPageObject;
     SearchObject searchObject;
+    ProductReviewsObject productReviewsObject;
 
     @Parameters("browser")
     @BeforeClass
@@ -184,16 +182,22 @@ public class Testcase_MyAccount_Page extends BaseTest {
         logger.info("Testcase 03 --- My account - Change password ---");
         myAccountPageObject = new MyAccountPageObject(driver);
 
+        logger.info("Testcase 03 - Step 01: Click to Change Password Link");
         myAccountPageObject.clickToChangePasswordLink();
 
+        logger.info("Testcase 03 - Step 02: Input Old Password to textbox");
         myAccountPageObject.inputToOldPasswordTextbox(DataTests.old_password);
 
+        logger.info("Testcase 03 - Step 03: Input New Password to textbox");
         myAccountPageObject.inputToNewPasswordTextbox(DataTests.new_password);
 
+        logger.info("Testcase 03 - Step 04: Input Confirm New Password to textbox");
         myAccountPageObject.inputToConfirmPasswordTextbox(DataTests.cf_password);
 
+        logger.info("Testcase 03 - Step 05: Click to Change Password textbox");
         myAccountPageObject.clickToChangePasswordButton();
 
+        logger.info("Testcase 03 - Step 06: Verify Change Password Successfully");
         myAccountPageObject.verifyChangePasswordSuccessfully();
 
         refreshToPage(driver);
@@ -234,8 +238,32 @@ public class Testcase_MyAccount_Page extends BaseTest {
 
         searchObject = new SearchObject(driver);
 
-        searchObject.inputToSearchBox(DataTests.mac);
+        searchObject.inputToSearchBox(DataTests.search_mac);
 
-        searchObject.selectToItemInSearchBox();
+        searchObject.selectToItemInSearchBox(DataTests.search_mac);
+
+        searchObject.clickToAddReviewLink();
+
+        productReviewsObject = new ProductReviewsObject(driver);
+
+        productReviewsObject.inputToReviewTitleTextbox(DataTests.review_title);
+
+        productReviewsObject.inputToReviewTextArea(DataTests.review_text);
+
+        productReviewsObject.clickRatingRadioButton();
+
+        productReviewsObject.clickSubmitReviewButton();
+
+        headerPageObject = new HeaderPageObject(driver);
+
+        headerPageObject.clickToMyAccountLink();
+
+        myAccountPageObject = new MyAccountPageObject(driver);
+
+        myAccountPageObject.clickToMyProductReviewsLink();
+
+        myAccountPageObject.verifyTitleIsDisplayed(DataTests.review_title, DataTests.review_title);
+
+        myAccountPageObject.verifyContentReviewTextIsDisplayed(DataTests.review_text, DataTests.review_text);
     }
 }

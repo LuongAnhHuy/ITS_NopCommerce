@@ -5,22 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2cc7d2c5-d061-4aa3-b592-6d46b50f28d1" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/object/ProductReviewsObject.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/ui/ProductReviewsUI.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_4_15_2024_8_58_PM_[Changes]/shelved.patch" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_4_15_2024_8_58_PM__Changes_.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_4_15_2024_9_33_AM_[Changes]/shelved.patch" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_4_15_2024_9_33_AM__Changes_.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/logs/app-properties.txt" beforeDir="false" afterPath="$PROJECT_DIR$/logs/app-properties.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/common/AbstractPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/common/AbstractPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/common/BaseTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/common/BaseTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/object/MyAccountPageObject.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/object/MyAccountPageObject.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/object/SearchObject.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/object/SearchObject.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/testcase/Testcase_MyAccount_Page.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/testcase/Testcase_MyAccount_Page.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/testdata/DataTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/testdata/DataTests.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/ui/MyAccountPageUI.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ui/MyAccountPageUI.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/ui/SearchUI.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ui/SearchUI.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -53,7 +44,7 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "TestNG.E:/Project/Automation/Demo_NopCommerce/src/test/resources/RunTest.xml.executor": "Debug",
+    "TestNG.E:/Project/Automation/Demo_NopCommerce/src/test/resources/RunTest.xml.executor": "Run",
     "TestNG.Testcase_01_Register.Testcase_01_Register_with_empty_data.executor": "Run",
     "TestNG.Testcase_01_Register.executor": "Run",
     "TestNG.Testcase_Login_Page.Testcase_03_Login_with_email_not_register.executor": "Debug",

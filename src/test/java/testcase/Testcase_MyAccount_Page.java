@@ -204,26 +204,35 @@ public class Testcase_MyAccount_Page extends BaseTest {
 
         loginPageObject = new LoginPageObject(driver);
 
+        logger.info("Testcase 03 - Step 07: Login - Input new email after update Customer Info");
         loginPageObject.inputToEmailTextbox(DataTests.new_email);
 
+        logger.info("Testcase 03 - Step 08: Login - Input old password to textbox");
         loginPageObject.inputToPassword(DataTests.old_password);
 
+        logger.info("Testcase 03 - Step 09: Login - Click to Login button");
         loginPageObject.clickToLoginButton();
 
+        logger.info("Testcase 03 - Step 10: Login - Verify message incorrect email is displayed");
         loginPageObject.verifyNotExistEmail(DataTests.incorrectEmail);
 
         headerPageObject = new HeaderPageObject(driver);
 
+        logger.info("Testcase 03 - Step 11: Login - Click to login link");
         headerPageObject.clickToLoginLink();
 
         loginPageObject = new LoginPageObject(driver);
 
+        logger.info("Testcase 03 - Step 12: Login - Input new email after update Customer Info");
         loginPageObject.inputToEmailTextbox(DataTests.new_email);
 
+        logger.info("Testcase 03 - Step 13: Login - Input new password after change password");
         loginPageObject.inputToPassword(DataTests.new_password);
 
+        logger.info("Testcase 03 - Step 14: Login - CLick to login button");
         loginPageObject.clickToLoginButton();
 
+        logger.info("Testcase 03 - Step 15: Login - Verify login successfully");
         loginPageObject.verifyLoginSuccessfully();
         refreshToPage(driver);
     }
@@ -234,36 +243,51 @@ public class Testcase_MyAccount_Page extends BaseTest {
 
         headerPageObject = new HeaderPageObject(driver);
 
+        logger.info("Testcase 04 - Step 01: Click to NopCommerce Header");
         headerPageObject.clickToNopCommerceHeader();
 
         searchObject = new SearchObject(driver);
 
+        logger.info("Testcase 04 - Step 02: Input data to Search box");
         searchObject.inputToSearchBox(DataTests.search_mac);
 
-        searchObject.selectToItemInSearchBox(DataTests.search_mac);
+        logger.info("Testcase 04 - Step 03: Select item to Search box");
+        searchObject.selectToItemInSearchBox(DataTests.name_product);
 
+        logger.info("Testcase 04 - Step 04: Click to Add Review link");
         searchObject.clickToAddReviewLink();
 
         productReviewsObject = new ProductReviewsObject(driver);
 
+        logger.info("Testcase 04 - Step 05: Input Review Title to textbox");
         productReviewsObject.inputToReviewTitleTextbox(DataTests.review_title);
 
+        logger.info("Testcase 04 - Step 06: Input Review Text to textbox");
         productReviewsObject.inputToReviewTextArea(DataTests.review_text);
 
+        logger.info("Testcase 04 - Step 07: Select Rating radio button");
         productReviewsObject.clickRatingRadioButton();
 
+        logger.info("Testcase 04 - Step 08: Click to Submit Review button");
         productReviewsObject.clickSubmitReviewButton();
 
         headerPageObject = new HeaderPageObject(driver);
 
+        logger.info("Testcase 04 - Step 09: Click to My Account link");
         headerPageObject.clickToMyAccountLink();
 
         myAccountPageObject = new MyAccountPageObject(driver);
 
+        logger.info("Testcase 04 - Step 09: Click to My Product Reviews link");
         myAccountPageObject.clickToMyProductReviewsLink();
 
+        logger.info("Testcase 04 - Step 10: Verify Review Title is displayed");
         myAccountPageObject.verifyTitleIsDisplayed(DataTests.review_title, DataTests.review_title);
 
+        logger.info("Testcase 04 - Step 11: Verify content Review Text is displayed");
         myAccountPageObject.verifyContentReviewTextIsDisplayed(DataTests.review_text, DataTests.review_text);
+
+        logger.info("Testcase 04 - Step 12: Verify Product added is displayed");
+        myAccountPageObject.verifyProductAdded(DataTests.name_product, DataTests.prooduct_add);
     }
 }

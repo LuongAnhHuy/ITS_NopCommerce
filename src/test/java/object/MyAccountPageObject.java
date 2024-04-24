@@ -1,6 +1,8 @@
 package object;
 
 import common.AbstractPage;
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.testng.Assert;
@@ -9,6 +11,7 @@ import ui.MyAccountPageUI;
 import java.util.List;
 
 public class MyAccountPageObject extends AbstractPage {
+    private static final Logger logger = LogManager.getLogger();
     WebDriver driver;
     public MyAccountPageObject(WebDriver driver) {
         this.driver = driver;
@@ -227,6 +230,18 @@ public class MyAccountPageObject extends AbstractPage {
             if (item.getText().equals(equal)){
                 String actual = item.getText();
                 Assert.assertEquals(actual, expected);
+            }
+        }
+    }
+
+    public void verifyProductAdded(String equal, String expected) {
+        List<WebElement> allItems = finds(driver, MyAccountPageUI.PRODUCT_ADDED_TEXT);
+        for (WebElement item : allItems) {
+            if (item.getText().equals(equal)){
+                String actual = item.getText();
+                Assert.assertEquals(actual, expected);
+            }else {
+                logger.error("------ Khong ton tai gia tri nay!!! ------");
             }
         }
     }

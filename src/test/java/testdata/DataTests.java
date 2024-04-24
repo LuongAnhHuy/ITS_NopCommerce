@@ -65,10 +65,12 @@ public class DataTests extends AbstractPage {
     public static final String cf_password = new_password;
 
     // Data Search
-    public static final String search_mac = "Apple MacBook Pro 13-inch";
+    public static final String search_mac = "mac";
+    public static final String name_product = "Apple MacBook Pro 13-inch";
 
     // Data: Product Review
     public static final String review_title = "automation";
     public static final String review_text = "test";
+    public static final String prooduct_add = "aaaaaaaa";
 
 }

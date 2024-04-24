@@ -50,5 +50,6 @@ public class MyAccountPageUI {
     public static final String PRODUCT_REVIEW_LINK = "//li[@class='customer-reviews inactive']//a";
     public static final String REVIEW_TITLE = "//div[@class='page-body']//div//div//div//strong";
     public static final String REVIEW_CONTENT = "//div[@class='page-body']//div//div[@class='review-content']//div[@class='review-text']";
+    public static final String PRODUCT_ADDED_TEXT = "//div[@class='review-info']//span//a";
 
 }

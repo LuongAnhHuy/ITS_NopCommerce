@@ -11,7 +11,6 @@ import java.util.Random;
 import java.util.concurrent.TimeUnit;
 
 public abstract class AbstractPage {
-
     // - Define 1 biến là WebDriverWait
     private WebDriverWait explicitWait;
 
@@ -111,7 +110,7 @@ public abstract class AbstractPage {
     }
 
     // Find Element
-    public WebElement find(WebDriver driver, String locator) {
+    protected WebElement find(WebDriver driver, String locator) {
         return driver.findElement(byXpath(locator));
     }
 

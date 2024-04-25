@@ -7,10 +7,11 @@
     <list default="true" id="2cc7d2c5-d061-4aa3-b592-6d46b50f28d1" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/logs/app-properties.txt" beforeDir="false" afterPath="$PROJECT_DIR$/logs/app-properties.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/common/AbstractPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/common/AbstractPage.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/object/MyAccountPageObject.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/object/MyAccountPageObject.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/object/SearchObject.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/object/SearchObject.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/testcase/Testcase_MyAccount_Page.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/testcase/Testcase_MyAccount_Page.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/testdata/DataTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/testdata/DataTests.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -52,6 +53,7 @@
     "TestNG.Testcase_MyAccount_Page.executor": "Run",
     "git-widget-placeholder": "master",
     "kotlin-language-version-configured": "true",
+    "last_directory_selection": "E:/Project/Automation/Demo_NopCommerce/src/test/java",
     "last_opened_file_path": "E:/Project/Automation/ITS_HamCoBan",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
@@ -59,7 +61,7 @@
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
     "onboarding.tips.debug.path": "E:/Project/Automation/Demo_NopCommerce/src/main/java/Framework/Main.java",
-    "settings.editor.selected.configurable": "preferences.keymap",
+    "settings.editor.selected.configurable": "editor.preferences.tabs",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
@@ -152,8 +154,8 @@
     <recent_temporary>
       <list>
         <item itemvalue="TestNG.E:/Project/Automation/Demo_NopCommerce/src/test/resources/RunTest.xml" />
-        <item itemvalue="TestNG.Testcase_MyAccount_Page.Testcase_04_My_Product_Review" />
         <item itemvalue="TestNG.Testcase_MyAccount_Page" />
+        <item itemvalue="TestNG.Testcase_MyAccount_Page.Testcase_04_My_Product_Review" />
         <item itemvalue="TestNG.Testcase_Login_Page" />
         <item itemvalue="TestNG.Testcase_Register_Page" />
       </list>
@@ -170,6 +172,7 @@
       <workItem from="1712896185066" duration="11409000" />
       <workItem from="1713017145500" duration="5102000" />
       <workItem from="1713752167442" duration="26860000" />
+      <workItem from="1714031796932" duration="1325000" />
     </task>
     <servers />
   </component>

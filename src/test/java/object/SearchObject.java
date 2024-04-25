@@ -17,13 +17,8 @@ public class SearchObject extends AbstractPage {
         sendkeyToElement(driver, SearchUI.SEARCH_BOX, value);
     }
 
-    public void selectToItemInSearchBox(String equal) {
-        List<WebElement> allItems = finds(driver, SearchUI.SEARCH_ITEM);
-        for (WebElement item : allItems) {
-            if (item.getText().equals(equal)){
-                item.click();
-            }
-        }
+    public void selectToItemInSearchBox(String expected) {
+        clickItemInListItem(driver, SearchUI.SEARCH_ITEM, expected);
     }
 
     public void clickToAddReviewLink() {

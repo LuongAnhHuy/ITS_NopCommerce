@@ -44,7 +44,7 @@ public class Testcase_MyAccount_Page extends BaseTest {
         quitBrowser();
     }
 
-    @Test
+    @Test()
     public void Testcase_01_Update_information_user() {
         logger.info("Testcase 01 --- Update information user ---");
         headerPageObject = new HeaderPageObject(driver);
@@ -282,10 +282,10 @@ public class Testcase_MyAccount_Page extends BaseTest {
         myAccountPageObject.clickToMyProductReviewsLink();
 
         logger.info("Testcase 04 - Step 10: Verify Review Title is displayed");
-        myAccountPageObject.verifyTitleIsDisplayed(DataTests.review_title, DataTests.review_title);
+        myAccountPageObject.verifyTitleIsDisplayed(DataTests.review_title);
 
         logger.info("Testcase 04 - Step 11: Verify content Review Text is displayed");
-        myAccountPageObject.verifyContentReviewTextIsDisplayed(DataTests.review_text, DataTests.review_text);
+        myAccountPageObject.verifyContentReviewTextIsDisplayed(DataTests.review_text);
 
         logger.info("Testcase 04 - Step 12: Verify Product added is displayed");
         myAccountPageObject.verifyProductAdded(DataTests.product_added);

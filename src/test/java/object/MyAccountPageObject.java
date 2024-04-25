@@ -214,36 +214,16 @@ public class MyAccountPageObject extends AbstractPage {
         clickToElement(driver, MyAccountPageUI.PRODUCT_REVIEW_LINK);
     }
 
-    public void verifyTitleIsDisplayed(String equal, String expected) {
-        List<WebElement> allItems = finds(driver, MyAccountPageUI.REVIEW_TITLE);
-        for (WebElement item : allItems){
-            if (item.getText().equals(equal)) {
-                String actual = item.getText();
-                Assert.assertEquals(actual, expected);
-            }
-        }
+    public void verifyTitleIsDisplayed(String expected) {
+        getItemInListItem(driver, MyAccountPageUI.REVIEW_TITLE, expected);
     }
 
-    public void verifyContentReviewTextIsDisplayed(String equal, String expected) {
-        List<WebElement> allItems = finds(driver, MyAccountPageUI.REVIEW_CONTENT);
-        for (WebElement item : allItems){
-            if (item.getText().equals(equal)){
-                String actual = item.getText();
-                Assert.assertEquals(actual, expected);
-            }
-        }
+    public void verifyContentReviewTextIsDisplayed(String expected) {
+        getItemInListItem(driver, MyAccountPageUI.REVIEW_CONTENT, expected);
     }
 
     public void verifyProductAdded(String expected) {
-        List<WebElement> allItems = finds(driver, MyAccountPageUI.PRODUCT_ADDED_TEXT);
-        for (WebElement item : allItems) {
-            if (item.getText().equals(expected)){
-                String actual = item.getText();
-                Assert.assertEquals(actual, expected);
-            } else {
-                throwException();
-            }
-        }
+        getItemInListItem(driver, MyAccountPageUI.PRODUCT_ADDED_TEXT, expected);
     }
 }
 

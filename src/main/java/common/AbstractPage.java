@@ -1,5 +1,6 @@
 package common;
 
+import org.junit.Assert;
 import org.openqa.selenium.*;
 import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.ui.ExpectedConditions;
@@ -34,39 +35,39 @@ public abstract class AbstractPage {
 
 
     // define ra biến url, => tránh việc fix cứng url làm sai ý nghĩa của commons
-    public void maximizeBrowsers(WebDriver driver) {
+    protected void maximizeBrowsers(WebDriver driver) {
         driver.manage().window().maximize();
     }
 
-    public void closeBrowsers(WebDriver driver) {
+    protected void closeBrowsers(WebDriver driver) {
         driver.quit();
     }
 
-    public void openUrl(WebDriver driver, String url) {
+    protected void openUrl(WebDriver driver, String url) {
         driver.get(url);
     }
 
-    public String getPageTitle(WebDriver driver) {
+    protected String getPageTitle(WebDriver driver) {
         return driver.getTitle();
     }
 
-    public String getCurrentUrl(WebDriver driver) {
+    protected String getCurrentUrl(WebDriver driver) {
         return driver.getCurrentUrl();
     }
 
-    public void backToPage(WebDriver driver) {
+    protected void backToPage(WebDriver driver) {
         driver.navigate().back();
     }
 
-    public void refreshToPage(WebDriver driver) {
+    protected void refreshToPage(WebDriver driver) {
         driver.navigate().refresh();
     }
 
-    public void forwardToPage(WebDriver driver) {
+    protected void forwardToPage(WebDriver driver) {
         driver.navigate().forward();
     }
 
-    public void implicitWaitBrowser(WebDriver driver) {
+    protected void implicitWaitBrowser(WebDriver driver) {
         driver.manage().timeouts().implicitlyWait(15, TimeUnit.SECONDS);
     }
 
@@ -75,38 +76,36 @@ public abstract class AbstractPage {
         return rand.nextInt(999);
     }
 
-    public void waitToAlertPresence(WebDriver driver) {
+    protected void waitToAlertPresence(WebDriver driver) {
         explicitWait = new WebDriverWait(driver, 30);
         explicitWait.until(ExpectedConditions.alertIsPresent());
     }
 
-    public void acceptAlert(WebDriver driver) {
+    protected void acceptAlert(WebDriver driver) {
         alert = driver.switchTo().alert();
         alert.accept();
     }
 
-    public void cancelAlert(WebDriver driver) {
+    protected void cancelAlert(WebDriver driver) {
         alert = driver.switchTo().alert();
         alert.dismiss();
     }
 
-    public void sendkeyToAlert(WebDriver driver, String value) {
+    protected void sendkeyToAlert(WebDriver driver, String value) {
         alert = driver.switchTo().alert();
         alert.sendKeys(value);
     }
 
 
-    public String getTextInAlert(WebDriver driver) {
+    protected String getTextInAlert(WebDriver driver) {
         alert = driver.switchTo().alert();
         return alert.getText();
     }
 
 
     // Xpath
-    public By byXpath(String locator) {
-
+    protected By byXpath(String locator) {
         return By.xpath(locator);
-
     }
 
     // Find Element
@@ -115,42 +114,42 @@ public abstract class AbstractPage {
     }
 
     // Find list Elements
-    public List<WebElement> finds(WebDriver driver, String locator) {
+    protected List<WebElement> finds(WebDriver driver, String locator) {
         return driver.findElements(byXpath(locator));
     }
 
 
     // Click To Element
-    public void clickToElement(WebDriver driver, String locator) {
+    protected void clickToElement(WebDriver driver, String locator) {
         find(driver, locator).click();
     }
 
     // Senkey to Element
-    public void sendkeyToElement(WebDriver driver, String locator, String value) {
+    protected void sendkeyToElement(WebDriver driver, String locator, String value) {
         find(driver, locator).clear();
         find(driver, locator).sendKeys(value);
     }
 
     // Select Item in Dropdow List
-    public void selectItemInDropdow(WebDriver driver, String locator, String itemValue) {
+    protected void selectItemInDropdow(WebDriver driver, String locator, String itemValue) {
         select = new Select(find(driver, locator));
         select.selectByVisibleText(itemValue);
     }
 
     // Get text sau khi được select trong Dropdown
-    public String getFirstSelectedItemInDropdow(WebDriver driver, String locator) {
+    protected String getFirstSelectedItemInDropdow(WebDriver driver, String locator) {
         select = new Select(find(driver, locator));
         return select.getFirstSelectedOption().getText();
     }
 
     // Verify Dropdown list là Multiple
-    public boolean isMultipleDropdown(WebDriver driver, String locator) {
+    protected boolean isMultipleDropdown(WebDriver driver, String locator) {
         select = new Select(find(driver, locator));
         return select.isMultiple();
     }
 
     // Select item in custom dropdown list
-    public void selectItemInCustomDropdown(WebDriver driver, String parentLocator, String childLocator, String expectedItem) {
+    protected void selectItemInCustomDropdown(WebDriver driver, String parentLocator, String childLocator, String expectedItem) {
         // 1 - Click vào thẻ (cha) để xổ ra tất cả các item con
         find(driver, parentLocator).click();
 
@@ -180,22 +179,22 @@ public abstract class AbstractPage {
 
 
     // Get attribute value
-    public String getElementAttribute(WebDriver driver, String locator, String attributeValue) {
+    protected String getElementAttribute(WebDriver driver, String locator, String attributeValue) {
         return find(driver, locator).getAttribute(attributeValue);
     }
 
     // Get text
-    public String getTextElement(WebDriver driver, String locator) {
+    protected String getTextElement(WebDriver driver, String locator) {
         return find(driver, locator).getText();
     }
 
     // Tính tổng element giống nhau có trong page đấy
-    public int countElementsSize(WebDriver driver, String locator) {
+    protected int countElementsSize(WebDriver driver, String locator) {
         return finds(driver, locator).size();
     }
 
     // Check to Checkbox
-    public void checkToCheckbox(WebDriver driver, String locator) {
+    protected void checkToCheckbox(WebDriver driver, String locator) {
         // Phủ định (!) của isSelected là isUnSelected
         if (!find(driver, locator).isSelected()) {
             find(driver, locator).click();
@@ -203,7 +202,7 @@ public abstract class AbstractPage {
     }
 
     // Uncheck to Checkbox
-    public void uncheckToCheckbox(WebDriver driver, String locator) {
+    protected void uncheckToCheckbox(WebDriver driver, String locator) {
         // Nếu đã selected rồi thì click thêm 1 lần nữa để uncheck
         if (find(driver, locator).isSelected()) {
             find(driver, locator).click();
@@ -211,101 +210,124 @@ public abstract class AbstractPage {
     }
 
     // isDisplay
-    public boolean isControlDisplayed(WebDriver driver, String locator) {
+    protected boolean isControlDisplayed(WebDriver driver, String locator) {
         return find(driver, locator).isDisplayed();
     }
 
     // isEnabled
-    public boolean isControlEnable(WebDriver driver, String locator) {
+    protected boolean isControlEnable(WebDriver driver, String locator) {
         return find(driver, locator).isEnabled();
     }
 
     // isSelected
-    public boolean isControlSelected(WebDriver driver, String locator) {
+    protected boolean isControlSelected(WebDriver driver, String locator) {
         return find(driver, locator).isSelected();
     }
 
     // Tương tác với Frame/ iFrame
-    public void switchToFrame(WebDriver driver, String locator) {
+    protected void switchToFrame(WebDriver driver, String locator) {
 
         driver.switchTo().frame(find(driver, locator));
     }
 
     // Chuyển về defaultPage để tương tác sau khi switch qua Frame để tương tác với nó
-    public void switchToDefaultPage(WebDriver driver) {
+    protected void switchToDefaultPage(WebDriver driver) {
         driver.switchTo().defaultContent();
     }
 
     // Double click: mô phỏng hành vi của người dùng = hàm Action (Khai báo thư viện Actions)
-    public void doubleClickToElement(WebDriver driver, String locator) {
+    protected void doubleClickToElement(WebDriver driver, String locator) {
         action = new Actions(driver);
         action.doubleClick(find(driver, locator)).perform();
     }
 
     // Right click: mô phỏng hành vi của người dùng = hàm Action (Khai báo thư viện Actions)
-    public void rightClickToElement(WebDriver driver, String locator) {
+    protected void rightClickToElement(WebDriver driver, String locator) {
         action = new Actions(driver);
         action.contextClick(find(driver, locator)).perform();
     }
 
     // Hover to Element: mô phỏng hành vi của người dùng = hàm Action (Khai báo thư viện Actions)
-    public void hoverToElement(WebDriver driver, String locator) {
+    protected void hoverToElement(WebDriver driver, String locator) {
         action = new Actions(driver);
         action.moveToElement(find(driver, locator)).perform();
     }
 
     // Drag And Drop to Element: mô phỏng hành vi của người dùng = hàm Action (Khai báo thư viện Actions)
-    public void dragAndDropElement(WebDriver driver, String locator, String sourceLocator, String targetLocator) {
+    protected void dragAndDropElement(WebDriver driver, String locator, String sourceLocator, String targetLocator) {
         action = new Actions(driver);
         action.dragAndDrop(find(driver, sourceLocator), find(driver, targetLocator)).perform();
         ;
     }
 
     // Send keyBoard to Element: mô phỏng hành vi của người dùng = hàm Action (Khai báo thư viện Actions)
-    public void sendKeyBoardToElement(WebDriver driver, String locator, Keys key) {
+    protected void sendKeyBoardToElement(WebDriver driver, String locator, Keys key) {
         action = new Actions(driver);
         action.sendKeys(find(driver, locator), key).perform();
     }
 
-    public void waitToElementPresence(WebDriver driver, String locator) {
+    protected void waitToElementPresence(WebDriver driver, String locator) {
         explicitWait = new WebDriverWait(driver, longTimeOut);
         explicitWait.until(ExpectedConditions.presenceOfElementLocated(byXpath(locator)));
     }
 
-    public void waitToElementVisible(WebDriver driver, String locator) {
+    protected void waitToElementVisible(WebDriver driver, String locator) {
         explicitWait = new WebDriverWait(driver, longTimeOut);
         explicitWait.until(ExpectedConditions.visibilityOfElementLocated(byXpath(locator)));
     }
 
-    public void waitToElementInVisible(WebDriver driver, String locator) {
+    protected void waitToElementInVisible(WebDriver driver, String locator) {
         explicitWait = new WebDriverWait(driver, longTimeOut);
         explicitWait.until(ExpectedConditions.invisibilityOfElementLocated(byXpath(locator)));
     }
 
-    public void waitToElementClickable(WebDriver driver, String locator) {
+    protected void waitToElementClickable(WebDriver driver, String locator) {
         explicitWait = new WebDriverWait(driver, longTimeOut);
         explicitWait.until(ExpectedConditions.elementToBeClickable(byXpath(locator)));
     }
 
-    public void clickToElementByJS(WebDriver driver, String locator) {
+    protected void clickToElementByJS(WebDriver driver, String locator) {
         jsExecutor = (JavascriptExecutor) driver;
         element = find(driver, locator);
         jsExecutor.executeScript("arguments[0].click();", element);
     }
 
-    public void sendkeyToElementByJS(WebDriver driver, String locator, String value) {
+    protected void sendkeyToElementByJS(WebDriver driver, String locator, String value) {
         jsExecutor = (JavascriptExecutor) driver;
         element = find(driver, locator);
         jsExecutor.executeScript("arguments[0].setAttribute('value'," + value + "')", element);
     }
 
-    public void removeAtributteInDOM(WebDriver driver, String locator, String attributeRemove) {
+    protected void removeAtributteInDOM(WebDriver driver, String locator, String attributeRemove) {
         jsExecutor = (JavascriptExecutor) driver;
         element = find(driver, locator);
         jsExecutor.executeScript("arguments[0].removeAttribute('" + attributeRemove + "')", element);
     }
 
-    public void throwException(){
+    protected void getItemInListItem(WebDriver driver, String locator, String expected){
+        List<WebElement> allItems = finds(driver, locator);
+        for (WebElement item : allItems){
+            if (item.getText().equals(expected)){
+                String actual = item.getText();
+                Assert.assertEquals(expected, actual);
+            }else {
+                throwException();
+            }
+        }
+    }
+
+    protected void clickItemInListItem(WebDriver driver, String locator, String expected){
+        List<WebElement> allItems = finds(driver, locator);
+        for (WebElement item : allItems){
+            if (item.getText().equals(expected)){
+                item.click();
+            }else {
+                throwException();
+            }
+        }
+    }
+
+    protected void throwException(){
         try {
             throw new Exception("------ Khong ton tai gia tri EXPECTED nay!!! ------");
         } catch (Exception e) {

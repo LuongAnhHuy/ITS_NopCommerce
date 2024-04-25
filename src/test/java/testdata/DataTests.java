@@ -71,6 +71,6 @@ public class DataTests extends AbstractPage {
     // Data: Product Review
     public static final String review_title = "automation";
     public static final String review_text = "test";
-    public static final String prooduct_add = "aaaaaaaa";
+    public static final String product_added = name_product;
 
 }

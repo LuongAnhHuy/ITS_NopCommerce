@@ -305,5 +305,13 @@ public abstract class AbstractPage {
         jsExecutor.executeScript("arguments[0].removeAttribute('" + attributeRemove + "')", element);
     }
 
+    public void throwException(){
+        try {
+            throw new Exception("------ Khong ton tai gia tri EXPECTED nay!!! ------");
+        } catch (Exception e) {
+            throw new RuntimeException(e);
+        }
+    }
+
 
 }

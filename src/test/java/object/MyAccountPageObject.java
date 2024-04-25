@@ -234,14 +234,14 @@ public class MyAccountPageObject extends AbstractPage {
         }
     }
 
-    public void verifyProductAdded(String equal, String expected) {
+    public void verifyProductAdded(String expected) {
         List<WebElement> allItems = finds(driver, MyAccountPageUI.PRODUCT_ADDED_TEXT);
         for (WebElement item : allItems) {
-            if (item.getText().equals(equal)){
+            if (item.getText().equals(expected)){
                 String actual = item.getText();
                 Assert.assertEquals(actual, expected);
-            }else {
-                logger.error("------ Khong ton tai gia tri nay!!! ------");
+            } else {
+                throwException();
             }
         }
     }

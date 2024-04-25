@@ -288,6 +288,6 @@ public class Testcase_MyAccount_Page extends BaseTest {
         myAccountPageObject.verifyContentReviewTextIsDisplayed(DataTests.review_text, DataTests.review_text);
 
         logger.info("Testcase 04 - Step 12: Verify Product added is displayed");
-        myAccountPageObject.verifyProductAdded(DataTests.name_product, DataTests.prooduct_add);
+        myAccountPageObject.verifyProductAdded(DataTests.product_added);
     }
 }

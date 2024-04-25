@@ -6,11 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="2cc7d2c5-d061-4aa3-b592-6d46b50f28d1" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/app-properties.txt" beforeDir="false" afterPath="$PROJECT_DIR$/logs/app-properties.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/common/AbstractPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/common/AbstractPage.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/object/MyAccountPageObject.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/object/MyAccountPageObject.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/object/SearchObject.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/object/SearchObject.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/testcase/Testcase_MyAccount_Page.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/testcase/Testcase_MyAccount_Page.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -172,7 +168,7 @@
       <workItem from="1712896185066" duration="11409000" />
       <workItem from="1713017145500" duration="5102000" />
       <workItem from="1713752167442" duration="26860000" />
-      <workItem from="1714031796932" duration="1325000" />
+      <workItem from="1714031796932" duration="4708000" />
     </task>
     <servers />
   </component>

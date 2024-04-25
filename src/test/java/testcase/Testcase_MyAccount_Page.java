@@ -16,7 +16,6 @@ public class Testcase_MyAccount_Page extends BaseTest {
     MyAccountPageObject myAccountPageObject;
     SearchObject searchObject;
     ProductReviewsObject productReviewsObject;
-
     @Parameters("browser")
     @BeforeClass
     public void beforeClass(String browserName) {
@@ -178,7 +177,7 @@ public class Testcase_MyAccount_Page extends BaseTest {
     }
 
     @Test
-    public void Testcase_03_Change_password(){
+    public void Testcase_03_Change_password() {
         logger.info("Testcase 03 --- My account - Change password ---");
         myAccountPageObject = new MyAccountPageObject(driver);
 
@@ -238,7 +237,7 @@ public class Testcase_MyAccount_Page extends BaseTest {
     }
 
     @Test
-    public void Testcase_04_My_Product_Review(){
+    public void Testcase_04_My_Product_Review() {
         logger.info("Testcase 04 --- My account - My product reviews ---");
 
         headerPageObject = new HeaderPageObject(driver);

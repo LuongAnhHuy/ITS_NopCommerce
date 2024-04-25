@@ -10,9 +10,7 @@ import ui.MyAccountPageUI;
 
 import java.util.List;
 
-public class MyAccountPageObject extends AbstractPage {
-    private static final Logger logger = LogManager.getLogger();
-    WebDriver driver;
+public class MyAccountPageObject extends AbstractPage {    WebDriver driver;
     public MyAccountPageObject(WebDriver driver) {
         this.driver = driver;
     }

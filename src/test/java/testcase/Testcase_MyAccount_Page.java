@@ -1,15 +1,16 @@
 package testcase;
 
-import common.BaseTest;
+import commons.BaseTest;
+import io.qameta.allure.*;
 import object.*;
-import org.apache.logging.log4j.LogManager;
-import org.apache.logging.log4j.Logger;
 import org.openqa.selenium.WebDriver;
 import org.testng.annotations.*;
 import testdata.DataTests;
 
+@Epic("Regresstion Test")
+@Feature("User")
 public class Testcase_MyAccount_Page extends BaseTest {
-    private static final Logger logger = LogManager.getLogger();
+    //private static final Logger logger = LogManager.getLogger();
     WebDriver driver;
     HeaderPageObject headerPageObject;
     LoginPageObject loginPageObject;
@@ -43,6 +44,9 @@ public class Testcase_MyAccount_Page extends BaseTest {
         quitBrowser();
     }
 
+    @Story("Update")
+    @Severity(SeverityLevel.NORMAL)
+    @Description("Update information and check update successfully")
     @Test()
     public void Testcase_01_Update_information_user() {
         logger.info("Testcase 01 --- Update information user ---");
@@ -97,6 +101,10 @@ public class Testcase_MyAccount_Page extends BaseTest {
 
     }
 
+
+    @Story("Add Address")
+    @Severity(SeverityLevel.NORMAL)
+    @Description("Add Address and check update successfully")
     @Test
     public void Testcase_02_Add_address() {
         logger.info("Testcase 02 --- My account - Add new address ---");

@@ -1,16 +1,15 @@
 package testcase;
 
-import common.BaseTest;
+import commons.BaseTest;
 import object.HeaderPageObject;
 import object.LoginPageObject;
-import org.apache.logging.log4j.LogManager;
-import org.apache.logging.log4j.Logger;
+
 import org.openqa.selenium.WebDriver;
 import org.testng.annotations.*;
 import testdata.DataTests;
 
 public class Testcase_Login_Page extends BaseTest {
-    private static final Logger logger = LogManager.getLogger();
+//    private static final Logger logger = LogManager.getLogger();
     WebDriver driver;
     HeaderPageObject headerPageObject;
     LoginPageObject loginPageObject;

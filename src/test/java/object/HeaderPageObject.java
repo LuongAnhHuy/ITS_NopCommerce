@@ -1,6 +1,6 @@
 package object;
 
-import common.AbstractPage;
+import commons.AbstractPage;
 import org.openqa.selenium.WebDriver;
 import ui.HeaderPageUI;
 

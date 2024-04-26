@@ -1,11 +1,8 @@
 package object;
 
-import common.AbstractPage;
+import commons.AbstractPage;
 import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.WebElement;
 import ui.SearchUI;
-
-import java.util.List;
 
 public class SearchObject extends AbstractPage {
     WebDriver driver;

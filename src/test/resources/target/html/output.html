@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="" lang="">
+<head>
+  <title>Test Results Report - Log Output</title>
+  <meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+  <meta name="description" content="TestNG unit test results." />
+  <link href="reportng.css" rel="stylesheet" type="text/css" />
+  </head>
+<body>
+  <h1>Log Output</h1>
+  <p>
+    Combined output from all calls to the log methods of the <a href="http://testng.org/javadocs/org/testng/Reporter.html">TestNG Reporter</a>.    
+  </p>
+
+  <div id="log">
+                  Testcase 01 --- Register with empty data ---<br />
+                        Testcase 01 - Step 01: Open Nopcommerce Page<br />
+                        Testcase 01 - Step 02: Click to Register Link<br />
+                        Testcase 01 - Step 03: Click to Register Button<br />
+                        Testcase 01 - Step 04: Verify displays First Name error message<br />
+                        Testcase 01 - Step 05: Verify displays Last Name error message<br />
+                        Testcase 01 - Step 06: Verify displays Email error message<br />
+                        Testcase 01 - Step 07: Verify displays Password error message<br />
+                        Testcase 01 - Step 08: Verify displays Confirm Password error message<br />
+                        Testcase 02 --- Register with invalid email ---<br />
+                        Testcase 02 - Step 01: Input to First Name textbox<br />
+                        Testcase 02 - Step 02: Input to Last Name textbox<br />
+                        Testcase 02 - Step 03: Input to Email textbox<br />
+                        Testcase 02 - Step 04: Input to Password textbox<br />
+                        Testcase 02 - Step 05: Input to Confirm Password textbox<br />
+                        Testcase 02 - Step 06: Verify displays Wrong Email message<br />
+                        Testcase 03 --- Register successfully ---<br />
+                        Testcase 03 - Step 01: Input valid First Name to textbox<br />
+                        Testcase 03 - Step 02: Input valid Last Name to textbox<br />
+                        Testcase 03 - Step 03: Input valid Email to textbox<br />
+                        Testcase 03 - Step 04: Input valid Password to textbox<br />
+                        Testcase 03 - Step 05: Input valid Confirm Password to textbox<br />
+                        Testcase 03 - Step 06: Click to Register button<br />
+                        Testcase 03 - Step 07: Verify success message is displayed<br />
+                        Testcase 03 - Step 08: Click to Continue button<br />
+                        Testcase 04 --- Register with duplicate email ---<br />
+                        Testcase 04 - Step 01: Re-click to Register link<br />
+                        Testcase 04 - Step 02: Re-input to First Name textbox<br />
+                        Testcase 04 - Step 03: Re-input to Last Name textbox<br />
+                        Testcase 04 - Step 04: Re-input to Email textbox<br />
+                        Testcase 04 - Step 05: Re-input to Password textbox<br />
+                        Testcase 04 - Step 06: Re-input to Confirm Password textbox<br />
+                        Testcase 04 - Step 07: Click to Register button<br />
+                        Testcase 04 - Step 08: Verify displays Duplicate Email message<br />
+                        Testcase 05 --- Register with password less than 6 characters ---<br />
+                        Testcase 05 - Step 01: Re-click to Register link<br />
+                        Testcase 05 - Step 02: Input Password less than 6 characters<br />
+                        Testcase 05 - Step 03: Click to Register button<br />
+                        Testcase 05 - Step 04: Verify displays error message input Password less than 6 characters<br />
+                        Testcase 06 --- Register with confirm password not match password ---<br />
+                        Testcase 06 - Step 01: Input to Password textbox<br />
+                        Testcase 06 - Step 02: Input to Confirm Password not match Password textbox<br />
+                        Testcase 06 - Step 03: Click to Register button<br />
+                        Testcase 06 - Step 04: Verify Message Confirm Password not match Password is displayed<br />
+                         ----- Preconditons: Open Home Page ----- <br />
+                         ----- Preconditions: Navigate to Login page ----- <br />
+                        Testcase 01 --- Login with empty data ---<br />
+                        Testcase 01 - Step 01: Click to Login button<br />
+                        Testcase 01 - Step 02: Verify Email error message is displayed<br />
+                        Testcase 02 --- Login with empty email ---<br />
+                        Testcase 02 - Step 01: Input invalid data to mail textbox<br />
+                        Testcase 02 - Step 02: Click to Login button<br />
+                        Testcase 02 - Step 03: Verify Wrong Email message is displayed<br />
+                        Testcase 03 --- Login with email not register ---<br />
+                        Testcase 03 - Step 01: Input not exist email to textbox<br />
+                        Testcase 03 - Step 02: Click to Login button<br />
+                        Testcase 03 - Step 03: Verify message not exist email is displayed<br />
+                        Testcase 04 --- Login with email registered and not input password ---<br />
+                        Testcase 04 - Step 01: Click to Login link<br />
+                        Testcase 04 - Step 02: Input email registered to textbox<br />
+                        Testcase 04 - Step 03: Click to Login button<br />
+                        Testcase 04 - Step 04: Verify error message is displayed<br />
+                        Testcase 05 --- Login with email registered and password incorrect ---<br />
+                        Testcase 05 - Step 01: Click to Login link<br />
+                        Testcase 05 - Step 02: Input email registered to textbox<br />
+                        Testcase 05 - Step 03: Input incorrect password to textbox<br />
+                        Testcase 05 - Step 04: Click to Login button<br />
+                        Testcase 05 - Step 05: Verify error message is displayed<br />
+                        Testcase 06 --- Login with correct email and correct password ---<br />
+                        Testcase 06 - Step 01: Click to Login link<br />
+                        Testcase 06 - Step 02: Input correct email to textbox<br />
+                        Testcase 06 - Step 03: Input correct password to textbox<br />
+                        Testcase 06 - Step 04: Click to Login button<br />
+                        Testcase 06 - Step 05: Verify login successfully and My Account is displayed<br />
+                         ----- Preconditons: Open Home Page ----- <br />
+                         ----- Preconditons: Navigate to Login Page ----- <br />
+                         ----- Preconditons: Login to Home Page ----- <br />
+                        Testcase 01 --- Update information user ---<br />
+                        Testcase 01 - Step 01: Click to My Account Link<br />
+                        Testcase 01 - Step 02: Select Gender is Female<br />
+                        Testcase 01 - Step 03: Update first name<br />
+                        Testcase 01 - Step 04: Update last name<br />
+                        Testcase 01 - Step 05: Update date of birth<br />
+                        Testcase 01 - Step 06: Update email<br />
+                        Testcase 01 - Step 07: Update company name<br />
+                        Testcase 01 - Step 08: Click save button<br />
+                        Testcase 01 --- Verify information user ---<br />
+                        Testcase 01 - Step 09: Verify Female is selected<br />
+                        Testcase 01 - Step 10: Verify value of first name is updated is Automation<br />
+                        Testcase 01 - Step 11: Verify value of last name is updated is FC<br />
+                        Testcase 01 - Step 12: Verify value of email is updated is automationfc.vn@gmail.com<br />
+                        Testcase 01 - Step 13: Verify value of Company Name is updated is Automation FC<br />
+                        Testcase 02 --- My account - Add new address ---<br />
+                        Testcase 02 - Step 01: Click to Address Link<br />
+                        Testcase 02 - Step 02: Click to Add New button<br />
+                        Testcase 02 - Step 03: Input to first name textbox<br />
+                        Testcase 02 - Step 04: Input to last name textbox<br />
+                        Testcase 02 - Step 05: Input to email textbox<br />
+                        Testcase 02 - Step 06: Input to company textbox<br />
+                        Testcase 02 - Step 07: Select value in country dropdown list<br />
+                        Testcase 02 - Step 08: Input to city textbox<br />
+                        Testcase 02 - Step 09: Input to Address 1 textbox<br />
+                        Testcase 02 - Step 10: Input to Address 2 textbox<br />
+                        Testcase 02 - Step 11: Input to zip code textbox<br />
+                        Testcase 02 - Step 12: Input to phone number textbox<br />
+                        Testcase 02 - Step 13: Input to fax number textbox<br />
+                        Testcase 02 - Step 14: Click to Save button<br />
+                        Testcase 02 --- Verify Add Address Successfully ---<br />
+                        Testcase 02 - Step 15: Verify name (first + last name) is displayed<br />
+                        Testcase 02 - Step 16: Verify email is displayed<br />
+                        Testcase 02 - Step 17: Verify phone number is displayed<br />
+                        Testcase 02 - Step 18: Verify fax number is displayed<br />
+                        Testcase 02 - Step 19: Verify company is displayed<br />
+                        Testcase 02 - Step 20: Verify address 1 is displayed<br />
+                        Testcase 02 - Step 21: Verify address 2 is displayed<br />
+                        Testcase 02 - Step 22: Verify city + state + zip is displayed<br />
+                        Testcase 02 - Step 23: Verify country is displayed<br />
+                        Testcase 03 --- My account - Change password ---<br />
+                        Testcase 03 - Step 01: Click to Change Password Link<br />
+                        Testcase 03 - Step 02: Input Old Password to textbox<br />
+                        Testcase 03 - Step 03: Input New Password to textbox<br />
+                        Testcase 03 - Step 04: Input Confirm New Password to textbox<br />
+                        Testcase 03 - Step 05: Click to Change Password textbox<br />
+                        Testcase 03 - Step 06: Verify Change Password Successfully<br />
+                        Testcase 03 - Step 07: Login - Input new email after update Customer Info<br />
+                        Testcase 03 - Step 08: Login - Input old password to textbox<br />
+                        Testcase 03 - Step 09: Login - Click to Login button<br />
+                        Testcase 03 - Step 10: Login - Verify message incorrect email is displayed<br />
+                        Testcase 03 - Step 11: Login - Click to login link<br />
+                        Testcase 03 - Step 12: Login - Input new email after update Customer Info<br />
+                        Testcase 03 - Step 13: Login - Input new password after change password<br />
+                        Testcase 03 - Step 14: Login - CLick to login button<br />
+                        Testcase 03 - Step 15: Login - Verify login successfully<br />
+                        Testcase 04 --- My account - My product reviews ---<br />
+                        Testcase 04 - Step 01: Click to NopCommerce Header<br />
+                        Testcase 04 - Step 02: Input data to Search box<br />
+                        Testcase 04 - Step 03: Select item to Search box<br />
+                        Testcase 04 - Step 04: Click to Add Review link<br />
+                        Testcase 04 - Step 05: Input Review Title to textbox<br />
+                        Testcase 04 - Step 06: Input Review Text to textbox<br />
+                        Testcase 04 - Step 07: Select Rating radio button<br />
+                        Testcase 04 - Step 08: Click to Submit Review button<br />
+                        Testcase 04 - Step 09: Click to My Account link<br />
+                        Testcase 04 - Step 09: Click to My Product Reviews link<br />
+                        Testcase 04 - Step 10: Verify Review Title is displayed<br />
+                        Testcase 04 - Step 11: Verify content Review Text is displayed<br />
+                        Testcase 04 - Step 12: Verify Product added is displayed<br />
+            </div>
+
+</body>
+</html>

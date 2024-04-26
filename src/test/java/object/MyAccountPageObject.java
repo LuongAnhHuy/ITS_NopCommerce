@@ -1,23 +1,22 @@
 package object;
 
-import common.AbstractPage;
-import org.apache.logging.log4j.LogManager;
-import org.apache.logging.log4j.Logger;
+import commons.AbstractPage;
+import io.qameta.allure.Step;
 import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.WebElement;
 import org.testng.Assert;
 import ui.MyAccountPageUI;
-
-import java.util.List;
 
 public class MyAccountPageObject extends AbstractPage {    WebDriver driver;
     public MyAccountPageObject(WebDriver driver) {
         this.driver = driver;
     }
 
+    @Step("Select Gender is Famale")
     public void selectGender() {
         checkToCheckbox(driver, MyAccountPageUI.FEMALE_RADIO_BUTTON);
     }
+
+    @Step("Input to First Name textbox with value {0}")
     public void inputToFirstName(String firstName) {
         sendkeyToElement(driver, MyAccountPageUI.FIRSTNAME_TEXTBOX, firstName);
     }

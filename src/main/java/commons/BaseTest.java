@@ -1,6 +1,8 @@
-package common;
+package commons;
 
 import io.github.bonigarcia.wdm.WebDriverManager;
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.chrome.ChromeOptions;
@@ -9,7 +11,17 @@ import org.openqa.selenium.firefox.FirefoxOptions;
 
 public class BaseTest extends AbstractPage {
     private WebDriver driver;
-    protected WebDriver getBrowserDriver(String browserName) {
+    protected final Logger logger;
+
+    public BaseTest(){
+        logger = LogManager.getLogger(getClass());
+    }
+
+    public WebDriver getDriver() {
+        return driver;
+    }
+
+    public WebDriver getBrowserDriver(String browserName) {
         switch (browserName) {
             case "chrome":
                 //WebDriverManager.chromedriver().clearDriverCache().setup();
@@ -33,7 +45,7 @@ public class BaseTest extends AbstractPage {
     }
 
 
-    protected WebDriver quitBrowser() {
+    public WebDriver quitBrowser() {
         closeBrowsers(driver);
         return driver;
     }

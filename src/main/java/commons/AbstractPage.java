@@ -1,4 +1,4 @@
-package common;
+package commons;
 
 import org.junit.Assert;
 import org.openqa.selenium.*;

@@ -1,6 +1,10 @@
 package testcase;
 
 import commons.BaseTest;
+import io.qameta.allure.Description;
+import io.qameta.allure.Severity;
+import io.qameta.allure.SeverityLevel;
+import io.qameta.allure.Story;
 import object.HeaderPageObject;
 import object.LoginPageObject;
 
@@ -14,6 +18,9 @@ public class Testcase_Login_Page extends BaseTest {
     HeaderPageObject headerPageObject;
     LoginPageObject loginPageObject;
 
+    @Story("Create and Run Browser")
+    @Severity(SeverityLevel.CRITICAL)
+    @Description("Run On Browser")
     @Parameters("browser")
     @BeforeClass
     public void beforeClass(String browserName){

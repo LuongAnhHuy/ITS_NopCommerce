@@ -17,6 +17,10 @@ public class Testcase_MyAccount_Page extends BaseTest {
     MyAccountPageObject myAccountPageObject;
     SearchObject searchObject;
     ProductReviewsObject productReviewsObject;
+
+    @Story("Create and Run Browser")
+    @Severity(SeverityLevel.CRITICAL)
+    @Description("Run On Browser")
     @Parameters("browser")
     @BeforeClass
     public void beforeClass(String browserName) {

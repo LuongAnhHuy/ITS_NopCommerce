@@ -1,6 +1,10 @@
 package testcase;
 
 import commons.BaseTest;
+import io.qameta.allure.Description;
+import io.qameta.allure.Severity;
+import io.qameta.allure.SeverityLevel;
+import io.qameta.allure.Story;
 import object.HeaderPageObject;
 import object.RegisterPageObject;
 import org.openqa.selenium.WebDriver;
@@ -14,6 +18,9 @@ public class Testcase_Register_Page extends BaseTest {
     HeaderPageObject headerPageObject;
     String currentURL;
 
+    @Story("Create and Run Browser")
+    @Severity(SeverityLevel.CRITICAL)
+    @Description("Run On Browser")
     @Parameters("browser")
     @BeforeClass
     public void beforeClass(String browserName) {

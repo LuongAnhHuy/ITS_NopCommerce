@@ -13,7 +13,7 @@ public class DeleteFileInFolder {
         deleteAllFileInFolder("reportNGImage");
 
         // Remove all file in Allure attachment (json file)
-        deleteAllFileInFolder("allure-json");
+        deleteAllFileInFolder("/allure-json");
     }
 
     public void deleteAllFileInFolder(String folderName) {

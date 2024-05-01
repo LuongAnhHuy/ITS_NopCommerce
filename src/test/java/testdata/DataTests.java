@@ -9,7 +9,7 @@ public class DataTests extends AbstractPage {
     public static final String email = "automationfc" + randomNumber() + "@gmail.com";
 
     public static final String emailRegistered = email;
-    public static final String errorMail = "automationfc";
+    public static final String errorMail = "automationfc@gmail";
     public static final String password = "huy123456";
     public static final String errorPassword = "12345";
     public static final String cfPassword = password;
@@ -19,8 +19,8 @@ public class DataTests extends AbstractPage {
     public static final String passwordIncorrect = "hahaha123";
 
     // Expected Error Message
-    public static final String notFoundEmail = "Login was unsuccessful. Please correct the errors and try again.\n" + "No customer account found";
-    public static final String incorrectEmail = "Login was unsuccessful. Please correct the errors and try again.\n" + "The credentials provided are incorrect";
+    public static final String notFoundEmail = "Login was unsuccessful. Please correct the errors and try again.\nNo customer account found";
+    public static final String incorrectEmail = "Login was unsuccessful. Please correct the errors and try again.\nThe credentials provided are incorrect";
 
     // Data: My Account
     public static final String firstName_MA = "Automation";

@@ -192,6 +192,12 @@ public class MyAccountPageObject extends AbstractPage {
         Assert.assertEquals(actual, expected);
     }
 
+    @Step("Verify city is displayed is {0}")
+    public void verifyCity(String expected) {
+        String actual = getTextElement(driver, MyAccountPageUI.CITY);
+        Assert.assertEquals(actual, expected);
+    }
+
     @Step("Verify address 1 is displayed is {0}")
     public void verifyAddress1(String expected) {
         String actual = getTextElement(driver, MyAccountPageUI.ADDRESS1);
@@ -204,8 +210,8 @@ public class MyAccountPageObject extends AbstractPage {
         Assert.assertEquals(actual, expected);
     }
 
-    @Step("Verify city + state + zip is displayed is {0}")
-    public void verifyCityStateZip(String expected) {
+    @Step("Verify zip code is displayed is {0}")
+    public void verifyZipCode(String expected) {
         String actual = getTextElement(driver, MyAccountPageUI.CITY_STATE_ZIP);
         Assert.assertEquals(actual, expected);
     }
@@ -266,6 +272,7 @@ public class MyAccountPageObject extends AbstractPage {
     public void verifyProductAdded(String expected) {
         getItemInListItem(driver, MyAccountPageUI.PRODUCT_ADDED_TEXT, expected);
     }
+
 }
 
 

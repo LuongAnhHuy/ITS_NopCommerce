@@ -23,6 +23,7 @@ public class SearchObject extends AbstractPage {
 
     @Step("Click to Add Review link")
     public void clickToAddReviewLink() {
+        waitToElementClickable(driver, SearchUI.ADD_YOUR_REVIEW);
         clickToElement(driver, SearchUI.ADD_YOUR_REVIEW);
     }
 }

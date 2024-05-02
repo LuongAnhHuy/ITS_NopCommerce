@@ -55,7 +55,8 @@ public class DataTests extends AbstractPage {
     public static final String company_verify = company_ADD;
     public static final String address1_verify = address1_ADD;
     public static final String address2_verify = address2_ADD;
-    public static final String city_state_zip_verify = city_ADD + ", " + zipCode_ADD;
+    public static final String city_verify = city_ADD;
+    public static final String zip_code_verify = zipCode_ADD;
     public static final String country_verify = country_ADD;
 
     // Data Change Password

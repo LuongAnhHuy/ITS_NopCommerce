@@ -36,7 +36,8 @@ public class MyAccountPageUI {
     public static final String COMPANY = "//li[@class='company']";
     public static final String ADDRESS1 = "//li[@class='address1']";
     public static final String ADDRESS2 = "//li[@class='address2']";
-    public static final String CITY_STATE_ZIP = "//li[@class='city-state-zip']";
+    public static final String CITY = "//li[@class='city']";
+    public static final String CITY_STATE_ZIP = "//li[@class='zippostalcode']";
     public static final String COUNTRY = "//li[@class='country']";
 
     public static final String CHANGE_PASSWORD_LINK = "//li[@class='change-password inactive']//a[text()='Change password']";

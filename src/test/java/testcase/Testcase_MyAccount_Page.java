@@ -138,11 +138,13 @@ public class Testcase_MyAccount_Page extends BaseTest {
 
         myAccountPageObject.verifyCompanyAddress(DataTests.company_verify);
 
+        myAccountPageObject.verifyCity(DataTests.city_verify);
+
         myAccountPageObject.verifyAddress1(DataTests.address1_verify);
 
         myAccountPageObject.verifyAddress2(DataTests.address2_verify);
 
-        myAccountPageObject.verifyCityStateZip(DataTests.city_state_zip_verify);
+        myAccountPageObject.verifyZipCode(DataTests.zip_code_verify);
 
         myAccountPageObject.verifyCountry(DataTests.country_verify);
         refreshToPage(driver);
@@ -168,6 +170,10 @@ public class Testcase_MyAccount_Page extends BaseTest {
         myAccountPageObject.verifyChangePasswordSuccessfully();
 
         refreshToPage(driver);
+
+        headerPageObject = new HeaderPageObject(driver);
+        headerPageObject.clickToLogoutLink();
+        headerPageObject.clickToLoginLink();
 
         loginPageObject = new LoginPageObject(driver);
 
@@ -226,6 +232,8 @@ public class Testcase_MyAccount_Page extends BaseTest {
         productReviewsObject.clickRatingRadioButton();
 
         productReviewsObject.clickSubmitReviewButton();
+
+        refreshToPage(driver);
 
         headerPageObject = new HeaderPageObject(driver);
         headerPageObject.clickToMyAccountLink();

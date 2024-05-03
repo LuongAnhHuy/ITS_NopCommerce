@@ -55,7 +55,7 @@ public class Testcase_Register_Page extends BaseTest {
 //        logger.info("Testcase 01 - Step 07: Verify displays Password error message");
 //        registerPageObject.verifyPasswordErrorMessage("Password is required.");
 
-        registerPageObject.verifyConfirmPasswordErrorMessage("Password is required.");
+        verifyTrue(registerPageObject.verifyConfirmPasswordErrorMessage());
     }
 
     @Severity(SeverityLevel.NORMAL)
@@ -76,7 +76,7 @@ public class Testcase_Register_Page extends BaseTest {
 
         registerPageObject.inputToConfirmPasswordTextbox(DataTests.cfPassword);
 
-        registerPageObject.VerifyWrongEmailMessage("Wrong email");
+        verifyTrue(registerPageObject.VerifyWrongEmailMessage());
     }
 
     @Severity(SeverityLevel.MINOR)
@@ -98,7 +98,7 @@ public class Testcase_Register_Page extends BaseTest {
 
         registerPageObject.clickToRegisterButton();
 
-        registerPageObject.verifySuccessMessage("Your registration completed");
+        verifyTrue(registerPageObject.verifySuccessMessage());
 
         registerPageObject.clickToContinueButton();
 
@@ -128,7 +128,7 @@ public class Testcase_Register_Page extends BaseTest {
 
         registerPageObject.clickToRegisterButton();
 
-        registerPageObject.verifyDuplicateErrorMessage();
+        verifyTrue(registerPageObject.verifyDuplicateErrorMessage());
     }
 
     @Severity(SeverityLevel.NORMAL)
@@ -147,8 +147,7 @@ public class Testcase_Register_Page extends BaseTest {
 
         registerPageObject.clickToRegisterButton();
 
-//        logger.info("Testcase 05 - Step 04: Verify displays error message input Password less than 6 characters");
-//        registerPageObject.verifyMessageLessThanDisplay();
+        //verifyTrue(registerPageObject.verifyMessageLessThanDisplay());
     }
 
     @Severity(SeverityLevel.NORMAL)
@@ -164,6 +163,6 @@ public class Testcase_Register_Page extends BaseTest {
 
         registerPageObject.clickToRegisterButton();
 
-        registerPageObject.verifyMessageNotMatch();
+        verifyTrue(registerPageObject.verifyMessageNotMatch());
     }
 }

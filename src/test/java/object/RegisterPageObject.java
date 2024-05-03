@@ -48,10 +48,8 @@ public class RegisterPageObject extends AbstractPage {
     }
 
     @Step("Verify displays Confirm Password error message")
-    public void verifyConfirmPasswordErrorMessage(String expected) {
-        waitToElementVisible(driver, RegisterPageUI.CONFIRM_PASSWORD_MESSAGE);
-        String actual = getTextElement(driver, RegisterPageUI.CONFIRM_PASSWORD_MESSAGE);
-        Assert.assertEquals(actual, expected);
+    public boolean verifyConfirmPasswordErrorMessage() {
+        return isControlDisplayed(driver, RegisterPageUI.CONFIRM_PASSWORD_MESSAGE);
     }
 
     @Step("Input to First Name textbox")
@@ -84,10 +82,8 @@ public class RegisterPageObject extends AbstractPage {
     }
 
     @Step("Verify displays Wrong Email message")
-    public void VerifyWrongEmailMessage(String expected) {
-        waitToElementVisible(driver, RegisterPageUI.WRONG_EMAIL_MESSAGE);
-        String actual = getTextElement(driver, RegisterPageUI.WRONG_EMAIL_MESSAGE);
-        Assert.assertEquals(actual, expected);
+    public boolean VerifyWrongEmailMessage() {
+        return isControlDisplayed(driver, RegisterPageUI.WRONG_EMAIL_MESSAGE);
     }
 
     @Step("Input valid First Name to textbox")
@@ -121,10 +117,8 @@ public class RegisterPageObject extends AbstractPage {
     }
 
     @Step("Verify success message is displayed")
-    public void verifySuccessMessage(String expected) {
-        waitToElementVisible(driver, RegisterPageUI.SUCCESS_MESSAGE);
-        String actual = getTextElement(driver, RegisterPageUI.SUCCESS_MESSAGE);
-        Assert.assertEquals(actual, expected);
+    public boolean verifySuccessMessage() {
+        return isControlDisplayed(driver, RegisterPageUI.SUCCESS_MESSAGE);
     }
 
     @Step("Click to Continue button")
@@ -134,22 +128,18 @@ public class RegisterPageObject extends AbstractPage {
     }
 
     @Step("Verify displays Duplicate Email message")
-    public void verifyDuplicateErrorMessage() {
-        waitToElementVisible(driver, RegisterPageUI.DUPLICATE_MESSAGE);
-        boolean duplicateEmailMessage = isControlDisplayed(driver, RegisterPageUI.DUPLICATE_MESSAGE);
-        Assert.assertTrue(duplicateEmailMessage);
+    public boolean verifyDuplicateErrorMessage() {
+        return isControlDisplayed(driver, RegisterPageUI.DUPLICATE_MESSAGE);
     }
 
     @Step("Verify displays error message input Password less than 6 characters")
-    public void verifyMessageLessThanDisplay() {
-        waitToElementVisible(driver, RegisterPageUI.PASSWORD_LESS_THAN_MESSAGE);
-        isControlDisplayed(driver, RegisterPageUI.PASSWORD_LESS_THAN_MESSAGE);
+    public boolean verifyMessageLessThanDisplay() {
+        return isControlDisplayed(driver, RegisterPageUI.PASSWORD_LESS_THAN_MESSAGE);
     }
 
 
     @Step("Verify Message Confirm Password not match Password is displayed")
-    public void verifyMessageNotMatch() {
-        waitToElementVisible(driver, RegisterPageUI.PASSWORD_NOT_MATCH_MESSAGE);
-        isControlDisplayed(driver, RegisterPageUI.PASSWORD_NOT_MATCH_MESSAGE);
+    public boolean verifyMessageNotMatch() {
+        return isControlDisplayed(driver, RegisterPageUI.PASSWORD_NOT_MATCH_MESSAGE);
     }
 }

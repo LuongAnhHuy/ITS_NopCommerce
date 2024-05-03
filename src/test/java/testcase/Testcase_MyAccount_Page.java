@@ -1,6 +1,7 @@
 package testcase;
 
 import commons.BaseTest;
+import actions.object.*;
 import io.qameta.allure.*;
 import object.*;
 import org.openqa.selenium.WebDriver;

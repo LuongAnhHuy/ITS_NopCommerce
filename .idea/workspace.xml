@@ -5,7 +5,43 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2cc7d2c5-d061-4aa3-b592-6d46b50f28d1" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/src/test/java/testdata/GlobalContants.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/testdata/GlobalContants.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/reportConfig/TestNGAppender.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/reportConfig/VerificationFailures.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/log4j2.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-json/13ed4be1-fe08-441f-ba49-24db800d2553-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-json/254bcc59-23fe-465e-a24d-8e0216340397-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-json/2da0836b-250e-42e2-9071-2fc1f88b722f-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-json/32dd4b42-3a0a-4119-9545-5058b6c902e3-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-json/4a835294-371d-4dc6-8994-e45994c98d3f-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-json/53f43831-a76b-4f4f-a50f-b60c258bbfb5-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-json/57f3351f-821d-495b-bcd6-58689f1c36cd-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-json/67d2ed6f-8359-4751-bc60-88bd7e05ae60-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-json/6d0ecd07-0076-4236-a712-5f144f732fd2-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-json/6fad6343-554b-44e0-9646-26bdabbcaee1-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-json/71197e56-c5a9-4513-ab21-448aec902e18-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-json/7daf9c8c-fe0e-47cf-b4ed-e31765735854-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-json/a04cdad9-cf1a-4538-8668-a527d3c37296-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-json/a5a2ec68-4586-466f-9311-977289b8aec9-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-json/af7a0d67-603a-4a60-8f27-acce5fb2535e-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-json/c80e5e7e-4ac7-4f22-9f95-4070106de86a-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-json/d4d73ca8-1406-4c14-87a9-34a31be4d014-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-json/d594b660-20e9-493a-885f-e5de6b8e8434-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-json/e19f4ec6-ff19-4dc3-8fcd-039b8c26fdcb-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-json/f5c892d0-e3b7-42d6-b037-6194e45e227e-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-json/fc06e7c4-8c13-4727-854b-78f68567f8ef-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/Fixed.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/Fixed.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/Random.26-04-2024_14-10-23.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/Random.26-04-2024_15-15-19.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/app-properties.txt" beforeDir="false" afterPath="$PROJECT_DIR$/logs/app-properties.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/commons/BaseTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/commons/BaseTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/object/RegisterPageObject.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/object/RegisterPageObject.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/testcase/Testcase_MyAccount_Page.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/testcase/Testcase_MyAccount_Page.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/testcase/Testcase_Register_Page.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/testcase/Testcase_Register_Page.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/log4j2.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/log4j2-1.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/target/xml/testcase.Testcase_Login_Page_results.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/target/xml/testcase.Testcase_Login_Page_results.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/target/xml/testcase.Testcase_MyAccount_Page_results.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/target/xml/testcase.Testcase_MyAccount_Page_results.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/target/xml/testcase.Testcase_Register_Page_results.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/target/xml/testcase.Testcase_Register_Page_results.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -55,7 +91,7 @@
     "git-widget-placeholder": "master",
     "kotlin-language-version-configured": "true",
     "last_directory_selection": "E:/Project/Automation/Demo_NopCommerce/src/test/java",
-    "last_opened_file_path": "E:/Project/Automation/Demo_NopCommerce/allure-json",
+    "last_opened_file_path": "E:/Project/Automation/Demo_NopCommerce/src/test/java/testcase/NopCommerce",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -172,7 +208,8 @@
       <workItem from="1714479406294" duration="6925000" />
       <workItem from="1714563458560" duration="1364000" />
       <workItem from="1714630870250" duration="197000" />
-      <workItem from="1714631079542" duration="11390000" />
+      <workItem from="1714631079542" duration="21145000" />
+      <workItem from="1714725727648" duration="918000" />
     </task>
     <servers />
   </component>

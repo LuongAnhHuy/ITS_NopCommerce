@@ -4,13 +4,13 @@
            failures="0"
            errors="0"
            skipped="0"
-           time="12.394">
+           time="15.225">
   <properties />
   
   
-            <testcase name="Testcase_04_My_Product_Review" time="3.673" classname="testcase.Testcase_MyAccount_Page" />
-                <testcase name="Testcase_01_Update_information_user" time="2.059" classname="testcase.Testcase_MyAccount_Page" />
-                <testcase name="Testcase_03_Change_password" time="4.130" classname="testcase.Testcase_MyAccount_Page" />
-                <testcase name="Testcase_02_Add_address" time="2.532" classname="testcase.Testcase_MyAccount_Page" />
+            <testcase name="Testcase_02_Add_address" time="4.204" classname="testcase.Testcase_MyAccount_Page" />
+                <testcase name="Testcase_03_Change_password" time="4.138" classname="testcase.Testcase_MyAccount_Page" />
+                <testcase name="Testcase_01_Update_information_user" time="2.279" classname="testcase.Testcase_MyAccount_Page" />
+                <testcase name="Testcase_04_My_Product_Review" time="4.604" classname="testcase.Testcase_MyAccount_Page" />
       
 </testsuite>

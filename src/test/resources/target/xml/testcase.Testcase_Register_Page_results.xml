@@ -1,84 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <testsuite name="Run on Chrome"
            tests="6"
-           failures="1"
+           failures="0"
            errors="0"
            skipped="0"
-           time="22.920">
+           time="7.390">
   <properties />
-            <testcase name="Testcase_05_Register_with_password_less_than_6_characters" time="15.495" classname="testcase.Testcase_Register_Page">
-                <failure type="org.openqa.selenium.NoSuchElementException"
-                  message="no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//span[@id=&apos;Password-error&apos;]&quot;}
-  (Session info: chrome=124.0.6367.118)
-For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
-Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
-System info: host: &apos;ICT-D-HUYLUONG&apos;, ip: &apos;10.241.72.169&apos;, os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;22.0.1&apos;
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 124.0.6367.118, chrome: {chromedriverVersion: 124.0.6367.91 (51df0e5e17a8..., userDataDir: C:\Users\HUY~1.LUO\AppData\...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:59741}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 62ddf473681a2085022e50e7a6c2ea1d
-*** Element info: {Using=xpath, value=//span[@id=&apos;Password-error&apos;]}"
-              >
-                    <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//span[@id='Password-error']"}
-  (Session info: chrome=124.0.6367.118)
-For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'ICT-D-HUYLUONG', ip: '10.241.72.169', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '22.0.1'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 124.0.6367.118, chrome: {chromedriverVersion: 124.0.6367.91 (51df0e5e17a8..., userDataDir: C:\Users\HUY~1.LUO\AppData\...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:59741}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 62ddf473681a2085022e50e7a6c2ea1d
-*** Element info: {Using=xpath, value=//span[@id='Password-error']}
-  java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
-  java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
-  java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
-  org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
-  org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
-  org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
-  org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
-  org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
-  org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
-  org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
-  org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
-  org.openqa.selenium.By$ByXPath.findElement(By.java:353)
-  org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
-  commons.AbstractPage.find(AbstractPage.java:113)
-  commons.AbstractPage.isControlDisplayed(AbstractPage.java:214)
-  object.RegisterPageObject.verifyMessageLessThanDisplay(RegisterPageObject.java:137)
-  testcase.Testcase_Register_Page.Testcase_05_Register_with_password_less_than_6_characters(Testcase_Register_Page.java:151)
-  java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
-  java.base/java.lang.reflect.Method.invoke(Method.java:580)
-  org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
-  org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
-  org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
-  org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
-  org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
-  org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
-  org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
-  org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
-  java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
-  org.testng.TestRunner.privateRun(TestRunner.java:794)
-  org.testng.TestRunner.run(TestRunner.java:596)
-  org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
-  org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
-  org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
-  org.testng.SuiteRunner.run(SuiteRunner.java:276)
-  org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
-  org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
-  org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
-  org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
-  org.testng.TestNG.runSuites(TestNG.java:1063)
-  org.testng.TestNG.run(TestNG.java:1031)
-  com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:65)
-  com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:105)
-]]>
-                </failure>
-
-          </testcase>
   
   
-            <testcase name="Testcase_02_Register_with_invalid_email" time="0.890" classname="testcase.Testcase_Register_Page" />
-                <testcase name="Testcase_01_Register_with_empty_data" time="2.233" classname="testcase.Testcase_Register_Page" />
-                <testcase name="Testcase_03_Register_successfully" time="2.482" classname="testcase.Testcase_Register_Page" />
-                <testcase name="Testcase_06_Register_with_confirm_password_not_match_password" time="0.606" classname="testcase.Testcase_Register_Page" />
-                <testcase name="Testcase_04_Register_duplicate_email" time="1.214" classname="testcase.Testcase_Register_Page" />
+            <testcase name="Testcase_02_Register_with_invalid_email" time="0.850" classname="testcase.Testcase_Register_Page" />
+                <testcase name="Testcase_01_Register_with_empty_data" time="1.825" classname="testcase.Testcase_Register_Page" />
+                <testcase name="Testcase_06_Register_with_confirm_password_not_match_password" time="0.581" classname="testcase.Testcase_Register_Page" />
+                <testcase name="Testcase_03_Register_successfully" time="2.445" classname="testcase.Testcase_Register_Page" />
+                <testcase name="Testcase_05_Register_with_password_less_than_6_characters" time="0.441" classname="testcase.Testcase_Register_Page" />
+                <testcase name="Testcase_04_Register_duplicate_email" time="1.248" classname="testcase.Testcase_Register_Page" />
       
 </testsuite>

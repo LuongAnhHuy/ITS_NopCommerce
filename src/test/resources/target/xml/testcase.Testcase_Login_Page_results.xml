@@ -4,15 +4,15 @@
            failures="0"
            errors="0"
            skipped="0"
-           time="4.538">
+           time="5.943">
   <properties />
   
   
-            <testcase name="Testcase_06_Login_with_correct_email_and_correct_password" time="1.201" classname="testcase.Testcase_Login_Page" />
-                <testcase name="Testcase_05_Login_with_email_registered_and_password_incorrect" time="0.949" classname="testcase.Testcase_Login_Page" />
-                <testcase name="Testcase_03_Login_with_email_not_register" time="0.815" classname="testcase.Testcase_Login_Page" />
-                <testcase name="Testcase_02_Login_with_invalid_email" time="0.568" classname="testcase.Testcase_Login_Page" />
-                <testcase name="Testcase_01_Login_with_empty_data" time="0.155" classname="testcase.Testcase_Login_Page" />
-                <testcase name="Testcase_04_Login_with_email_registered_and_not_input_password" time="0.850" classname="testcase.Testcase_Login_Page" />
+            <testcase name="Testcase_05_Login_with_email_registered_and_password_incorrect" time="0.943" classname="testcase.Testcase_Login_Page" />
+                <testcase name="Testcase_06_Login_with_correct_email_and_correct_password" time="1.539" classname="testcase.Testcase_Login_Page" />
+                <testcase name="Testcase_03_Login_with_email_not_register" time="1.267" classname="testcase.Testcase_Login_Page" />
+                <testcase name="Testcase_02_Login_with_invalid_email" time="1.183" classname="testcase.Testcase_Login_Page" />
+                <testcase name="Testcase_04_Login_with_email_registered_and_not_input_password" time="0.861" classname="testcase.Testcase_Login_Page" />
+                <testcase name="Testcase_01_Login_with_empty_data" time="0.150" classname="testcase.Testcase_Login_Page" />
       
 </testsuite>

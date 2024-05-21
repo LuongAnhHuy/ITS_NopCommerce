@@ -247,5 +247,7 @@ public class Testcase_MyAccount_Page extends BaseTest {
         myAccountPageObject.verifyContentReviewTextIsDisplayed(DataTests.review_text);
 
         myAccountPageObject.verifyProductAdded(DataTests.product_added);
+
+
     }
 }

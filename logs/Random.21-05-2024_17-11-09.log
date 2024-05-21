@@ -1,0 +1,34 @@
+[21-05-2024 17:11:12.793 INFO testcase.TestRegisterPage] - Testcase 01 --- Register with empty data ---
+[21-05-2024 17:11:12.798 INFO testcase.TestRegisterPage] - Testcase 01 - Step 01: Open Nopcommerce Page
+[21-05-2024 17:11:15.123 INFO testcase.TestRegisterPage] - --------- PASSED ---------
+[21-05-2024 17:11:15.185 INFO testcase.TestRegisterPage] - Testcase 02 --- Register with invalid email ---
+[21-05-2024 17:11:16.095 INFO testcase.TestRegisterPage] - --------- PASSED ---------
+[21-05-2024 17:11:16.098 INFO testcase.TestRegisterPage] - Testcase 03 --- Register successfully ---
+[21-05-2024 17:11:17.599 INFO testcase.TestRegisterPage] - --------- PASSED ---------
+[21-05-2024 17:11:18.629 INFO testcase.TestRegisterPage] - Testcase 04 --- Register with duplicate email ---
+[21-05-2024 17:11:19.878 INFO testcase.TestRegisterPage] - --------- PASSED ---------
+[21-05-2024 17:11:19.881 INFO testcase.TestRegisterPage] - Testcase 05 --- Register with password less than 6 characters ---
+[21-05-2024 17:11:20.353 INFO testcase.TestRegisterPage] - Testcase 06 --- Register with confirm password not match password ---
+[21-05-2024 17:11:20.944 INFO testcase.TestRegisterPage] - --------- PASSED ---------
+[21-05-2024 17:11:22.934 INFO testcase.TestLoginPage] -  ----- Preconditons: Open Home Page -----
+[21-05-2024 17:11:24.402 INFO testcase.TestLoginPage] - Testcase 01 --- Login with empty data ---
+[21-05-2024 17:11:24.544 INFO testcase.TestLoginPage] - Testcase 02 --- Login with empty email ---
+[21-05-2024 17:11:25.108 INFO testcase.TestLoginPage] - Testcase 03 --- Login with email not register ---
+[21-05-2024 17:11:25.976 INFO testcase.TestLoginPage] - Testcase 04 --- Login with email registered and not input password ---
+[21-05-2024 17:11:26.846 INFO testcase.TestLoginPage] - Testcase 05 --- Login with email registered and password incorrect ---
+[21-05-2024 17:11:27.823 INFO testcase.TestLoginPage] - Testcase 06 --- Login with correct email and correct password ---
+[21-05-2024 17:11:30.903 INFO testcase.TestMyAccountPage] -  ----- Preconditons: Open Home Page -----
+[21-05-2024 17:11:31.964 INFO testcase.TestMyAccountPage] -  ----- Preconditons: Navigate to Login Page -----
+[21-05-2024 17:11:32.395 INFO testcase.TestMyAccountPage] -  ----- Preconditons: Login to Home Page -----
+[21-05-2024 17:11:33.380 INFO testcase.TestMyAccountPage] - Testcase 01 --- Update information user ---
+[21-05-2024 17:11:35.177 INFO testcase.TestMyAccountPage] - Testcase 01 --- Verify information user ---
+[21-05-2024 17:11:35.710 INFO testcase.TestMyAccountPage] - Testcase 02 --- My account - Add new address ---
+[21-05-2024 17:11:37.896 INFO testcase.TestMyAccountPage] - Testcase 02 --- Verify Add Address Successfully ---
+[21-05-2024 17:11:38.333 INFO testcase.TestMyAccountPage] - Testcase 03 --- My account - Change password ---
+[21-05-2024 17:11:40.452 INFO testcase.TestMyAccountPage] - Testcase 03 - Login - Input new email after update Customer Info
+[21-05-2024 17:11:40.588 INFO testcase.TestMyAccountPage] - Testcase 03 - Login - Input old password to textbox
+[21-05-2024 17:11:41.436 INFO testcase.TestMyAccountPage] - Testcase 03 - Login - Input new email after update Customer Info
+[21-05-2024 17:11:41.562 INFO testcase.TestMyAccountPage] - Testcase 03 - Login - Input new password after change password
+[21-05-2024 17:11:42.650 INFO testcase.TestMyAccountPage] - Testcase 04 --- My account - My product reviews ---
+[21-05-2024 17:11:50.610 INFO testcase.TestRegisterPage] - Testcase 01 --- Register with empty data ---
+[21-05-2024 17:11:50.611 INFO testcase.TestRegisterPage] - Testcase 01 - Step 01: Open Nopcommerce Page

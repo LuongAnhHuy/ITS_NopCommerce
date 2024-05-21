@@ -1,18 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="Run on Firefox"
+<testsuite name="Run on Chrome"
            tests="6"
            failures="0"
            errors="0"
            skipped="0"
-           time="11.006">
+           time="7.106">
   <properties />
   
   
-            <testcase name="Testcase_03_Register_successfully" time="3.471" classname="testcase.Testcase_Register_Page" />
-                <testcase name="Testcase_02_Register_with_invalid_email" time="0.932" classname="testcase.Testcase_Register_Page" />
-                <testcase name="Testcase_06_Register_with_confirm_password_not_match_password" time="2.284" classname="testcase.Testcase_Register_Page" />
-                <testcase name="Testcase_04_Register_duplicate_email" time="1.157" classname="testcase.Testcase_Register_Page" />
-                <testcase name="Testcase_01_Register_with_empty_data" time="2.510" classname="testcase.Testcase_Register_Page" />
-                <testcase name="Testcase_05_Register_with_password_less_than_6_characters" time="0.652" classname="testcase.Testcase_Register_Page" />
+            <testcase name="Testcase_03_Register_successfully" time="2.574" classname="testcase.TestRegisterPage" />
+                <testcase name="Testcase_02_Register_with_invalid_email" time="0.941" classname="testcase.TestRegisterPage" />
+                <testcase name="Testcase_04_Register_duplicate_email" time="1.232" classname="testcase.TestRegisterPage" />
+                <testcase name="Testcase_06_Register_with_confirm_password_not_match_password" time="0.575" classname="testcase.TestRegisterPage" />
+                <testcase name="Testcase_05_Register_with_password_less_than_6_characters" time="0.459" classname="testcase.TestRegisterPage" />
+                <testcase name="Testcase_01_Register_with_empty_data" time="1.325" classname="testcase.TestRegisterPage" />
       
 </testsuite>

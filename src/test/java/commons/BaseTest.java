@@ -36,8 +36,8 @@ public class BaseTest extends AbstractPage {
     protected WebDriver getBrowserDriver(String browserName) {
         switch (browserName) {
             case "chrome":
-                //WebDriverManager.chromedriver().clearDriverCache().setup();
-                WebDriverManager.chromedriver().setup();
+                WebDriverManager.chromedriver().clearDriverCache().setup();
+                //WebDriverManager.chromedriver().setup();
                 ChromeOptions chromeOptions = new ChromeOptions();
                 driver = new ChromeDriver(chromeOptions);
                 break;

@@ -9,19 +9,19 @@
     <test name="Run on Chrome">
         <parameter name="browser" value="chrome"/>
         <classes>
-            <class name="testcase.Testcase_Register_Page"></class>
-            <class name="testcase.Testcase_Login_Page"></class>
-            <class name="testcase.Testcase_MyAccount_Page"></class>
+            <class name="testcase.TestRegisterPage"></class>
+            <class name="testcase.TestLoginPage"></class>
+            <class name="testcase.TestMyAccountPage"></class>
         </classes>
     </test>
 
-    <test name="Run on Firefox">
-        <parameter name="browser" value="firefox"/>
-        <classes>
-            <class name="testcase.Testcase_Register_Page"></class>
-            <class name="testcase.Testcase_Login_Page"></class>
-            <class name="testcase.Testcase_MyAccount_Page"></class>
-        </classes>
-    </test>
+<!--    <test name="Run on Firefox">-->
+<!--        <parameter name="browser" value="firefox"/>-->
+<!--        <classes>-->
+<!--            <class name="testcase.TestRegisterPage"></class>-->
+<!--            <class name="testcase.TestLoginPage"></class>-->
+<!--            <class name="testcase.TestMyAccountPage"></class>-->
+<!--        </classes>-->
+<!--    </test>-->
 
 </suite>

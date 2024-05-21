@@ -6,33 +6,9 @@
   <component name="ChangeListManager">
     <list default="true" id="2cc7d2c5-d061-4aa3-b592-6d46b50f28d1" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-json/031c8be9-8dcd-409d-ac48-dd22ed468ec0-result.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-json/0e6f6fdc-d464-4325-b3f8-5f8f949a7658-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-json/3124bcfd-a8d1-47ef-aaaa-bfff447c6c6b-result.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-json/3c5fef0a-75bd-42a1-b759-a3304abab2be-result.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-json/4ebb89d2-161d-4015-9f05-865db9e54bdf-result.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-json/5af34cdf-ae6a-4ebf-b6c1-dc0952d49638-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-json/5c6e85c5-67a2-4f5d-89ce-800c0f58c23a-result.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-json/64120262-250b-43d2-9c66-2bc765e7d025-result.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-json/6b423993-1da5-4c8c-aefc-8f2393262d09-result.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-json/6f9f318d-8672-4c8a-b906-3bcb04f59aea-result.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-json/84877735-1138-4611-8587-54e23d8ae0da-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-json/98b16088-d846-40c5-8e08-9d2e7db39e29-result.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-json/a35d38b8-ae9e-4dce-ae16-fc82c56f8b65-result.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-json/a6033ab3-1ff6-43e8-925e-3c9582fca616-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-json/ae110426-b8be-40c8-80e9-6b539552557b-result.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-json/c067f8cc-af7a-4f01-a512-4fdbcbea24fb-result.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-json/ca121b18-b938-484a-b7f8-4f6570ab016c-result.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-json/d430c2e8-98d3-41c9-9f8f-dafcbd79594e-result.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-json/df30bec0-d392-4bde-9336-25f48a4b6b37-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-json/ef306b33-c918-4198-b415-3ff7b65f63ff-result.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-json/f83e0f7d-7b8b-4a7d-85b6-4f46acf32f4a-result.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/Fixed.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/Fixed.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/commons/AbstractPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/commons/AbstractPage.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/commons/BaseTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/commons/BaseTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/RunTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/RunTest.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/target/xml/testcase.Testcase_Login_Page_results.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/target/xml/testcase.Testcase_Login_Page_results.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/target/xml/testcase.Testcase_MyAccount_Page_results.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/target/xml/testcase.Testcase_MyAccount_Page_results.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/target/xml/testcase.Testcase_Register_Page_results.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/target/xml/testcase.Testcase_Register_Page_results.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -207,6 +183,7 @@
       <workItem from="1714962084533" duration="680000" />
       <workItem from="1715067046553" duration="4316000" />
       <workItem from="1715160883619" duration="914000" />
+      <workItem from="1716257722801" duration="2865000" />
     </task>
     <servers />
   </component>

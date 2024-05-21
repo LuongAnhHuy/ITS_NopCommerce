@@ -38,12 +38,7 @@ public abstract class AbstractPage {
     protected void maximizeBrowsers(WebDriver driver) {
         driver.manage().window().maximize();
     }
-
-    protected void closeBrowsers(WebDriver driver) {
-        driver.quit();
-    }
-
-    protected void openUrl(WebDriver driver, String url) {
+    protected void openUrl(WebDriver driver, String url){
         driver.get(url);
     }
 

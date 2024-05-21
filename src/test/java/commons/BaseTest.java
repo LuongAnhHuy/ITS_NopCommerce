@@ -58,8 +58,9 @@ public class BaseTest extends AbstractPage {
 
 
     protected WebDriver quitBrowser() {
-        closeBrowsers(driver);
+        driver.quit();
         return driver;
+
     }
     protected void deleteAllFileInFolder(String folderName) {
         try {

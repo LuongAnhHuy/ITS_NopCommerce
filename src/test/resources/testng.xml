@@ -2,26 +2,15 @@
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
 <suite name="NopCommerce" >
     <listeners>
-<!--        <listener class-name="org.uncommons.reportng.HTMLReporter"/>-->
-        <listener class-name="org.uncommons.reportng.JUnitXMLReporter"/>
         <listener class-name="reportConfig.AllureTestListener"/>
     </listeners>
+
     <test name="Run on Chrome">
         <parameter name="browser" value="chrome"/>
         <classes>
-            <class name="testcase.TestRegisterPage"></class>
-            <class name="testcase.TestLoginPage"></class>
-            <class name="testcase.TestMyAccountPage"></class>
+            <class name="testcase.TestRegisterPage"/>
+            <class name="testcase.TestLoginPage"/>
+            <class name="testcase.TestMyAccountPage"/>
         </classes>
     </test>
-
-<!--    <test name="Run on Firefox">-->
-<!--        <parameter name="browser" value="firefox"/>-->
-<!--        <classes>-->
-<!--            <class name="testcase.TestRegisterPage"></class>-->
-<!--            <class name="testcase.TestLoginPage"></class>-->
-<!--            <class name="testcase.TestMyAccountPage"></class>-->
-<!--        </classes>-->
-<!--    </test>-->
-
 </suite>

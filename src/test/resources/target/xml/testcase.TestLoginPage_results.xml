@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Run on Chrome"
+           tests="6"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="5.036">
+  <properties />
+  
+  
+            <testcase name="Testcase_02_Login_with_invalid_email" time="0.579" classname="testcase.TestLoginPage" />
+                <testcase name="Testcase_01_Login_with_empty_data" time="0.190" classname="testcase.TestLoginPage" />
+                <testcase name="Testcase_06_Login_with_correct_email_and_correct_password" time="1.358" classname="testcase.TestLoginPage" />
+                <testcase name="Testcase_03_Login_with_email_not_register" time="0.856" classname="testcase.TestLoginPage" />
+                <testcase name="Testcase_04_Login_with_email_registered_and_not_input_password" time="0.907" classname="testcase.TestLoginPage" />
+                <testcase name="Testcase_05_Login_with_email_registered_and_password_incorrect" time="1.146" classname="testcase.TestLoginPage" />
+      
+</testsuite>

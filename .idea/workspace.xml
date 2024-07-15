@@ -5,8 +5,32 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2cc7d2c5-d061-4aa3-b592-6d46b50f28d1" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-json/015b1e3b-a389-49c4-8582-8108f564849c-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-json/02ed875c-158c-4435-a41a-a9c3e0174e78-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-json/0a985f42-ea36-4b27-9058-4fb69ce9b9cc-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-json/22347a43-432b-4df1-8232-f10fcb298fdc-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-json/2b4692cd-e3ea-4da2-ba42-dd7beb4d73a4-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-json/2f668128-8293-47ec-a277-3864cf0c3677-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-json/30705b2a-7eaa-44fa-a289-6df4ee53c45b-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-json/37c44af5-6358-4151-8a10-3fb7c76c84d7-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-json/3818640a-07e0-42f9-b101-1ad7344269e0-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-json/39fc90ee-ecc6-45d7-9ad5-2bbaccdfcc6f-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-json/4c678b4d-f951-4aa8-bc7d-50662e696c32-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-json/563c4b6e-ad45-408e-9859-01c4e79fbbb9-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-json/70d4b471-d583-4b14-a6f1-346e1684c6c7-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-json/86b1c45d-988b-4a78-aa4b-0b81a4d16ddb-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-json/ae3ac2cc-baef-4544-ab29-e0ac85721eff-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-json/c138744c-a19d-47c8-86fb-ab2e4adc72d2-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-json/ca70237f-75db-40c6-9d91-e86d241ba266-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-json/cabe88b1-2aa4-4502-b53d-afeeacad7764-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-json/cf91685a-9ab2-43ed-b23b-fba4b592bb29-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-json/dba98c3f-53d4-4b4b-af07-2ea1349df04b-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-json/eede4efb-267b-41f1-bfd2-a4d0992fb72a-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/Fixed.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/Fixed.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/RunTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/testng.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,42 +61,43 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "JUnit.All in Demo_NopCommerce.executor": "Run",
-    "JavaScript Debug.index.html (1).executor": "Run",
-    "JavaScript Debug.index.html.executor": "Run",
-    "JavaScript Debug.overview.html.executor": "Coverage",
-    "Maven.Demo_NopCommerce [org.apache.maven.plugins:maven-compiler-plugin:3.13.0:compile].executor": "Run",
-    "Maven.Demo_NopCommerce [test].executor": "Run",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "TestNG.D:/Intellij/ITS_NopCommerce/src/test/resources/RunTest.xml.executor": "Run",
-    "TestNG.E:/Project/Automation/Demo_NopCommerce/src/test/resources/RunTest.xml.executor": "Run",
-    "TestNG.Testcase_01_Register.Testcase_01_Register_with_empty_data.executor": "Run",
-    "TestNG.Testcase_01_Register.executor": "Run",
-    "TestNG.Testcase_Login_Page.Testcase_03_Login_with_email_not_register.executor": "Debug",
-    "TestNG.Testcase_Login_Page.executor": "Run",
-    "TestNG.Testcase_MyAccount_Page.Testcase_04_My_Product_Review.executor": "Run",
-    "TestNG.Testcase_MyAccount_Page.executor": "Run",
-    "git-widget-placeholder": "master",
-    "kotlin-language-version-configured": "true",
-    "last_directory_selection": "E:/Project/Automation/Demo_NopCommerce/src/test/java",
-    "last_opened_file_path": "E:/Project/Automation/Demo_NopCommerce/src/test/java/testcase/NopCommerce",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "onboarding.tips.debug.path": "E:/Project/Automation/Demo_NopCommerce/src/main/java/Framework/Main.java",
-    "project.structure.last.edited": "Project",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "preferences.pluginManager",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;JUnit.All in Demo_NopCommerce.executor&quot;: &quot;Run&quot;,
+    &quot;JavaScript Debug.index.html (1).executor&quot;: &quot;Run&quot;,
+    &quot;JavaScript Debug.index.html.executor&quot;: &quot;Run&quot;,
+    &quot;JavaScript Debug.overview.html.executor&quot;: &quot;Coverage&quot;,
+    &quot;Maven.Demo_NopCommerce [org.apache.maven.plugins:maven-compiler-plugin:3.13.0:compile].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.Demo_NopCommerce [test].executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;TestNG.D:/Intellij/ITS_NopCommerce/src/test/resources/RunTest.xml.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.E:/Project/Automation/Demo_NopCommerce/src/test/resources/RunTest.xml.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.TestLoginPage.Testcase_01_Login_with_empty_data.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.Testcase_01_Register.Testcase_01_Register_with_empty_data.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.Testcase_01_Register.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.Testcase_Login_Page.Testcase_03_Login_with_email_not_register.executor&quot;: &quot;Debug&quot;,
+    &quot;TestNG.Testcase_Login_Page.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.Testcase_MyAccount_Page.Testcase_04_My_Product_Review.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.Testcase_MyAccount_Page.executor&quot;: &quot;Run&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_directory_selection&quot;: &quot;E:/Project/Automation/Demo_NopCommerce/src/test/java&quot;,
+    &quot;last_opened_file_path&quot;: &quot;E:/Project/Automation/Demo_NopCommerce/src/test/java/testcase/NopCommerce&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;onboarding.tips.debug.path&quot;: &quot;E:/Project/Automation/Demo_NopCommerce/src/main/java/Framework/Main.java&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="E:\Project\Automation\Demo_NopCommerce\src\test\java\testcase\NopCommerce" />
@@ -94,9 +119,6 @@
       </method>
     </configuration>
     <configuration name="index.html (1)" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/ITS_NopCommerce/allure-html/index.html" useBuiltInWebServerPort="true">
-      <method v="2" />
-    </configuration>
-    <configuration name="index.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/Demo_NopCommerce/test-output/html/index.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
     <configuration name="D:/Intellij/ITS_NopCommerce/src/test/resources/RunTest.xml" type="TestNG" temporary="true" nameIsGenerated="true">
@@ -137,22 +159,48 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="TestLoginPage.Testcase_01_Login_with_empty_data" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Demo_NopCommerce" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="testcase.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="testcase" />
+      <option name="MAIN_CLASS_NAME" value="testcase.TestLoginPage" />
+      <option name="METHOD_NAME" value="Testcase_01_Login_with_empty_data" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <list>
       <item itemvalue="JavaScript Debug.index.html (1)" />
-      <item itemvalue="JavaScript Debug.index.html" />
       <item itemvalue="JUnit.All in Demo_NopCommerce" />
       <item itemvalue="TestNG.TestLoginPage" />
+      <item itemvalue="TestNG.TestLoginPage.Testcase_01_Login_with_empty_data" />
       <item itemvalue="TestNG.D:/Intellij/ITS_NopCommerce/src/test/resources/RunTest.xml" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.All in Demo_NopCommerce" />
         <item itemvalue="TestNG.D:/Intellij/ITS_NopCommerce/src/test/resources/RunTest.xml" />
+        <item itemvalue="TestNG.TestLoginPage.Testcase_01_Login_with_empty_data" />
+        <item itemvalue="JUnit.All in Demo_NopCommerce" />
         <item itemvalue="TestNG.TestLoginPage" />
         <item itemvalue="JavaScript Debug.index.html (1)" />
-        <item itemvalue="JavaScript Debug.index.html" />
       </list>
     </recent_temporary>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-jdk-9f38398b9061-39b83d9b5494-intellij.indexing.shared.core-IU-241.18034.62" />
+        <option value="bundled-js-predefined-1d06a55b98c1-0b3e54e931b4-JavaScript-IU-241.18034.62" />
+      </set>
+    </attachedChunks>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -179,7 +227,17 @@
       <workItem from="1714962084533" duration="680000" />
       <workItem from="1715067046553" duration="4316000" />
       <workItem from="1715160883619" duration="914000" />
-      <workItem from="1716257722801" duration="8092000" />
+      <workItem from="1716257722801" duration="8953000" />
+      <workItem from="1716797906520" duration="1512000" />
+      <workItem from="1716869393071" duration="743000" />
+      <workItem from="1716889076135" duration="236000" />
+      <workItem from="1717147389088" duration="465000" />
+      <workItem from="1717153680458" duration="6000" />
+      <workItem from="1717556470171" duration="1162000" />
+      <workItem from="1717557929911" duration="51000" />
+      <workItem from="1717586814019" duration="1086000" />
+      <workItem from="1718362122940" duration="366000" />
+      <workItem from="1721015427276" duration="123000" />
     </task>
     <servers />
   </component>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Run on Chrome"
+           tests="4"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="14.211">
+  <properties />
+  
+  
+            <testcase name="Testcase_02_Add_address" time="2.899" classname="testcase.TestMyAccountPage" />
+                <testcase name="Testcase_03_Change_password" time="4.827" classname="testcase.TestMyAccountPage" />
+                <testcase name="Testcase_04_My_Product_Review" time="4.287" classname="testcase.TestMyAccountPage" />
+                <testcase name="Testcase_01_Update_information_user" time="2.198" classname="testcase.TestMyAccountPage" />
+      
+</testsuite>

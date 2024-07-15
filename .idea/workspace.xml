@@ -6,30 +6,28 @@
   <component name="ChangeListManager">
     <list default="true" id="2cc7d2c5-d061-4aa3-b592-6d46b50f28d1" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-json/1133e14a-41ab-404c-aaa7-d7a80cff1bc6-result.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-json/208e29ed-c2af-4ce9-a6e5-5f08deb7b60a-result.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-json/29b2b8f0-e83a-4ce9-9a4d-063994fd632f-result.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-json/29eb152c-a506-4c29-a3e3-4fccb5d53334-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-json/323cefb7-5ea1-4074-b032-d7b22f2690f6-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-json/40a6ccb2-0441-40c4-a307-4d8e0c422a43-result.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-json/425e76a3-327d-4aa3-ae1d-e6755488777b-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-json/47aeef10-3596-4095-84dd-fe89f40b1721-result.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-json/53779a55-8eb8-4e88-89cf-c15d13b02005-result.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-json/691ce9ed-b6f5-42f9-a804-aae1239e3d97-result.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-json/7ccd4b78-211a-4e3a-b664-704df7298411-result.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-json/80818467-b1e2-4c11-87c0-5a35174631fa-result.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-json/8d1da7c3-4d85-48d0-b6a8-dcb3aab83b96-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-json/8dc0979d-d59f-4b86-886a-ddca7462edb0-result.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-json/93681e33-30c9-4754-8cb7-7300a5f5e84e-result.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-json/b21c41a0-145e-4264-af6c-7f65c26690cf-result.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-json/c0764a09-a3ca-4936-9d88-f603795bb9cb-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-json/c1c9d759-20b3-4c48-a12d-490387601932-result.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-json/ca8aa4f0-f906-467f-96b7-77b38cfc28af-result.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-json/e536337c-6dde-432e-9f41-2169508be79d-result.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-json/f43a6a0d-fef3-4433-aa17-6bcd96314fc0-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-json/0039ce2c-3146-45e3-8961-4e9eb3671142-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-json/0eb5c761-32ef-476d-82c4-3acc872ec19e-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-json/12e407f6-ee01-473e-a15d-65c69ea7d7d0-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-json/1a7435d4-11aa-4b08-9d82-cc91aaac8007-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-json/2415dc8f-5bcc-4832-b220-98600acd6ce1-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-json/2682c33f-c661-423c-af0c-484e7df65786-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-json/47233ce4-b413-46a0-9d44-f9b994d16a7a-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-json/4bc5bfb2-6cd3-4967-a6d9-79c216eee602-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-json/4bd4e716-0f9a-4d73-b460-9bd4e8f41525-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-json/72bf8987-c2a0-4637-8712-bc6450509c47-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-json/89641f28-0263-4beb-9860-d592f0c6a7e8-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-json/8b1848b7-412c-4017-9bc2-b6278458e895-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-json/8ca3f5dd-9867-4026-b84d-6fe21a202ac4-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-json/933ae518-e13f-4719-add8-37c0f73cada0-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-json/c855119d-768d-4989-9043-ddb38fc1256e-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-json/cd96dec6-0338-4f53-be75-82266a519fb1-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-json/cd9cd0a1-ee89-4411-aaf5-0f85ef2829d3-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-json/cf7e988e-faee-47be-9d9f-5534d216f13a-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-json/dfe43f16-8a70-4e25-a0ca-7bd346b59e30-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-json/eec4e505-2f52-4a7b-90d7-004c853aca0d-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-json/f3956b8c-fec3-4114-9f1e-bed1edb6295e-container.json" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/logs/Fixed.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/Fixed.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/testng.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/testng.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -76,6 +74,7 @@
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "TestNG.D:/Intellij/ITS_NopCommerce/src/test/resources/RunTest.xml.executor": "Run",
     "TestNG.E:/Project/Automation/Demo_NopCommerce/src/test/resources/RunTest.xml.executor": "Run",
+    "TestNG.E:/Project/Automation/Demo_NopCommerce/src/test/resources/testng.xml.executor": "Run",
     "TestNG.TestLoginPage.Testcase_01_Login_with_empty_data.executor": "Run",
     "TestNG.Testcase_01_Register.Testcase_01_Register_with_empty_data.executor": "Run",
     "TestNG.Testcase_01_Register.executor": "Run",
@@ -111,7 +110,7 @@
       <recent name="commons" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.D:/Intellij/ITS_NopCommerce/src/test/resources/RunTest.xml">
+  <component name="RunManager" selected="TestNG.E:/Project/Automation/Demo_NopCommerce/src/test/resources/testng.xml">
     <configuration name="All in Demo_NopCommerce" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Demo_NopCommerce" />
       <option name="PACKAGE_NAME" value="" />
@@ -119,9 +118,6 @@
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
-    </configuration>
-    <configuration name="index.html (1)" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/ITS_NopCommerce/allure-html/index.html" useBuiltInWebServerPort="true">
-      <method v="2" />
     </configuration>
     <configuration name="D:/Intellij/ITS_NopCommerce/src/test/resources/RunTest.xml" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="Demo_NopCommerce" />
@@ -140,6 +136,16 @@
       <listeners>
         <listener class="reportConfig.AllureTestListener" />
       </listeners>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="E:/Project/Automation/Demo_NopCommerce/src/test/resources/testng.xml" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Demo_NopCommerce" />
+      <option name="SUITE_NAME" value="$PROJECT_DIR$/src/test/resources/testng.xml" />
+      <option name="TEST_OBJECT" value="SUITE" />
+      <properties />
+      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -180,19 +186,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="JavaScript Debug.index.html (1)" />
       <item itemvalue="JUnit.All in Demo_NopCommerce" />
+      <item itemvalue="TestNG.E:/Project/Automation/Demo_NopCommerce/src/test/resources/testng.xml" />
       <item itemvalue="TestNG.TestLoginPage" />
       <item itemvalue="TestNG.TestLoginPage.Testcase_01_Login_with_empty_data" />
       <item itemvalue="TestNG.D:/Intellij/ITS_NopCommerce/src/test/resources/RunTest.xml" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.E:/Project/Automation/Demo_NopCommerce/src/test/resources/testng.xml" />
         <item itemvalue="TestNG.D:/Intellij/ITS_NopCommerce/src/test/resources/RunTest.xml" />
         <item itemvalue="TestNG.TestLoginPage.Testcase_01_Login_with_empty_data" />
         <item itemvalue="JUnit.All in Demo_NopCommerce" />
         <item itemvalue="TestNG.TestLoginPage" />
-        <item itemvalue="JavaScript Debug.index.html (1)" />
       </list>
     </recent_temporary>
   </component>
@@ -239,7 +245,8 @@
       <workItem from="1717557929911" duration="51000" />
       <workItem from="1717586814019" duration="1086000" />
       <workItem from="1718362122940" duration="366000" />
-      <workItem from="1721015427276" duration="2616000" />
+      <workItem from="1721015427276" duration="3807000" />
+      <workItem from="1721032180869" duration="3052000" />
     </task>
     <servers />
   </component>
